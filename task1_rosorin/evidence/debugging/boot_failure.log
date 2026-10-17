@@ -1,0 +1,18 @@
+2026-10-16T22:04:40+07:00 ubuntu-virtual-machine systemd-udevd[417]: sda2: Spawned process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' [521] is taking longer than 59s to complete
+2026-10-16T22:04:40+07:00 ubuntu-virtual-machine systemd-udevd[405]: sda2: Worker [417] processing SEQNUM=2742 is taking a long time
+2026-10-16T22:04:41+07:00 ubuntu-virtual-machine kernel: rcu: INFO: rcu_preempt detected expedited stalls on CPUs/tasks: { 1-...D } 62168 jiffies s: 57 root: 0x2/.
+2026-10-16T22:05:09+07:00 ubuntu-virtual-machine systemd[1]: dev-disk-by\x2duuid-B687\x2d8000.device: Job dev-disk-by\x2duuid-B687\x2d8000.device/start timed out.
+2026-10-16T22:05:09+07:00 ubuntu-virtual-machine systemd[1]: Timed out waiting for device /dev/disk/by-uuid/B687-8000.
+2026-10-16T22:05:09+07:00 ubuntu-virtual-machine systemd[1]: Dependency failed for File System Check on /dev/disk/by-uuid/B687-8000.
+2026-10-16T22:05:09+07:00 ubuntu-virtual-machine systemd[1]: systemd-fsck@dev-disk-by\x2duuid-B687\x2d8000.service: Job systemd-fsck@dev-disk-by\x2duuid-B687\x2d8000.service/start failed with result 'dependency'.
+2026-10-16T22:05:09+07:00 ubuntu-virtual-machine systemd[1]: dev-disk-by\x2duuid-B687\x2d8000.device: Job dev-disk-by\x2duuid-B687\x2d8000.device/start failed with result 'timeout'.
+2026-10-16T22:06:40+07:00 ubuntu-virtual-machine systemd-udevd[417]: sda2: Spawned process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' [521] timed out after 2min 59s, killing
+2026-10-16T22:06:40+07:00 ubuntu-virtual-machine systemd-udevd[405]: sda2: Worker [417] processing SEQNUM=2742 killed
+2026-10-16T22:06:40+07:00 ubuntu-virtual-machine systemd-udevd[405]: sda2: Worker [417] failed
+2026-10-16T22:07:29+07:00 ubuntu-virtual-machine kernel: INFO: task systemd:1 blocked for more than 122 seconds.
+2026-10-16T22:07:42+07:00 ubuntu-virtual-machine kernel: rcu: INFO: rcu_preempt detected expedited stalls on CPUs/tasks: { 1-...D } 242417 jiffies s: 57 root: 0x2/.
+2026-10-16T22:09:32+07:00 ubuntu-virtual-machine kernel: INFO: task systemd:1 blocked for more than 245 seconds.
+2026-10-16T22:10:42+07:00 ubuntu-virtual-machine kernel: rcu: INFO: rcu_preempt detected expedited stalls on CPUs/tasks: { 1-...D } 422662 jiffies s: 57 root: 0x2/.
+2026-10-16T22:11:35+07:00 ubuntu-virtual-machine kernel: INFO: task systemd:1 blocked for more than 368 seconds.
+2026-10-16T22:13:42+07:00 ubuntu-virtual-machine kernel: rcu: INFO: rcu_preempt detected expedited stalls on CPUs/tasks: { 1-...D } 602890 jiffies s: 57 root: 0x2/.
+2026-10-16T22:15:28+07:00 ubuntu-virtual-machine kernel: Emergency Sync complete

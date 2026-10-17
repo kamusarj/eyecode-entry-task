@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+build/
+install/
+log/
+*.aux
+*.fls
+*.fdb_latexmk
+*.out
+report/build.log
+report/technical_report.log
+task2_mobile_manipulation/outputs/
+task2_mobile_manipulation/data/hommi_raw/
+task2_mobile_manipulation/data/hommi_processed/
+task2_mobile_manipulation/data/hommi_cache/

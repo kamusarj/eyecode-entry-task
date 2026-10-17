@@ -1,0 +1,29 @@
+diff --git a/hommi/demonstration_processing/build_umi_dataset_stages/gen_replay_buffer.py b/hommi/demonstration_processing/build_umi_dataset_stages/gen_replay_buffer.py
+index f53e99a..5c0b0a2 100644
+--- a/hommi/demonstration_processing/build_umi_dataset_stages/gen_replay_buffer.py
++++ b/hommi/demonstration_processing/build_umi_dataset_stages/gen_replay_buffer.py
+@@ -347,14 +347,17 @@ def gen_replay_buffer(session_dir: str, dataset_plan_path: str, out_replay_buffe
+             with av.open(vid_metadata['video_path']) as container:
+                 in_stream = container.streams.video[0]
+                 in_stream.thread_count = 1
+-                decoded_frames = list(container.decode(in_stream))
+-
++                # [eyecode patch] stream-decode instead of holding every full-res frame in RAM;
++                # writes exactly the same frames as `list(container.decode(in_stream))[vid_frame_idx]`.
++                wanted = {}
+                 for i, vid_frame_idx in enumerate(pose_to_vid_idx):
+-                    if 0 <= vid_frame_idx < len(decoded_frames):
+-                        frame = decoded_frames[vid_frame_idx]
+-                        img = frame.to_ndarray(format='rgb24')
+-                        img = resize_tf(img)
+-                        img_array[buffer_offset + i] = img
++                    if vid_frame_idx >= 0:
++                        wanted.setdefault(int(vid_frame_idx), []).append(i)
++                for frame_idx, frame in enumerate(container.decode(in_stream)):
++                    if frame_idx in wanted:
++                        img = resize_tf(frame.to_ndarray(format='rgb24'))
++                        for i in wanted[frame_idx]:
++                            img_array[buffer_offset + i] = img
+ 
+     # for vid_metadata in vid_args:
+     #     video_to_zarr(out_replay_buffer, vid_metadata)

@@ -1,0 +1,12 @@
+{
+  "type": "continuous X11 terminal screen recording",
+  "command_script": "scripts/run_command_demo.sh",
+  "recorded_seconds": 96.40082051400532,
+  "command_exit_status": 0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 10,
+  "scope": "Real fresh executions; HoMMI offline, WBC/planner kinematic"
+}

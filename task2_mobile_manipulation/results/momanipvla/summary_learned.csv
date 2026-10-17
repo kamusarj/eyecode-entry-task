@@ -1,0 +1,5 @@
+vla,variant,pick_sr,place_sr,overall_sr,steps,latency_ms,n,partial_sr
+learned,bilevel_feasible_select,0.0,0.0,0.0,15.2,2491.3857847003783,40,0.0
+learned,fixed_base_vla,0.0,0.0,0.0,14.875,3.7441424623921193,40,0.0
+learned,heuristic_base,0.0,0.0,0.0,14.775,3.5815451749840577,40,0.0
+learned,momanip_bilevel,0.0,0.0,0.0,15.225,2477.9689707251237,40,0.0

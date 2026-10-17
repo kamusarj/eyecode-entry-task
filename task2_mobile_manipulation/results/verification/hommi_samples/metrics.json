@@ -1,0 +1,20 @@
+{
+  "n_samples": 6,
+  "seed": 42,
+  "device": "cuda",
+  "scope": "six review samples; separate from the historical 395-sample evaluation",
+  "policy/left_pos_cm/mean": 9.058719635009766,
+  "policy/left_rot_deg/mean": 5.339013576507568,
+  "policy/left_width_mm/mean": 2.785963773727417,
+  "policy/right_pos_cm/mean": 12.131342887878418,
+  "policy/right_rot_deg/mean": 9.904045104980469,
+  "policy/right_width_mm/mean": 2.95310378074646,
+  "policy/lookat_cm/mean": 37.878936767578125,
+  "hold_still/left_pos_cm/mean": 17.37200355529785,
+  "hold_still/left_rot_deg/mean": 5.804525852203369,
+  "hold_still/left_width_mm/mean": 0.04044589027762413,
+  "hold_still/right_pos_cm/mean": 15.195069313049316,
+  "hold_still/right_rot_deg/mean": 5.273297309875488,
+  "hold_still/right_width_mm/mean": 0.025188023224473,
+  "hold_still/lookat_cm/mean": 26.2034854888916
+}

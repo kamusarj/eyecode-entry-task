@@ -1,0 +1,1 @@
+String values are: ['static_layer', 'voxel_layer', 'inflation_layer']

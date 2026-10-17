@@ -1,0 +1,14 @@
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-10-17-11-17-26-470128-ubuntu-virtual-machine-9257
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [sync_slam_toolbox_node-1]: process started with pid [9258]
+[sync_slam_toolbox_node-1] [INFO] [1792207046.538622539] [slam_toolbox]: Node using stack size 40000000
+[sync_slam_toolbox_node-1] [INFO] [1792207046.560731358] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[sync_slam_toolbox_node-1] [INFO] [1792207046.561003210] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[sync_slam_toolbox_node-1] Registering sensor: [Custom Described Lidar]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[INFO] [sync_slam_toolbox_node-1]: sending signal 'SIGINT' to process[sync_slam_toolbox_node-1]
+[sync_slam_toolbox_node-1] [INFO] [1792207506.787291990] [rclcpp]: signal_handler(signum=2)
+[sync_slam_toolbox_node-1] [INFO] [1792207506.788655232] [rclcpp]: signal_handler(signum=2)
+[INFO] [sync_slam_toolbox_node-1]: process has finished cleanly [pid 9258]

@@ -1,0 +1,26 @@
+== 01:41:42 A_vendor_loop_on
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18130 Killed                  ros2 run tf2_ros static_transform_publisher --x 0 --y 0 --z 0.028 --frame-id base_footprint --child-frame-id base_link > /dev/null 2>&1
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18131 Killed                  ros2 run tf2_ros static_transform_publisher --x 0.011476 --y 0.00007415 --z 0.13641 --frame-id base_link --child-frame-id lidar_frame > /dev/null 2>&1
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18133 Killed                  ros2 run slam_toolbox sync_slam_toolbox_node --ros-args --params-file "$cfg" -r __node:=slam_toolbox > "$out/slam.log" 2>&1
+{"samples": 651, "path_length_m": 50.99872489136464, "xy_error_mean_m": 2.0653785814517045, "xy_error_rmse_m": 2.8119311452018487, "xy_error_max_m": 5.386239475464104, "xy_error_final_m": 5.385953338113873, "yaw_error_max_rad": 0.787316187457406, "yaw_error_final_rad": 0.24771220082589562}
+== 01:44:16 B_vendor_loop_off
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18266 Killed                  ros2 run tf2_ros static_transform_publisher --x 0 --y 0 --z 0.028 --frame-id base_footprint --child-frame-id base_link > /dev/null 2>&1
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18267 Killed                  ros2 run tf2_ros static_transform_publisher --x 0.011476 --y 0.00007415 --z 0.13641 --frame-id base_link --child-frame-id lidar_frame > /dev/null 2>&1
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18269 Killed                  ros2 run slam_toolbox sync_slam_toolbox_node --ros-args --params-file "$cfg" -r __node:=slam_toolbox > "$out/slam.log" 2>&1
+{"samples": 651, "path_length_m": 50.934779069884755, "xy_error_mean_m": 0.25609941465595365, "xy_error_rmse_m": 0.37652376357543804, "xy_error_max_m": 0.8809292739113381, "xy_error_final_m": 0.6605993121026318, "yaw_error_max_rad": 0.31264438841044195, "yaw_error_final_rad": 0.07300061158955819}
+== 01:46:50 C_odomweighted_loop_off
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18383 Killed                  ros2 run tf2_ros static_transform_publisher --x 0 --y 0 --z 0.028 --frame-id base_footprint --child-frame-id base_link > /dev/null 2>&1
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18384 Killed                  ros2 run tf2_ros static_transform_publisher --x 0.011476 --y 0.00007415 --z 0.13641 --frame-id base_link --child-frame-id lidar_frame > /dev/null 2>&1
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18386 Killed                  ros2 run slam_toolbox sync_slam_toolbox_node --ros-args --params-file "$cfg" -r __node:=slam_toolbox > "$out/slam.log" 2>&1
+{"samples": 650, "path_length_m": 50.96015585119477, "xy_error_mean_m": 0.2980729520806013, "xy_error_rmse_m": 0.379739925163155, "xy_error_max_m": 0.8561002736760261, "xy_error_final_m": 0.16635346038534932, "yaw_error_max_rad": 0.17826338184994595, "yaw_error_final_rad": 0.1416025418206266}
+== 01:49:24 D_travel05_loop_off
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18500 Killed                  ros2 run tf2_ros static_transform_publisher --x 0 --y 0 --z 0.028 --frame-id base_footprint --child-frame-id base_link > /dev/null 2>&1
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18501 Killed                  ros2 run tf2_ros static_transform_publisher --x 0.011476 --y 0.00007415 --z 0.13641 --frame-id base_link --child-frame-id lidar_frame > /dev/null 2>&1
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18503 Killed                  ros2 run slam_toolbox sync_slam_toolbox_node --ros-args --params-file "$cfg" -r __node:=slam_toolbox > "$out/slam.log" 2>&1
+{"samples": 651, "path_length_m": 50.984950998911366, "xy_error_mean_m": 0.01345385817456506, "xy_error_rmse_m": 0.02233993148009751, "xy_error_max_m": 0.09308653922213715, "xy_error_final_m": 0.008607260889915976, "yaw_error_max_rad": 0.03490000000012628, "yaw_error_final_rad": 2.1191381982532675e-14}
+== 01:51:58 E_travel05_loop_on
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18616 Killed                  ros2 run tf2_ros static_transform_publisher --x 0 --y 0 --z 0.028 --frame-id base_footprint --child-frame-id base_link > /dev/null 2>&1
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18617 Killed                  ros2 run tf2_ros static_transform_publisher --x 0.011476 --y 0.00007415 --z 0.13641 --frame-id base_link --child-frame-id lidar_frame > /dev/null 2>&1
+/media/sf_EyeCodePart1/tools/jobs/slam_replay.sh: line 12: 18619 Killed                  ros2 run slam_toolbox sync_slam_toolbox_node --ros-args --params-file "$cfg" -r __node:=slam_toolbox > "$out/slam.log" 2>&1
+{"samples": 650, "path_length_m": 50.96368484220574, "xy_error_mean_m": 0.013348777142290196, "xy_error_rmse_m": 0.022138186948056453, "xy_error_max_m": 0.09308653922213715, "xy_error_final_m": 0.008607260889915976, "yaw_error_max_rad": 0.03490000000012628, "yaw_error_final_rad": 2.1191381982532675e-14}
+== 01:54:32 done

@@ -1,0 +1,22 @@
+EYECODE PART 1 — ACTUAL SIMULATION RESULTS
+Ubuntu 22.04 | ROS 2 Humble | Gazebo Fortress 6.16 | Nav2 1.1.14
+
+SLAM exploration a_dining             status 4, reached 5/5
+SLAM exploration b_southeast          status 4, reached 5/5
+SLAM exploration c_southwest          status 4, reached 4/4
+SLAM exploration d_northwest          status 4, reached 7/7
+Saved SLAM map part1_slam_map: 203 x 162 cells, 0.05 m/cell
+
+SINGLE GOAL on saved SLAM map: PASS
+  Nav2 action status: 4 (4 = SUCCEEDED); missed: []
+  Settled final error: 0.103 m, 0.005 rad (limits 0.25 m, 0.25 rad)
+
+ORDERED WAYPOINTS on saved SLAM map: PASS
+  Nav2 action status: 4 (4 = SUCCEEDED); missed: []
+  Settled final error: 0.141 m, 0.039 rad (limits 0.25 m, 0.25 rad)
+  Waypoint 0 reached: 0.143 m / 0.035 rad
+  Waypoint 1 reached: 0.100 m / 0.124 rad
+  Waypoint 2 reached: 0.144 m / 0.058 rad
+  Waypoint 3 reached: 0.141 m / 0.039 rad
+
+Raw action results, TF samples and logs are saved as JSON.

@@ -1,0 +1,118 @@
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-10-17-11-16-28-258799-ubuntu-virtual-machine-8733
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ruby $(which ign) gazebo-1]: process started with pid [8735]
+[INFO] [robot_state_publisher-2]: process started with pid [8737]
+[INFO] [create-3]: process started with pid [8740]
+[INFO] [parameter_bridge-4]: process started with pid [8742]
+[create-3] [INFO] [1792206988.836839820] [ros_gz_sim]: Waiting messages on topic [robot_description].
+[parameter_bridge-4] [INFO] [1792206989.175402083] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/controller/cmd_vel (geometry_msgs/msg/Twist) -> /controller/cmd_vel (ignition.msgs.Twist)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792206989.176631326] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/odom (ignition.msgs.Odometry) -> /odom (nav_msgs/msg/Odometry)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792206989.177557986] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/odom/tf (ignition.msgs.Pose_V) -> /odom/tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792206989.178504517] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792206989.179056133] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/joint_states (ignition.msgs.Model) -> /joint_states (sensor_msgs/msg/JointState)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792206989.179919500] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/scan (ignition.msgs.LaserScan) -> /scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792206989.180307878] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/scan/points (ignition.msgs.PointCloudPacked) -> /scan/points (sensor_msgs/msg/PointCloud2)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792206989.180752068] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/imu (ignition.msgs.IMU) -> /imu (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792206989.181030446] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/depth_cam/depth_cam (ignition.msgs.Image) -> /depth_cam/depth_cam (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792206989.181315145] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/depth_cam/rgb/camera_info (ignition.msgs.CameraInfo) -> /depth_cam/rgb/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[robot_state_publisher-2] [INFO] [1792206989.199372161] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-2] [INFO] [1792206989.199488630] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-2] [INFO] [1792206989.199500070] [robot_state_publisher]: got segment camera_link0
+[robot_state_publisher-2] [INFO] [1792206989.199503133] [robot_state_publisher]: got segment front_left_link
+[robot_state_publisher-2] [INFO] [1792206989.199505645] [robot_state_publisher]: got segment front_right_link
+[robot_state_publisher-2] [INFO] [1792206989.199508042] [robot_state_publisher]: got segment imu_link
+[robot_state_publisher-2] [INFO] [1792206989.199510523] [robot_state_publisher]: got segment left_back_wheel_link
+[robot_state_publisher-2] [INFO] [1792206989.199513195] [robot_state_publisher]: got segment left_front_wheel_link
+[robot_state_publisher-2] [INFO] [1792206989.199515645] [robot_state_publisher]: got segment lidar_frame
+[robot_state_publisher-2] [INFO] [1792206989.199518081] [robot_state_publisher]: got segment lidar_sim_frame
+[robot_state_publisher-2] [INFO] [1792206989.199520372] [robot_state_publisher]: got segment mic_link
+[robot_state_publisher-2] [INFO] [1792206989.199522545] [robot_state_publisher]: got segment rear_left_link
+[robot_state_publisher-2] [INFO] [1792206989.199524775] [robot_state_publisher]: got segment rear_right_link
+[robot_state_publisher-2] [INFO] [1792206989.199527031] [robot_state_publisher]: got segment right_back_wheel_link
+[robot_state_publisher-2] [INFO] [1792206989.199529287] [robot_state_publisher]: got segment right_front_wheel_link
+[create-3] [INFO] [1792206989.405690816] [ros_gz_sim]: Requested creation of entity.
+[create-3] [INFO] [1792206989.405762263] [ros_gz_sim]: OK creation of entity.
+[INFO] [create-3]: process has finished cleanly [pid 8740]
+[INFO] [create-5]: process started with pid [8804]
+[INFO] [create-6]: process started with pid [8806]
+[INFO] [create-7]: process started with pid [8808]
+[INFO] [create-8]: process started with pid [8810]
+[create-7] [INFO] [1792206990.387166112] [spawn_entity]: Requested creation of entity.
+[create-7] [INFO] [1792206990.387273753] [spawn_entity]: OK creation of entity.
+[create-5] [INFO] [1792206990.487473972] [spawn_entity]: Requested creation of entity.
+[create-5] [INFO] [1792206990.487586452] [spawn_entity]: OK creation of entity.
+[INFO] [create-7]: process has finished cleanly [pid 8808]
+[create-8] [INFO] [1792206990.587734148] [spawn_entity]: Requested creation of entity.
+[create-8] [INFO] [1792206990.587909715] [spawn_entity]: OK creation of entity.
+[INFO] [create-5]: process has finished cleanly [pid 8804]
+[create-6] [INFO] [1792206990.690053872] [spawn_entity]: Requested creation of entity.
+[create-6] [INFO] [1792206990.690171848] [spawn_entity]: OK creation of entity.
+[INFO] [create-8]: process has finished cleanly [pid 8810]
+[INFO] [create-6]: process has finished cleanly [pid 8806]
+[INFO] [create-9]: process started with pid [8872]
+[INFO] [create-10]: process started with pid [8874]
+[INFO] [create-11]: process started with pid [8876]
+[ruby $(which ign) gazebo-1] libEGL warning: Not allowed to force software rendering when API explicitly selects a hardware device.
+[create-10] [INFO] [1792206991.385599249] [spawn_entity]: Requested creation of entity.
+[create-10] [INFO] [1792206991.385741156] [spawn_entity]: OK creation of entity.
+[create-11] [INFO] [1792206991.485920728] [spawn_entity]: Requested creation of entity.
+[create-11] [INFO] [1792206991.486041414] [spawn_entity]: OK creation of entity.
+[INFO] [create-10]: process has finished cleanly [pid 8874]
+[create-9] [INFO] [1792206991.589666179] [spawn_entity]: Requested creation of entity.
+[create-9] [INFO] [1792206991.589860980] [spawn_entity]: OK creation of entity.
+[INFO] [create-11]: process has finished cleanly [pid 8876]
+[INFO] [create-9]: process has finished cleanly [pid 8872]
+[INFO] [create-12]: process started with pid [8963]
+[INFO] [create-13]: process started with pid [8965]
+[INFO] [create-14]: process started with pid [8967]
+[INFO] [create-15]: process started with pid [8969]
+[create-12] [INFO] [1792206992.392727598] [dinning_table_0]: Requested creation of entity.
+[create-12] [INFO] [1792206992.392843539] [dinning_table_0]: OK creation of entity.
+[create-14] [INFO] [1792206992.493978621] [dinning_table_2]: Requested creation of entity.
+[create-14] [INFO] [1792206992.494111238] [dinning_table_2]: OK creation of entity.
+[INFO] [create-12]: process has finished cleanly [pid 8963]
+[create-15] [INFO] [1792206992.595750165] [dinning_table_3]: Requested creation of entity.
+[create-15] [INFO] [1792206992.595868948] [dinning_table_3]: OK creation of entity.
+[INFO] [create-14]: process has finished cleanly [pid 8967]
+[create-13] [INFO] [1792206992.696339575] [dinning_table_1]: Requested creation of entity.
+[create-13] [INFO] [1792206992.696463790] [dinning_table_1]: OK creation of entity.
+[INFO] [create-15]: process has finished cleanly [pid 8969]
+[INFO] [create-13]: process has finished cleanly [pid 8965]
+[INFO] [create-16]: process started with pid [9031]
+[INFO] [create-17]: process started with pid [9033]
+[INFO] [create-18]: process started with pid [9035]
+[INFO] [create-19]: process started with pid [9037]
+[create-16] [INFO] [1792206993.392757047] [spawn_entity]: Requested creation of entity.
+[create-16] [INFO] [1792206993.392931878] [spawn_entity]: OK creation of entity.
+[create-17] [INFO] [1792206993.493302190] [spawn_entity]: Requested creation of entity.
+[create-17] [INFO] [1792206993.493528444] [spawn_entity]: OK creation of entity.
+[INFO] [create-16]: process has finished cleanly [pid 9031]
+[create-18] [INFO] [1792206993.593574542] [spawn_entity]: Requested creation of entity.
+[create-18] [INFO] [1792206993.593709575] [spawn_entity]: OK creation of entity.
+[INFO] [create-17]: process has finished cleanly [pid 9033]
+[create-19] [INFO] [1792206993.694053417] [spawn_entity]: Requested creation of entity.
+[create-19] [INFO] [1792206993.694188694] [spawn_entity]: OK creation of entity.
+[INFO] [create-18]: process has finished cleanly [pid 9035]
+[INFO] [create-19]: process has finished cleanly [pid 9037]
+[INFO] [create-20]: process started with pid [9099]
+[INFO] [create-21]: process started with pid [9101]
+[create-21] [INFO] [1792206994.044269023] [spawn_entity]: Requested creation of entity.
+[create-21] [INFO] [1792206994.044478589] [spawn_entity]: OK creation of entity.
+[create-20] [INFO] [1792206994.149202189] [spawn_entity]: Requested creation of entity.
+[create-20] [INFO] [1792206994.149376316] [spawn_entity]: OK creation of entity.
+[INFO] [create-21]: process has finished cleanly [pid 9101]
+[INFO] [create-20]: process has finished cleanly [pid 9099]
+[parameter_bridge-4] [INFO] [1792207012.784769752] [ros_gz_bridge]: Passing message from ROS geometry_msgs/msg/Twist to Gazebo gz.msgs.Twist (showing msg only once per type)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[robot_state_publisher-2] [INFO] [1792207740.656411076] [rclcpp]: signal_handler(signum=2)
+[robot_state_publisher-2] [INFO] [1792207740.656459418] [rclcpp]: signal_handler(signum=2)
+[parameter_bridge-4] [INFO] [1792207740.656515416] [rclcpp]: signal_handler(signum=2)
+[INFO] [parameter_bridge-4]: sending signal 'SIGINT' to process[parameter_bridge-4]
+[INFO] [robot_state_publisher-2]: sending signal 'SIGINT' to process[robot_state_publisher-2]
+[INFO] [ruby $(which ign) gazebo-1]: sending signal 'SIGINT' to process[ruby $(which ign) gazebo-1]
+[parameter_bridge-4] [INFO] [1792207740.665130146] [rclcpp]: signal_handler(signum=2)
+[robot_state_publisher-2] [INFO] [1792207740.665691594] [rclcpp]: signal_handler(signum=2)
+[ERROR] [ruby $(which ign) gazebo-1]: process has died [pid 8735, exit code -2, cmd 'ruby $(which ign) gazebo -r -s /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds/robocup_home.sdf --force-version 6'].
+[INFO] [launch]: process[ruby $(which ign) gazebo-1] was required: shutting down launched system
+[INFO] [parameter_bridge-4]: process has finished cleanly [pid 8742]
+[INFO] [robot_state_publisher-2]: process has finished cleanly [pid 8737]

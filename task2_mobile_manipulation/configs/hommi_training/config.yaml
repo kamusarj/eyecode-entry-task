@@ -1,0 +1,338 @@
+exp_name: small_vits
+group_tag: default
+task_name: ${task.name}
+_target_: hommi.train_network.workspace.train_policy_workspace.TrainPolicyWorkspace
+shape_meta: ${task.shape_meta}
+ema:
+  _target_: diffusion_policy.model.diffusion.ema_model.EMAModel
+  inv_gamma: 1.0
+  max_value: 0.9999
+  min_value: 0.0
+  power: 0.75
+  update_after_step: 0
+logging:
+  project: hommi
+  resume: false
+  mode: offline
+  name: ${now:%Y.%m.%d-%H.%M.%S}_${name}_${task_name}_${model.name}_${exp_name}
+  tags:
+  - ${name}
+  - ${task_name}
+  - ${exp_name}
+  - ${group_tag}
+  id: null
+  group: null
+multi_run:
+  run_dir: runs/${now:%Y.%m.%d}/${now:%H.%M.%S}_${name}_${task_name}_${model.name}_${exp_name}
+  wandb_name_base: ${now:%Y.%m.%d-%H.%M.%S}_${name}_${task_name}_${model.name}_${exp_name}
+task:
+  name: ego3d_lookat_policy
+  obs_down_sample_steps: 3
+  ultrawide_down_sample_steps: 1
+  low_dim_obs_horizon: 2
+  img_obs_horizon: 2
+  point_obs_horizon: 2
+  action_horizon: 32
+  ignore_proprioception: false
+  reference_frame: left
+  shape_meta:
+    image_resolution: 512
+    obs:
+      camera_head_main_rgb:
+        shape:
+        - 3
+        - 256
+        - 256
+        horizon: ${task.point_obs_horizon}
+        down_sample_steps: ${task.obs_down_sample_steps}
+        type: rgb
+        ignore_by_policy: true
+      camera_head_pointmap:
+        shape:
+        - 3
+        - 256
+        - 256
+        horizon: ${task.point_obs_horizon}
+        down_sample_steps: ${task.obs_down_sample_steps}
+        type: pointmap
+        ignore_by_policy: false
+      camera_head_lookatpoint:
+        shape:
+        - 3
+        horizon: ${task.low_dim_obs_horizon}
+        down_sample_steps: ${task.obs_down_sample_steps}
+        type: low_dim
+        ignore_by_policy: true
+        ignore_by_action: false
+      gripper_head_eef_pos:
+        shape:
+        - 3
+        horizon: ${task.low_dim_obs_horizon}
+        down_sample_steps: ${task.obs_down_sample_steps}
+        type: low_dim
+        ignore_by_policy: true
+        ignore_by_action: true
+      gripper_head_eef_rot_axis_angle:
+        raw_shape:
+        - 3
+        shape:
+        - 6
+        horizon: ${task.low_dim_obs_horizon}
+        down_sample_steps: ${task.obs_down_sample_steps}
+        type: low_dim
+        ignore_by_policy: true
+        ignore_by_action: true
+      camera_left_main_rgb:
+        shape:
+        - 3
+        - 224
+        - 224
+        horizon: ${task.img_obs_horizon}
+        down_sample_steps: ${task.obs_down_sample_steps}
+        type: rgb
+        ignore_by_policy: false
+      gripper_left_eef_pos:
+        shape:
+        - 3
+        horizon: ${task.low_dim_obs_horizon}
+        down_sample_steps: ${task.obs_down_sample_steps}
+        type: low_dim
+        ignore_by_policy: false
+        ignore_by_action: false
+      gripper_left_eef_rot_axis_angle:
+        raw_shape:
+        - 3
+        shape:
+        - 6
+        horizon: ${task.low_dim_obs_horizon}
+        down_sample_steps: ${task.obs_down_sample_steps}
+        type: low_dim
+        ignore_by_policy: false
+        ignore_by_action: false
+      camera_right_main_rgb:
+        shape:
+        - 3
+        - 224
+        - 224
+        horizon: ${task.img_obs_horizon}
+        down_sample_steps: ${task.obs_down_sample_steps}
+        type: rgb
+        ignore_by_policy: false
+      gripper_right_eef_pos:
+        shape:
+        - 3
+        horizon: ${task.low_dim_obs_horizon}
+        down_sample_steps: ${task.obs_down_sample_steps}
+        type: low_dim
+        ignore_by_policy: false
+        ignore_by_action: false
+      gripper_right_eef_rot_axis_angle:
+        raw_shape:
+        - 3
+        shape:
+        - 6
+        horizon: ${task.low_dim_obs_horizon}
+        down_sample_steps: ${task.obs_down_sample_steps}
+        type: low_dim
+        ignore_by_policy: false
+        ignore_by_action: false
+      gripper_right_gripper_width:
+        shape:
+        - 1
+        horizon: ${task.low_dim_obs_horizon}
+        down_sample_steps: ${task.obs_down_sample_steps}
+        type: low_dim
+        ignore_by_policy: ${task.ignore_proprioception}
+        ignore_by_action: false
+      gripper_left_gripper_width:
+        shape:
+        - 1
+        horizon: ${task.low_dim_obs_horizon}
+        down_sample_steps: ${task.obs_down_sample_steps}
+        type: low_dim
+        ignore_by_policy: ${task.ignore_proprioception}
+        ignore_by_action: false
+    action:
+      shape:
+      - 23
+      horizon: ${task.action_horizon}
+      down_sample_steps: ${task.obs_down_sample_steps}
+      rotation_rep: rotation_6d
+  task_name: ${name}
+  dataset_path: /home/linh/eyecode-part2/data/hommi_processed/sessions/laundry30/replay_buffer_laundry30.zarr.zip
+  pose_repr:
+    obs_pose_repr: relative
+    action_pose_repr: relative
+  env_runner:
+    _target_: diffusion_policy.env_runner.real_pusht_image_runner.RealPushTImageRunner
+  eval_image_transforms:
+    _target_: hommi.train_network.common.augmentation.ImageAugmentation
+    shape_meta: ${shape_meta}
+    transforms:
+      camera_left_main_rgb:
+      - type: CenterCrop
+        ratio: 0.95
+      camera_right_main_rgb:
+      - type: CenterCrop
+        ratio: 0.95
+  train_image_transforms:
+    _target_: hommi.train_network.common.augmentation.ImageAugmentation
+    shape_meta: ${shape_meta}
+    transforms:
+      camera_head_main_rgb:
+      - _target_: torchvision.transforms.ColorJitter
+        brightness: 0.3
+        contrast: 0.4
+        saturation: 0.5
+        hue: 0.08
+      camera_left_main_rgb:
+      - type: CenterCrop
+        ratio: 0.8
+      - type: RandomCrop
+        ratio: 0.95
+      - _target_: torchvision.transforms.ColorJitter
+        brightness: 0.3
+        contrast: 0.4
+        saturation: 0.5
+        hue: 0.08
+      camera_right_main_rgb:
+      - type: CenterCrop
+        ratio: 0.8
+      - type: RandomCrop
+        ratio: 0.95
+      - _target_: torchvision.transforms.ColorJitter
+        brightness: 0.3
+        contrast: 0.4
+        saturation: 0.5
+        hue: 0.08
+  dataset:
+    _target_: hommi.train_network.dataset.umi_task_dataset.UmiTaskDataset
+    shape_meta: ${shape_meta}
+    dataset_path: ${task.dataset_path}
+    cache_dir: /home/linh/eyecode-part2/data/hommi_cache
+    pose_repr:
+      obs_pose_repr: relative
+      action_pose_repr: relative
+    action_padding: false
+    sparse_query_frequency_down_sample_steps: 8
+    temporally_independent_normalization: false
+    normalizer_batch_size: 4
+    normalizer_num_workers: 2
+    normalizer_pin_memory: false
+    normalizer_persistent_workers: false
+    seed: 42
+    val_ratio: 0.2
+    reference_frame: ${task.reference_frame}
+    crop_pointcloud: true
+    depth_range:
+    - 0.1
+    - 4.0
+    discard_nan_pointmap_frames: false
+    pointmap_validity_num_workers: 2
+name: umi_policy
+checkpoint:
+  save_last_ckpt: true
+  save_last_snapshot: false
+  topk:
+    monitor_key: val_action_mse_error
+    format_str: epoch={epoch:04d}-val_action_mse_error={val_action_mse_error:.3f}.ckpt
+    k: 1
+    mode: min
+model:
+  _target_: hommi.train_network.policy.diffusion_dit_image_policy.DiffusionDiTImagePolicy
+  name: diffusion_dit
+  shape_meta: ${shape_meta}
+  noise_scheduler:
+    _target_: diffusers.DDIMScheduler
+    num_train_timesteps: 100
+    beta_start: 0.0001
+    beta_end: 0.02
+    beta_schedule: squaredcos_cap_v2
+    clip_sample: true
+    set_alpha_to_one: true
+    steps_offset: 0
+    prediction_type: epsilon
+  obs_encoder:
+    _target_: hommi.train_network.model.vision_3d.dit_obs3d_encoder.DiTObs3DEncoder
+    shape_meta: ${shape_meta}
+    global_pool: ''
+    model_name: dinov3-vits16-pretrain-lvd1689m
+    pretrained: true
+    frozen: false
+    feature_aggregation: cls
+    downsample_ratio: 32
+    train_image_transforms: ${...task.train_image_transforms}
+    eval_image_transforms: ${...task.eval_image_transforms}
+    use_group_norm: true
+    share_rgb_model: true
+    use_vision_norm: true
+    pointcloud_model_name: dinov3-vits16-pretrain-lvd1689m
+    freeze_pointcloud_model: false
+    share_pointcloud_model: true
+    position_embedding_dim: 60
+    xyz_proj_type: nerf
+    num_points: 128
+    downsample_mode: feat
+    visualize_attention: false
+    debug_nan_checks: false
+    add_pos_emb: false
+    wrist_pos_emb: false
+    head_wrist_attention: none
+    n_emb: 384
+    wrist_mask_prob: 0.0
+  horizon: ${..task.action_horizon}
+  n_action_steps: 8
+  n_obs_steps: ${..task.img_obs_horizon}
+  num_inference_steps: 16
+  obs_as_global_cond: true
+  attention_embed_dim: 384
+  diffusion_timestep_embed_dim: 256
+  depth: 6
+  num_heads: 6
+  mlp_ratio: 4.0
+  qkv_bias: true
+  use_rms_norm: true
+  input_perturbation: 0.1
+  train_diffusion_n_samples: 8
+dataloader:
+  batch_size: 8
+  num_workers: 3
+  shuffle: true
+  pin_memory: false
+  persistent_workers: false
+  drop_last: true
+val_dataloader:
+  batch_size: 8
+  num_workers: 1
+  shuffle: false
+  pin_memory: false
+  persistent_workers: false
+  drop_last: true
+optimizer:
+  lr: 7.5e-05
+  weight_decay: 1.0e-06
+  obs_encoder_lr: 7.5e-06
+  obs_encoder_weight_decay: 1.0e-06
+  betas:
+  - 0.95
+  - 0.999
+training:
+  seed: 42
+  debug: false
+  resume: false
+  lr_scheduler: cosine
+  lr_warmup_steps: 50
+  num_epochs: 60
+  gradient_accumulate_every: 1
+  use_ema: true
+  freeze_encoder: false
+  visualize_every: -1
+  val_every: 5
+  sample_every: 5
+  sample_min_size: 5
+  max_train_steps: null
+  max_val_steps: null
+  tqdm_interval_sec: 1.0
+  mixed_precision: bf16
+  log_grad_norm_every: 50
+  clip_grad_norm: 5

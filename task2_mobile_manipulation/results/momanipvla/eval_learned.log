@@ -1,0 +1,28 @@
+/home/linh/anaconda3/envs/hommi/lib/python3.10/site-packages/torch/nn/modules/transformer.py:307: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/linh/anaconda3/envs/hommi/lib/python3.10/site-packages/torch/nn/modules/transformer.py:307: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/linh/anaconda3/envs/hommi/lib/python3.10/site-packages/torch/nn/modules/transformer.py:307: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/linh/anaconda3/envs/hommi/lib/python3.10/site-packages/torch/nn/modules/transformer.py:307: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+[1/160] seed=1000 fixed_base_vla: success=False grasp:misaligned
+/home/linh/anaconda3/envs/hommi/lib/python3.10/site-packages/torch/nn/modules/transformer.py:307: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/linh/anaconda3/envs/hommi/lib/python3.10/site-packages/torch/nn/modules/transformer.py:307: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/linh/anaconda3/envs/hommi/lib/python3.10/site-packages/torch/nn/modules/transformer.py:307: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/linh/anaconda3/envs/hommi/lib/python3.10/site-packages/torch/nn/modules/transformer.py:307: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+[26/160] seed=1005 momanip_bilevel: success=False grasp:misaligned
+[51/160] seed=1013 fixed_base_vla: success=False grasp:misaligned
+[76/160] seed=1019 heuristic_base: success=False grasp:misaligned
+[101/160] seed=1025 momanip_bilevel: success=False grasp:misaligned
+[126/160] seed=1030 bilevel_feasible_select: success=False grasp:misaligned
+[151/160] seed=1038 fixed_base_vla: success=False grasp:misaligned
+       vla                  variant  pick_sr  place_sr  overall_sr   steps  latency_ms   n  partial_sr
+0  learned  bilevel_feasible_select      0.0       0.0         0.0  15.200    2491.386  40         0.0
+1  learned           fixed_base_vla      0.0       0.0         0.0  14.875       3.744  40         0.0
+2  learned           heuristic_base      0.0       0.0         0.0  14.775       3.582  40         0.0
+3  learned          momanip_bilevel      0.0       0.0         0.0  15.225    2477.969  40         0.0

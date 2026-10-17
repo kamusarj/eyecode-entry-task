@@ -1,0 +1,4 @@
+vla,variant,pick_sr,place_sr,overall_sr,steps,latency_ms,n,partial_sr
+oracle:0.008,bilevel_feasible_select,1.0,1.0,1.0,39.0,1867.0223738336063,1,1.0
+oracle:0.008,fixed_base_vla,0.0,0.0,0.0,14.0,9.417735993338283,1,0.0
+oracle:0.008,momanip_bilevel,1.0,0.0,0.0,33.0,5226.855816248644,1,0.5

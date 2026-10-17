@@ -1,0 +1,32 @@
+[1/540] seed=1000 heuristic_base: success=False pregrasp:collision(base)
+[26/540] seed=1003 fixed_base_vla: success=False pregrasp:unreachable
+[51/540] seed=1005 bilevel_wo_reach: success=False grasp:unreachable
+[76/540] seed=1007 direct_feasible_select: success=False place:collision(base)
+[101/540] seed=1010 bilevel_feasible_select: success=True 
+[126/540] seed=1014 heuristic_base: success=False pregrasp:collision(base)
+[151/540] seed=1016 bilevel_feasible_select: success=False grasp:misaligned
+[176/540] seed=1019 bilevel_wo_reach: success=False pregrasp:unreachable
+[201/540] seed=1022 momanip_bilevel: success=False pregrasp:collision(base)
+[226/540] seed=1024 bilevel_feasible_select: success=True 
+[251/540] seed=1028 fixed_base_vla: success=False pregrasp:collision(link3+link4)
+[276/540] seed=1030 bilevel_wo_smooth: success=True 
+[301/540] seed=1033 momanip_direct: success=True 
+[326/540] seed=1035 direct_feasible_select: success=True 
+[351/540] seed=1039 heuristic_base: success=False grasp:misaligned
+[376/540] seed=1041 bilevel_wo_smooth: success=False pregrasp:collision(base)
+[401/540] seed=1044 bilevel_wo_reach: success=False pregrasp:unreachable
+[426/540] seed=1047 momanip_bilevel: success=False grasp:misaligned
+[451/540] seed=1049 direct_feasible_select: success=True 
+[476/540] seed=1053 fixed_base_vla: success=False pregrasp:unreachable
+[501/540] seed=1055 bilevel_wo_smooth: success=True 
+[526/540] seed=1057 direct_feasible_select: success=False retreat:collision(link5)
+   vla_sigma                  variant  pick_sr  place_sr  overall_sr   steps  latency_ms   n  partial_sr
+0      0.008  bilevel_feasible_select    0.783     0.667       0.667  32.233    5079.485  60       0.725
+1      0.008     bilevel_wo_collision    0.083     0.033       0.033  15.367   15056.523  60       0.058
+2      0.008         bilevel_wo_reach    0.017     0.000       0.000  15.967   17987.992  60       0.008
+3      0.008        bilevel_wo_smooth    0.717     0.550       0.550  31.500    5960.374  60       0.633
+4      0.008   direct_feasible_select    0.850     0.667       0.667  33.450    4230.949  60       0.758
+5      0.008           fixed_base_vla    0.217     0.017       0.017  17.483      10.834  60       0.117
+6      0.008           heuristic_base    0.550     0.250       0.250  21.017       6.846  60       0.400
+7      0.008          momanip_bilevel    0.733     0.533       0.533  31.667    6183.164  60       0.633
+8      0.008           momanip_direct    0.800     0.600       0.600  31.767    5416.784  60       0.700

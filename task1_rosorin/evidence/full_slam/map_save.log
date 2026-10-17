@@ -1,0 +1,16 @@
+[INFO] [1792207498.872523443] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1792207498.872977984] [map_saver]: Creating
+[INFO] [1792207498.873710490] [map_saver]: Configuring
+[INFO] [1792207498.879328504] [map_saver]: Saving map from 'map' topic to '/media/sf_EyeCodePart1/part1_submission/evidence/full_slam/maps/part1_slam_map' file
+[WARN] [1792207498.879495026] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1792207498.879548700] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [map_io]: Received a 203 X 162 map @ 0.05 m/pix
+[INFO] [map_io]: Writing map occupancy data to /media/sf_EyeCodePart1/part1_submission/evidence/full_slam/maps/part1_slam_map.pgm
+[INFO] [map_io]: Writing map metadata to /media/sf_EyeCodePart1/part1_submission/evidence/full_slam/maps/part1_slam_map.yaml
+[INFO] [map_io]: Map saved
+[INFO] [1792207498.954074853] [map_saver]: Map saved successfully
+[INFO] [1792207498.955882734] [map_saver]: Destroying

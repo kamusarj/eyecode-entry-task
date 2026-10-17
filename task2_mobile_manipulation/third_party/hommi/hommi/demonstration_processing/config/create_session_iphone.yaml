@@ -1,0 +1,17 @@
+demonstrations_dir: tmp_demonstrations
+sessions_dir: tmp_sessions
+input_name_filters: []
+input_session_filters: ['test']
+output_session_name: 'test'
+max_demos: -1
+overwrite: false
+skip_demos_path: '' # Optional path listing demo names to skip (one per line)
+
+# don't log hydra job
+defaults:
+  - override hydra/job_logging: disabled
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .

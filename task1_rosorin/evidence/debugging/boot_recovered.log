@@ -1,0 +1,803 @@
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Linux version 6.8.0-49-generic (buildd@lcy02-amd64-103) (x86_64-linux-gnu-gcc-12 (Ubuntu 12.3.0-1ubuntu1~22.04) 12.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #49~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Nov  6 17:42:15 UTC 2 (Ubuntu 6.8.0-49.49~22.04.1-generic 6.8.12)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-6.8.0-49-generic root=UUID=e007d2ec-b1c1-421c-830e-94090210a691 ro find_preseed=/preseed.cfg auto noprompt priority=critical locale=en_US quiet splash rcupdate.rcu_normal=1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: KERNEL supported cpus:
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   Intel GenuineIntel
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   AMD AuthenticAMD
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   Hygon HygonGenuine
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   Centaur CentaurHauls
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   zhaoxin   Shanghai  
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: BIOS-provided physical RAM map:
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000dffeffff] usable
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: BIOS-e820: [mem 0x00000000dfff0000-0x00000000dfffffff] ACPI data
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: BIOS-e820: [mem 0x0000000100000000-0x000000019fffffff] usable
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NX (Execute Disable) protection: active
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: APIC: Static calls initialized
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: SMBIOS 2.5 present.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Hypervisor detected: KVM
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: kvm-clock: using sched offset of 8347110725 cycles
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: tsc: Detected 2611.226 MHz processor
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: last_pfn = 0x1a0000 max_arch_pfn = 0x400000000
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: total RAM covered: 6144M
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Found optimal setting for mtrr clean up
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  gran_size: 64K         chunk_size: 64K         num_reg: 5          lose cover RAM: 0G
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: MTRR map: 5 entries (3 fixed + 2 variable; max 35), built from 16 variable MTRRs
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: e820: update [mem 0xe0000000-0xffffffff] usable ==> reserved
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: last_pfn = 0xdfff0 max_arch_pfn = 0x400000000
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: found SMP MP-table at [mem 0x0009f7f0-0x0009f7ff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RAMDISK: [mem 0x2f28b000-0x3393cfff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Early table checksum verification disabled
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: XSDT 0x00000000DFFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: FACP 0x00000000DFFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: DSDT 0x00000000DFFF0340 002353 (v02 VBOX   VBOXBIOS 00000002 VBOX 0002A853)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: FACS 0x00000000DFFF0200 000040
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: FACS 0x00000000DFFF0200 000040
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: APIC 0x00000000DFFF0240 00007C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: SSDT 0x00000000DFFF02C0 00007A (v01 VBOX   VBOXCPUT 00000002 VBOX 0002A853)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Reserving FACP table memory at [mem 0xdfff00f0-0xdfff01e3]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Reserving DSDT table memory at [mem 0xdfff0340-0xdfff2692]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Reserving FACS table memory at [mem 0xdfff0200-0xdfff023f]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Reserving FACS table memory at [mem 0xdfff0200-0xdfff023f]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Reserving APIC table memory at [mem 0xdfff0240-0xdfff02bb]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Reserving SSDT table memory at [mem 0xdfff02c0-0xdfff0339]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: No NUMA configuration found
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Faking a node at [mem 0x0000000000000000-0x000000019fffffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NODE_DATA(0) allocated [mem 0x19ffd3000-0x19fffdfff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Zone ranges:
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   Normal   [mem 0x0000000100000000-0x000000019fffffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   Device   empty
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Movable zone start for each node
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Early memory node ranges
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   node   0: [mem 0x0000000000100000-0x00000000dffeffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   node   0: [mem 0x0000000100000000-0x000000019fffffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000019fffffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: On node 0, zone DMA: 97 pages in unavailable ranges
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: On node 0, zone Normal: 16 pages in unavailable ranges
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: PM-Timer IO Port: 0x4008
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: IOAPIC[0]: apic_id 6, version 32, address 0xfec00000, GSI 0-23
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: smpboot: Allowing 6 CPUs, 0 hotplug CPUs
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PM: hibernation: Registered nosave memory: [mem 0xdfff0000-0xdfffffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PM: hibernation: Registered nosave memory: [mem 0xe0000000-0xfebfffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PM: hibernation: Registered nosave memory: [mem 0xfec01000-0xfedfffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xfffbffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PM: hibernation: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: [mem 0xe0000000-0xfebfffff] available for PCI devices
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Booting paravirtualized kernel on KVM
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:6 nr_cpu_ids:6 nr_node_ids:1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: percpu: Embedded 86 pages/cpu s229376 r8192 d114688 u524288
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pcpu-alloc: s229376 r8192 d114688 u524288 alloc=1*2097152
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pcpu-alloc: [0] 0 1 2 3 [0] 4 5 - - 
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: kvm-guest: PV spinlocks enabled
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.8.0-49-generic root=UUID=e007d2ec-b1c1-421c-830e-94090210a691 ro find_preseed=/preseed.cfg auto noprompt priority=critical locale=en_US quiet splash rcupdate.rcu_normal=1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Unknown kernel command line parameters "auto noprompt splash BOOT_IMAGE=/boot/vmlinuz-6.8.0-49-generic find_preseed=/preseed.cfg priority=critical locale=en_US", will be passed to user space.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: random: crng init done
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Fallback order for Node 0: 0 
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Built 1 zonelists, mobility grouping on.  Total pages: 1548016
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Policy zone: Normal
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: software IO TLB: area num 8.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Memory: 5987200K/6291000K available (22528K kernel code, 4438K rwdata, 13900K rodata, 4972K init, 4740K bss, 303540K reserved, 0K cma-reserved)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=6, Nodes=1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ftrace: allocating 57907 entries in 227 pages
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ftrace: allocated 227 pages with 5 groups
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Dynamic Preempt: voluntary
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: rcu: Preemptible hierarchical RCU implementation.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: rcu:         RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=6.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:         No expedited grace period (rcu_normal).
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:         Trampoline variant of Tasks RCU enabled.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:         Rude variant of Tasks RCU enabled.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:         Tracing variant of Tasks RCU enabled.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=6
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NR_IRQS: 524544, nr_irqs: 472, preallocated irqs: 16
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Console: colour VGA+ 80x25
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: printk: legacy console [tty0] enabled
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Core revision 20230628
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: APIC: Switch to symmetric I/O mode setup
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: x2apic enabled
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: APIC: Switched APIC routing to: physical x2apic
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x25a3a9083eb, max_idle_ns: 440795304906 ns
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Calibrating delay loop (skipped) preset value.. 5222.45 BogoMIPS (lpj=2611226)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on vm exit
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on syscall
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Spectre V2 : Mitigation: Retpolines
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Speculative Store Bypass: Vulnerable
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Register File Data Sampling: Mitigation: Clear Register File
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Freeing SMP alternatives memory: 48K
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pid_max: default: 32768 minimum: 301
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,integrity
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: landlock: Up and running.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Yama: becoming mindful.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: AppArmor: AppArmor initialized
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: APIC calibration not consistent with PM-Timer: 101ms instead of 100ms
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: APIC delta adjusted to PM-Timer: 6275208 (6376554)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: smpboot: CPU0: 13th Gen Intel(R) Core(TM) i5-13420H (family: 0x6, model: 0xba, stepping: 0x2)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RCU Tasks: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RCU Tasks Rude: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RCU Tasks Trace: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Performance Events: unsupported p6 CPU model 186 no PMU driver, software events only.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: signal: max sigframe size: 1776
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: rcu: Hierarchical SRCU implementation.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: rcu:         Max phase no-delay instances is 400.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: smp: Bringing up secondary CPUs ...
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: smpboot: x86: Booting SMP configuration:
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: .... node  #0, CPUs:      #1 #2 #3 #4 #5
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: smp: Brought up 1 node, 6 CPUs
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: smpboot: Max logical packages: 1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: smpboot: Total of 6 processors activated (31334.71 BogoMIPS)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: devtmpfs: initialized
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: x86/mm: Memory block size: 128MB
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: futex hash table entries: 2048 (order: 5, 131072 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pinctrl core: initialized pinctrl subsystem
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PM: RTC time: 15:32:50, date: 2026-10-16
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: audit: initializing netlink subsys (disabled)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: thermal_sys: Registered thermal governor 'fair_share'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: thermal_sys: Registered thermal governor 'bang_bang'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: thermal_sys: Registered thermal governor 'step_wise'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: thermal_sys: Registered thermal governor 'user_space'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: thermal_sys: Registered thermal governor 'power_allocator'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: audit: type=2000 audit(1792164780.835:1): state=initialized audit_enabled=0 res=1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: EISA bus registered
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: cpuidle: using governor ladder
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: cpuidle: using governor menu
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PCI: Using configuration type 1 for base access
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Added _OSI(Module Device)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Added _OSI(Processor Device)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: 2 ACPI AML tables successfully acquired and loaded
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: _OSC evaluation for CPUs failed, trying _PDC
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Interpreter enabled
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: PM: (supports S0 S5)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Using IOAPIC for interrupt routing
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PCI: Using E820 reservations for host bridge windows
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI EDR HPX-Type3]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PCI host bridge to bus 0000:00
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfdffffff window]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000 conventional PCI endpoint
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100 conventional PCI endpoint
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000 conventional PCI endpoint
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:02.0: BAR 0 [io  0xd000-0xd00f]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:02.0: BAR 1 [mem 0xe0000000-0xe7ffffff pref]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:02.0: BAR 2 [mem 0xf0000000-0xf01fffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000 conventional PCI endpoint
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:04.0: BAR 0 [io  0xd020-0xd03f]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:04.0: BAR 1 [mem 0xf0400000-0xf07fffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:04.0: BAR 2 [mem 0xf0800000-0xf0803fff pref]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:05.0: [8086:2415] type 00 class 0x040100 conventional PCI endpoint
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:05.0: BAR 0 [io  0xd100-0xd1ff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:05.0: BAR 1 [io  0xd200-0xd23f]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310 conventional PCI endpoint
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:06.0: BAR 0 [mem 0xf0804000-0xf0804fff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:07.0: [8086:7113] type 00 class 0x068000 conventional PCI endpoint
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601 conventional PCI endpoint
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:0d.0: BAR 0 [io  0xd240-0xd247]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:0d.0: BAR 1 [io  0xd248-0xd24b]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:0d.0: BAR 2 [io  0xd250-0xd257]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:0d.0: BAR 3 [io  0xd258-0xd25b]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:0d.0: BAR 4 [io  0xd260-0xd26f]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:0d.0: BAR 5 [mem 0xf0806000-0xf0807fff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:11.0: [8086:100f] type 00 class 0x020000 conventional PCI endpoint
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:11.0: BAR 0 [mem 0xf0820000-0xf083ffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:11.0: BAR 2 [io  0xd270-0xd277]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:14.0: [1000:0030] type 00 class 0x010000 conventional PCI endpoint
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:14.0: BAR 0 [io  0xd300-0xd3ff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:14.0: BAR 1 [mem 0xf0840000-0xf085ffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:14.0: BAR 2 [mem 0xf0860000-0xf087ffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 9
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: iommu: Default domain type: Translated
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: SCSI subsystem initialized
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: libata version 3.00 loaded.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: bus type USB registered
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usbcore: registered new interface driver usbfs
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usbcore: registered new interface driver hub
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usbcore: registered new device driver usb
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pps_core: LinuxPPS API ver. 1 registered
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PTP clock support registered
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: EDAC MC: Ver: 3.0.0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NetLabel: Initializing
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NetLabel:  domain hash size = 128
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NetLabel:  unlabeled traffic allowed by default
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: mctp: management component transport protocol core
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NET: Registered PF_MCTP protocol family
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PCI: Using ACPI for IRQ routing
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PCI: pci_cache_line_size set to 64 bytes
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: e820: reserve RAM buffer [mem 0xdfff0000-0xdfffffff]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vgaarb: loaded
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: clocksource: Switched to clocksource kvm-clock
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: VFS: Disk quotas dquot_6.6.0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: AppArmor: AppArmor Filesystem Enabled
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pnp: PnP ACPI init
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pnp 00:01: [dma 2]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pnp: PnP ACPI: found 3 devices
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NET: Registered PF_INET protocol family
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: TCP: Hash tables configured (established 65536 bind 65536)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: MPTCP token hash table entries: 8192 (order: 5, 196608 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: UDP hash table entries: 4096 (order: 5, 131072 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes, linear)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NET: Registered PF_XDP protocol family
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfdffffff window]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PCI: CLS 0 bytes, default 64
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: software IO TLB: mapped [mem 0x00000000dbff0000-0x00000000dfff0000] (64MB)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x25a3a9083eb, max_idle_ns: 440795304906 ns
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Trying to unpack rootfs image as initramfs...
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: clocksource: Switched to clocksource tsc
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Initialise system trusted keyrings
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Key type blacklist registered
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: workingset: timestamp_bits=36 max_order=21 bucket_order=0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: zbud: loaded
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: fuse: init (API version 7.39)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: integrity: Platform Keyring initialized
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: integrity: Machine keyring initialized
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Key type asymmetric registered
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Asymmetric key parser 'x509' registered
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: io scheduler mq-deadline registered
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: AC: AC Adapter [AC] (on-line)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: button: Power Button [PWRF]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: button: Sleep Button [SLPF]
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: battery: Slot [BAT0] (battery present)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Linux agpgart interface v0.103
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop: module loaded
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: bus type drm_connector registered
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: tun: Universal TUN/TAP device driver, 1.6
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PPP generic driver version 2.4.2
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.08
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usb usb1: Product: OHCI PCI host controller
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usb usb1: Manufacturer: Linux 6.8.0-49-generic ohci_hcd
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usb usb1: SerialNumber: 0000:00:06.0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: hub 1-0:1.0: USB hub found
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: hub 1-0:1.0: 12 ports detected
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: mousedev: PS/2 mouse device common for all mice
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: rtc_cmos rtc_cmos: registered as rtc0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: rtc_cmos rtc_cmos: setting system clock to 2026-10-16T15:32:50 UTC (1792164770)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: i2c_dev: i2c /dev entries driver
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: device-mapper: uevent: version 1.0.3
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: platform eisa.0: Probing EISA bus 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: platform eisa.0: EISA: Cannot allocate resource for mainboard
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: platform eisa.0: Cannot allocate resource for EISA slot 1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: platform eisa.0: Cannot allocate resource for EISA slot 2
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: platform eisa.0: Cannot allocate resource for EISA slot 3
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: platform eisa.0: Cannot allocate resource for EISA slot 4
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: platform eisa.0: Cannot allocate resource for EISA slot 5
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: platform eisa.0: Cannot allocate resource for EISA slot 6
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: platform eisa.0: Cannot allocate resource for EISA slot 7
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: platform eisa.0: Cannot allocate resource for EISA slot 8
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: platform eisa.0: EISA: Detected 0 cards
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: intel_pstate: CPU model not supported
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ledtrig-cpu: registered to indicate activity on CPUs
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: drop_monitor: Initializing network drop monitor service
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NET: Registered PF_INET6 protocol family
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Freeing initrd memory: 72392K
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Segment Routing with IPv6
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: In-situ OAM (IOAM) with IPv6
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: NET: Registered PF_PACKET protocol family
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Key type dns_resolver registered
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: IPI shorthand broadcast: enabled
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: sched_clock: Marking stable (628001664, 7774709)->(643157661, -7381288)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: registered taskstats version 1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loading compiled-in X.509 certificates
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 980a6e2497136d3c3006f05ac599b4e6d94c4fe6'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: blacklist: Loading compiled-in revocation X.509 certificates
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Key type .fscrypt registered
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Key type fscrypt-provisioning registered
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Key type encrypted registered
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: AppArmor: AppArmor sha256 policy hashing enabled
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ima: No TPM chip found, activating TPM-bypass!
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loading compiled-in module X.509 certificates
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 980a6e2497136d3c3006f05ac599b4e6d94c4fe6'
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ima: Allocated hash algorithm: sha256
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ima: No architecture policies found
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: evm: Initialising EVM extended attributes:
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: evm: security.selinux
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: evm: security.SMACK64
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: evm: security.SMACK64EXEC
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: evm: security.SMACK64TRANSMUTE
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: evm: security.SMACK64MMAP
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: evm: security.apparmor
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: evm: security.ima
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: evm: security.capability
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: evm: HMAC attrs: 0x1
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: PM:   Magic number: 14:296:538
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: tty ttyS18: hash matches
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: port serial8250:0.17: hash matches
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RAS: Correctable Errors collector initialized.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: clk: Disabling unused clocks
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usb 1-1: new full-speed USB device number 2 using ohci-pci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Freeing unused decrypted memory: 2028K
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Freeing unused kernel image (initmem) memory: 4972K
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Write protecting the kernel read-only data: 36864k
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Freeing unused kernel image (rodata/data gap) memory: 436K
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Run /init as init process
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   with arguments:
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:     /init
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:     auto
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:     noprompt
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:     splash
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:   with environment:
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:     HOME=/
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:     TERM=linux
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:     BOOT_IMAGE=/boot/vmlinuz-6.8.0-49-generic
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:     find_preseed=/preseed.cfg
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:     priority=critical
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:     locale=en_US
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usb 1-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usb 1-1: Product: USB Tablet
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usb 1-1: Manufacturer: VirtualBox
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: hid: raw HID events driver (C) Jiri Kosina
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usbcore: registered new interface driver usbhid
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: usbhid: USB HID core driver
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: e1000: Intel(R) PRO/1000 Network Driver
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ahci 0000:00:0d.0: version 3.0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Floppy drive(s): fd0 is 1.44M
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 30 ports 3 Gbps 0x3fffffff impl SATA mode
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Fusion MPT base driver 3.04.20
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Copyright (c) 1999-2008 LSI Corporation
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Fusion MPT SPI Host driver 3.04.20
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: FDC 0 is an 82078.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: mptbase: ioc0: Initiating bringup
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host0: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host1: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host2: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host3: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host4: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host5: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host6: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host7: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host8: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host9: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host10: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host11: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host12: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host13: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host14: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host15: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host16: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host17: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host18: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host19: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host20: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host21: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host22: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host23: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host24: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host25: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host26: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host27: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host28: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host29: ahci
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata1: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata2: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806180 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806200 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata4: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806280 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata5: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806300 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata6: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806380 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata7: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806400 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata8: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806480 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata9: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806500 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata10: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806580 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata11: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806600 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata12: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806680 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata13: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806700 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata14: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806780 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata15: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806800 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata16: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806880 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata17: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806900 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata18: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806980 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata19: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806a00 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata20: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806a80 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata21: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806b00 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata22: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806b80 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata23: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806c00 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata24: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806c80 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata25: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806d00 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata26: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806d80 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata27: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806e00 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata28: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806e80 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata29: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806f00 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata30: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806f80 irq 21 lpm-pol 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ioc0: LSI53C1030 A0: Capabilities={Initiator}
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi host30: ioc0: LSI53C1030 A0, FwRev=00000000h, Ports=1, MaxQ=256, IRQ=20
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi 30:0:0:0: Direct-Access     VBOX     HARDDISK         1.0  PQ: 0 ANSI: 5
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi target30:0:0: Beginning Domain Validation
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi target30:0:0: Domain Validation skipping write tests
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi target30:0:0: Ending Domain Validation
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi target30:0:0: asynchronous
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: sd 30:0:0:0: [sda] 46137344 512-byte logical blocks: (23.6 GB/22.0 GiB)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: sd 30:0:0:0: Attached scsi generic sg0 type 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: sd 30:0:0:0: [sda] Write Protect is off
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: sd 30:0:0:0: [sda] Mode Sense: 0f 00 10 00
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: sd 30:0:0:0: [sda] Write cache: enabled, read cache: enabled, supports DPO and FUA
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  sda: sda1 sda2 sda3
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: sd 30:0:0:0: [sda] Attached SCSI disk
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata1.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata1.00: applying bridge limits
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata1.00: configured for UDMA/100
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: scsi 0:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: sr 0:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: sr 0:0:0:0: Attached scsi CD-ROM sr0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: sr 0:0:0:0: Attached scsi generic sg1 type 5
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: e1000 0000:00:11.0 eth0: (PCI:33MHz:32-bit) 08:00:27:bd:5a:85
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: e1000 0000:00:11.0 eth0: Intel(R) PRO/1000 Network Connection
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata2: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata3: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata4: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata5: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata6: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata7: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata8: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata9: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata10: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata11: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata12: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata13: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata14: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata15: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata16: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata17: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata18: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata19: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata20: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata21: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata22: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata23: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata24: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata25: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata26: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata27: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata28: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata29: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ata30: SATA link down (SStatus 0 SControl 300)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: e1000 0000:00:11.0 enp0s17: renamed from eth0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: EXT4-fs (sda3): mounted filesystem e007d2ec-b1c1-421c-830e-94090210a691 ro with ordered data mode. Quota mode: none.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Inserted module 'autofs4'
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: systemd 249.11-0ubuntu3.23 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Detected virtualization oracle.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Detected architecture x86-64.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Hostname set to <ubuntu-virtual-machine>.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: block sda: the capability attribute has been deprecated.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Queued start job for default target Graphical Interface.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Created slice Slice /system/modprobe.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Created slice Slice /system/systemd-fsck.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Created slice User and Session Slice.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Reached target User and Group Name Lookups.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Reached target Remote File Systems.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Reached target Slice Units.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Reached target Mounting snaps.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Reached target System Time Set.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Reached target Local Verity Protected Volumes.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Listening on Syslog Socket.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Listening on fsck to fsckd communication Socket.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Listening on initctl Compatibility Named Pipe.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Listening on Journal Audit Socket.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Listening on Journal Socket (/dev/log).
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Listening on Journal Socket.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Listening on udev Control Socket.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Listening on udev Kernel Socket.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Mounting Huge Pages File System...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Mounting POSIX Message Queue File System...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Mounting Kernel Debug File System...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Mounting Kernel Trace File System...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Starting Journal Service...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Starting Set the console keyboard layout...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Starting Create List of Static Device Nodes...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Starting Load Kernel Module configfs...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Starting Load Kernel Module drm...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Starting Load Kernel Module efi_pstore...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Starting Load Kernel Module fuse...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Starting Load Kernel Modules...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Starting Remount Root and Kernel File Systems...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Starting Coldplug All udev Devices...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Mounted Huge Pages File System.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Mounted POSIX Message Queue File System.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Mounted Kernel Debug File System.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Mounted Kernel Trace File System.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Finished Create List of Static Device Nodes.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: modprobe@configfs.service: Deactivated successfully.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Finished Load Kernel Module configfs.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: modprobe@drm.service: Deactivated successfully.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Finished Load Kernel Module drm.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Finished Load Kernel Module efi_pstore.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: modprobe@fuse.service: Deactivated successfully.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Finished Load Kernel Module fuse.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Mounting FUSE Control File System...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Mounting Kernel Configuration File System...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Mounted FUSE Control File System.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Mounted Kernel Configuration File System.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Condition check resulted in VMware vmblock fuse mount being skipped.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: EXT4-fs (sda3): re-mounted e007d2ec-b1c1-421c-830e-94090210a691 r/w. Quota mode: none.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Finished Remount Root and Kernel File Systems.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Activating swap /swapfile...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Starting Load/Save Random Seed...
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Starting Create System Users...
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Adding 2097148k swap on /swapfile.  Priority:-2 extents:6 across:2260988k 
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Activated swap /swapfile.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Reached target Swaps.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Finished Load/Save Random Seed.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Condition check resulted in First Boot Complete being skipped.
+Oct 16 23:33:07 ubuntu-virtual-machine systemd[1]: Started Journal Service.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: lp: driver loaded but no devices found
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ppdev: user-space parallel port driver
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Console: switching to colour dummy device 80x25
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] FIFO at 0x00000000f0000000 size is 2048 kiB
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] VRAM at 0x00000000e0000000 size is 131072 kiB
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] Running on SVGA version 2.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, 3D, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, command buffers 2, gbobject, dx, cap2 register, 
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] Capabilities2: grow otable, intra surface copy, dx2, gb memsize 2, otable ptdepth2, cursor mob, dx3, 
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] DMA map mode: Caching DMA mappings.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] Legacy memory limits: VRAM = 131072 kB, FIFO = 2048 kB, surface = 393216 kB
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] MOB limits: max mob size = 131072 kB, max mob pages = 262144
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] Max GMR ids is 8192
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] Max number of GMR pages is 1048576
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] Maximum display memory size is 131072 kiB
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] Screen Target display unit initialized
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] Using command buffers with DMA pool.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] Available shader model: SM_5.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: [drm] Initialized vmwgfx 2.20.0 20211206 for 0000:00:02.0 on minor 0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: fbcon: vmwgfxdrmfb (fb0) is primary device
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Console: switching to colour frame buffer device 160x50
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vmwgfx 0000:00:02.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop0: detected capacity change from 0 to 8
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop1: detected capacity change from 0 to 151288
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop2: detected capacity change from 0 to 151512
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop3: detected capacity change from 0 to 546064
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop4: detected capacity change from 0 to 1017816
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop5: detected capacity change from 0 to 1034424
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop6: detected capacity change from 0 to 187776
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop7: detected capacity change from 0 to 24984
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop8: detected capacity change from 0 to 25240
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop9: detected capacity change from 0 to 90720
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop10: detected capacity change from 0 to 91568
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop11: detected capacity change from 0 to 1136
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: loop12: detected capacity change from 0 to 904
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vboxguest: loading out-of-tree module taints kernel.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vboxguest: module verification failed: signature and/or required key missing - tainting kernel
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: rtR0InitNative: g_pLnxInitMm=00000000db803433
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Host supports full mouse state reporting, switching to extended mouse integration protocol
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input7
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vboxguest: Successfully loaded version 7.2.10 r174163
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vboxguest: misc device minor 122, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: vboxguest: Successfully loaded version 7.2.10 r174163 (interface 0x00010004)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ------------[ cut here ]------------
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: WARNING: CPU: 4 PID: 405 at kernel/rcu/tree_plugin.h:734 rcu_sched_clock_irq+0x3ad/0x3c0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Modules linked in: snd_rawmidi rapl(+) snd_seq snd_seq_device input_leds snd_timer serio_raw joydev snd vboxguest(OE) soundcore mac_hid sch_fq_codel vmwgfx drm_ttm_helper ttm msr parport_pc ppdev lp parport efi_pstore ip_tables x_tables autofs4 hid_generic crc32_pclmul mptspi mptscsih mptbase psmouse ahci scsi_transport_spi e1000 libahci i2c_piix4 floppy video wmi usbhid hid
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: CPU: 4 PID: 405 Comm: systemd-udevd Tainted: G           OE      6.8.0-49-generic #49~22.04.1-Ubuntu
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RIP: 0010:rcu_sched_clock_irq+0x3ad/0x3c0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Code: 04 25 40 43 03 00 f0 80 08 08 65 81 25 50 42 65 4c ff ff ff 7f e9 a2 fe ff ff 8b 87 38 08 00 00 85 c0 0f 84 23 fd ff ff eb b2 <0f> 0b e9 ed fc ff ff 66 66 2e 0f 1f 84 00 00 00 00 00 90 90 90 90
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RSP: 0000:ffffaff2403b7da8 EFLAGS: 00010086
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RAX: ffff9f5bc3ca0000 RBX: 0000000000000001 RCX: 0000000000000000
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RDX: 00000000ffffffff RSI: ffffffffb53b6415 RDI: ffff9f5bc3ca0000
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RBP: ffffaff2403b7dc0 R08: 0000000000000000 R09: 0000000000000000
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000000
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: R13: ffff9f5c59c25000 R14: ffffaff2403b7f58 R15: ffff9f5c59c24ac0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: FS:  00007efbfcc5f8c0(0000) GS:ffff9f5c59c00000(0000) knlGS:0000000000000000
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: CR2: 00005d994e2d8090 CR3: 0000000113582002 CR4: 00000000000706f0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Call Trace:
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  <TASK>
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  ? show_regs+0x6d/0x80
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  ? __warn+0x89/0x160
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  ? rcu_sched_clock_irq+0x3ad/0x3c0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  ? report_bug+0x17e/0x1b0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  ? handle_bug+0x46/0x90
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  ? exc_invalid_op+0x18/0x80
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  ? asm_exc_invalid_op+0x1b/0x20
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  ? rcu_sched_clock_irq+0x3ad/0x3c0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  update_process_times+0x76/0xb0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  tick_sched_handle+0x28/0x70
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  tick_nohz_highres_handler+0x78/0xa0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  ? __pfx_tick_nohz_highres_handler+0x10/0x10
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  __hrtimer_run_queues+0x112/0x2a0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  hrtimer_interrupt+0xf6/0x250
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  __sysvec_apic_timer_interrupt+0x51/0x150
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  sysvec_apic_timer_interrupt+0x3b/0xd0
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  asm_sysvec_apic_timer_interrupt+0x1b/0x20
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RIP: 0033:0x7efbfcb98966
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: Code: 00 00 00 00 f3 0f 1e fa 89 f8 31 d2 c5 c1 ef ff 09 f0 25 ff 0f 00 00 3d 80 0f 00 00 0f 8f 52 03 00 00 c5 fe 6f 0f c5 f5 74 06 <c5> fd da c1 c5 fd 74 c7 c5 fd d7 c8 85 c9 74 7a f3 0f bc d1 0f b6
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RSP: 002b:00007ffd6869dc18 EFLAGS: 00000283
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RAX: 00000000000009b4 RBX: 00005d994dd17760 RCX: 0000000000000020
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RDX: 0000000000000000 RSI: 00005d994e3408b4 RDI: 00005d994e3d2910
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RBP: 0000000000000008 R08: 5dfa09a817eb5c7e R09: fa59985d2ac56e8c
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: R10: 08d5725b836216cf R11: 00007ffd6869e128 R12: 0000000000000000
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: R13: 00005d994e294658 R14: 00000000000001e0 R15: 00005d994e2a3230
+Oct 16 23:33:07 ubuntu-virtual-machine kernel:  </TASK>
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: ---[ end trace 0000000000000000 ]---
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 335544320 ms ovfl timer
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: cryptd: max_cpu_qlen set to 1000
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: AVX2 version of gcm_enc/dec engaged.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: AES CTR mode by8 optimization enabled
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: audit: type=1400 audit(1792164787.682:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=581 comm="apparmor_parser"
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: audit: type=1400 audit(1792164787.682:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=582 comm="apparmor_parser"
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: audit: type=1400 audit(1792164787.682:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=582 comm="apparmor_parser"
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: audit: type=1400 audit(1792164787.688:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=585 comm="apparmor_parser"
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: audit: type=1400 audit(1792164787.689:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=594 comm="apparmor_parser"
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: audit: type=1400 audit(1792164787.689:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=594 comm="apparmor_parser"
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: audit: type=1400 audit(1792164787.689:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=594 comm="apparmor_parser"
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: audit: type=1400 audit(1792164787.689:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="tcpdump" pid=595 comm="apparmor_parser"
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: audit: type=1400 audit(1792164787.692:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=583 comm="apparmor_parser"
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: audit: type=1400 audit(1792164787.692:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=583 comm="apparmor_parser"
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: intel_rapl_msr: PL4 support detected.
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 52696 usecs (2400 samples)
+Oct 16 23:33:07 ubuntu-virtual-machine kernel: snd_intel8x0 0000:00:05.0: clocking to 50588
+Oct 16 23:33:08 ubuntu-virtual-machine kernel: e1000: enp0s17 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 16 23:33:08 ubuntu-virtual-machine kernel: 15:33:08.570293 main     VBoxService 7.2.10 r174163 (verbosity: 0) linux.amd64 (Jun 11 2026 14:31:42) release log
+                                               15:33:08.570296 main     Log opened 2026-10-16T15:33:08.570289000Z
+Oct 16 23:33:08 ubuntu-virtual-machine kernel: 15:33:08.570408 main     OS Product: Linux
+Oct 16 23:33:08 ubuntu-virtual-machine kernel: 15:33:08.570420 main     OS Release: 6.8.0-49-generic
+Oct 16 23:33:08 ubuntu-virtual-machine kernel: 15:33:08.570430 main     OS Version: #49~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Nov  6 17:42:15 UTC 2
+Oct 16 23:33:08 ubuntu-virtual-machine kernel: 15:33:08.570439 main     Executable: /opt/VBoxGuestAdditions-7.2.10/sbin/VBoxService
+                                               15:33:08.570440 main     Process ID: 1214
+                                               15:33:08.570440 main     Package type: LINUX_64BITS_GENERIC
+Oct 16 23:33:08 ubuntu-virtual-machine kernel: 15:33:08.571361 main     7.2.10 r174163 started. Verbose level = 0
+Oct 16 23:33:08 ubuntu-virtual-machine kernel: 15:33:08.572051 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Oct 16 23:33:08 ubuntu-virtual-machine kernel: vboxsf: g_fHostFeatures=0x8000000f g_fSfFeatures=0x1 g_uSfLastFunction=29
+Oct 16 23:33:08 ubuntu-virtual-machine kernel: vboxsf: Successfully loaded version 7.2.10 r174163
+Oct 16 23:33:08 ubuntu-virtual-machine kernel: vboxsf: Successfully loaded version 7.2.10 r174163 on 6.8.0-49-generic (LINUX_VERSION_CODE=0x6080c)
+Oct 16 23:33:08 ubuntu-virtual-machine kernel: 15:33:08.582342 automount vbsvcAutomounterMountIt: Successfully mounted 'EyeCodePart1' on '/media/sf_EyeCodePart1'
+Oct 16 23:33:08 ubuntu-virtual-machine kernel: loop13: detected capacity change from 0 to 8
+Oct 16 23:33:09 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:09 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:09 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:09 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:09 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:09 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:09 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:09 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:10 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:10 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:10 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:10 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:11 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:11 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:12 ubuntu-virtual-machine kernel: ISO 9660 Extensions: Microsoft Joliet Level 3
+Oct 16 23:33:12 ubuntu-virtual-machine kernel: ISO 9660 Extensions: RRIP_1991A
+Oct 16 23:33:12 ubuntu-virtual-machine kernel: rfkill: input handler disabled
+Oct 16 23:33:12 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:12 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:13 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:13 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:13 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:13 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:13 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.
+Oct 16 23:33:13 ubuntu-virtual-machine kernel: [drm:vmw_msg_ioctl [vmwgfx]] *ERROR* Failed to open channel.

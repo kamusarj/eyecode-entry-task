@@ -1,0 +1,21 @@
+# Environment for the MuJoCo experiments (HoMMI whole-body-controller replay, MoManipVLA re-implementation).
+# conda create -n eyecode-p2 python=3.10 && pip install -r requirements-sim.txt
+mujoco==3.3.0
+mink==0.0.13
+qpsolvers[daqp]==4.13.0
+daqp==0.10.3
+numpy==1.26.4
+scipy==1.15.3
+transforms3d==0.4.2
+PyYAML==6.0.3
+matplotlib==3.10.9
+imageio==2.38.0
+imageio-ffmpeg==0.6.0
+pandas==2.3.3
+pillow==12.3.0
+omegaconf==2.4.0
+hydra-core==1.2.0
+loop-rate-limiters==1.2.0
+zarr==2.16.1
+numcodecs==0.11.0
+huggingface_hub==2.2.0

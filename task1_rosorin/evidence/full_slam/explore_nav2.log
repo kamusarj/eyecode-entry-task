@@ -1,0 +1,1175 @@
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-10-17-11-17-34-486663-ubuntu-virtual-machine-9283
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [controller_server-1]: process started with pid [9309]
+[INFO] [smoother_server-2]: process started with pid [9311]
+[INFO] [planner_server-3]: process started with pid [9313]
+[INFO] [behavior_server-4]: process started with pid [9315]
+[INFO] [bt_navigator-5]: process started with pid [9317]
+[INFO] [waypoint_follower-6]: process started with pid [9321]
+[INFO] [velocity_smoother-7]: process started with pid [9334]
+[INFO] [lifecycle_manager-8]: process started with pid [9339]
+[INFO] [rviz2-9]: process started with pid [9342]
+[planner_server-3] [INFO] [1792207054.713214590] [planner_server]: 
+[planner_server-3] 	planner_server lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1792207054.720883807] [planner_server]: Creating
+[planner_server-3] [INFO] [1792207054.727395543] [global_costmap.global_costmap]: 
+[planner_server-3] 	global_costmap lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1792207054.728057465] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-8] [INFO] [1792207054.751987694] [lifecycle_manager_navigation]: Creating
+[lifecycle_manager-8] [INFO] [1792207054.755334361] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[smoother_server-2] [INFO] [1792207054.764926921] [smoother_server]: 
+[smoother_server-2] 	smoother_server lifecycle node launched. 
+[smoother_server-2] 	Waiting on external lifecycle transitions to activate
+[smoother_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-5] [INFO] [1792207054.785370018] [bt_navigator]: 
+[bt_navigator-5] 	bt_navigator lifecycle node launched. 
+[bt_navigator-5] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-5] [INFO] [1792207054.785459314] [bt_navigator]: Creating
+[behavior_server-4] [INFO] [1792207054.795415507] [behavior_server]: 
+[behavior_server-4] 	behavior_server lifecycle node launched. 
+[behavior_server-4] 	Waiting on external lifecycle transitions to activate
+[behavior_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-2] [INFO] [1792207054.808515853] [smoother_server]: Creating smoother server
+[controller_server-1] [INFO] [1792207054.877780483] [controller_server]: 
+[controller_server-1] 	controller_server lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1792207054.894402611] [controller_server]: Creating controller server
+[velocity_smoother-7] [INFO] [1792207054.907499185] [velocity_smoother]: 
+[velocity_smoother-7] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-7] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-6] [INFO] [1792207054.965215880] [waypoint_follower]: 
+[waypoint_follower-6] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-6] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-6] [INFO] [1792207054.966555538] [waypoint_follower]: Creating
+[controller_server-1] [INFO] [1792207054.992489402] [local_costmap.local_costmap]: 
+[controller_server-1] 	local_costmap lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1792207054.996295656] [local_costmap.local_costmap]: Creating Costmap
+[lifecycle_manager-8] [INFO] [1792207055.011187832] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-8] [INFO] [1792207055.011253899] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-1] [INFO] [1792207055.012228828] [controller_server]: Configuring controller interface
+[controller_server-1] [INFO] [1792207055.012364472] [controller_server]: getting goal checker plugins..
+[controller_server-1] [INFO] [1792207055.012412854] [controller_server]: Controller frequency set to 10.0000Hz
+[controller_server-1] [INFO] [1792207055.012435762] [local_costmap.local_costmap]: Configuring
+[controller_server-1] [INFO] [1792207055.022591019] [local_costmap.local_costmap]: Using plugin "static_layer"
+[controller_server-1] [INFO] [1792207055.030522050] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[controller_server-1] [INFO] [1792207055.034594935] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[controller_server-1] [INFO] [1792207055.034628314] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-1] [INFO] [1792207055.034854309] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-1] [INFO] [1792207055.055569315] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-1] [INFO] [1792207055.055598395] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-1] [INFO] [1792207055.056269107] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-1] [INFO] [1792207055.080285399] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 156 X 89 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207055.086760177] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-1] [INFO] [1792207055.087941679] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-1] [INFO] [1792207055.088089372] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-1] [INFO] [1792207055.088759090] [controller_server]: Created controller : FollowPath of type nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-1] [INFO] [1792207055.095315953] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-8] [INFO] [1792207055.118293916] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-2] [INFO] [1792207055.119076040] [smoother_server]: Configuring smoother server
+[smoother_server-2] [INFO] [1792207055.206152937] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-2] [INFO] [1792207055.211109481] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-8] [INFO] [1792207055.224816631] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-3] [INFO] [1792207055.225080295] [planner_server]: Configuring
+[planner_server-3] [INFO] [1792207055.225128196] [global_costmap.global_costmap]: Configuring
+[planner_server-3] [INFO] [1792207055.258728703] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-3] [INFO] [1792207055.264561414] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-3] [INFO] [1792207055.267075615] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-3] [INFO] [1792207055.267115994] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-3] [INFO] [1792207055.269082124] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-3] [INFO] [1792207055.274844526] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-3] [INFO] [1792207055.274886110] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-3] [INFO] [1792207055.276800315] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-3] [INFO] [1792207055.293976650] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-3] [INFO] [1792207055.294012297] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1792207055.294176064] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 156 X 89 at 0.050000 m/pix
+[planner_server-3] [INFO] [1792207055.296114760] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-8] [INFO] [1792207055.309415416] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-4] [INFO] [1792207055.310281670] [behavior_server]: Configuring
+[behavior_server-4] [INFO] [1792207055.317130796] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-4] [INFO] [1792207055.317818856] [behavior_server]: Configuring spin
+[behavior_server-4] [INFO] [1792207055.323229025] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-4] [INFO] [1792207055.323926642] [behavior_server]: Configuring backup
+[behavior_server-4] [INFO] [1792207055.330332415] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-4] [INFO] [1792207055.331108734] [behavior_server]: Configuring drive_on_heading
+[behavior_server-4] [INFO] [1792207055.335362658] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[behavior_server-4] [INFO] [1792207055.336619764] [behavior_server]: Configuring assisted_teleop
+[behavior_server-4] [INFO] [1792207055.342373055] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-4] [INFO] [1792207055.342998827] [behavior_server]: Configuring wait
+[lifecycle_manager-8] [INFO] [1792207055.349806546] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-5] [INFO] [1792207055.350001857] [bt_navigator]: Configuring
+[rviz2-9] [INFO] [1792207055.412983043] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-9] [INFO] [1792207055.413124830] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-9] [INFO] [1792207055.464080959] [rviz2]: Stereo is NOT SUPPORTED
+[lifecycle_manager-8] [INFO] [1792207055.469642199] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-6] [INFO] [1792207055.469905079] [waypoint_follower]: Configuring
+[waypoint_follower-6] [INFO] [1792207055.494314912] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-8] [INFO] [1792207055.497504882] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-7] [INFO] [1792207055.497961488] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-8] [INFO] [1792207055.513041249] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-1] [INFO] [1792207055.514228139] [controller_server]: Activating
+[controller_server-1] [INFO] [1792207055.514257533] [local_costmap.local_costmap]: Activating
+[controller_server-1] [INFO] [1792207055.514274974] [local_costmap.local_costmap]: Checking transform
+[controller_server-1] [INFO] [1792207055.514382949] [local_costmap.local_costmap]: start
+[rviz2-9] [WARN] [1792207055.596718139] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[rviz2-9] [WARN] [1792207055.620068256] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[controller_server-1] [INFO] [1792207055.717187698] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-1] [INFO] [1792207055.717255924] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1792207055.829993060] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-8] [INFO] [1792207055.830056959] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-2] [INFO] [1792207055.830327885] [smoother_server]: Activating
+[smoother_server-2] [INFO] [1792207055.830359195] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1792207055.939471938] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-8] [INFO] [1792207055.939543337] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-3] [INFO] [1792207055.939982776] [planner_server]: Activating
+[planner_server-3] [INFO] [1792207055.940028908] [global_costmap.global_costmap]: Activating
+[planner_server-3] [INFO] [1792207055.940043126] [global_costmap.global_costmap]: Checking transform
+[planner_server-3] [INFO] [1792207055.940190017] [global_costmap.global_costmap]: start
+[rviz2-9] [INFO] [1792207056.212291730] [rviz2]: Trying to create a map of size 156 x 89 using 1 swatches
+[rviz2-9] [ERROR] [1792207056.219776889] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-9] active samplers with a different type refer to the same texture image unit
+[rviz2-9] [INFO] [1792207056.819096991] [rviz2]: Trying to create a map of size 80 x 80 using 1 swatches
+[planner_server-3] [INFO] [1792207056.941964081] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1792207056.942633238] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[rviz2-9] [INFO] [1792207056.999044660] [rviz2]: Trying to create a map of size 156 x 89 using 1 swatches
+[lifecycle_manager-8] [INFO] [1792207057.048287554] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-8] [INFO] [1792207057.048346737] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-4] [INFO] [1792207057.048724369] [behavior_server]: Activating
+[behavior_server-4] [INFO] [1792207057.048757801] [behavior_server]: Activating spin
+[behavior_server-4] [INFO] [1792207057.048772170] [behavior_server]: Activating backup
+[behavior_server-4] [INFO] [1792207057.048782619] [behavior_server]: Activating drive_on_heading
+[behavior_server-4] [INFO] [1792207057.048793638] [behavior_server]: Activating assisted_teleop
+[behavior_server-4] [INFO] [1792207057.048804398] [behavior_server]: Activating wait
+[behavior_server-4] [INFO] [1792207057.048819337] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1792207057.159108534] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-8] [INFO] [1792207057.159183763] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-5] [INFO] [1792207057.159675550] [bt_navigator]: Activating
+[bt_navigator-5] [INFO] [1792207057.229654796] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1792207057.340622918] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-8] [INFO] [1792207057.340659355] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-6] [INFO] [1792207057.341318364] [waypoint_follower]: Activating
+[waypoint_follower-6] [INFO] [1792207057.341403456] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1792207057.450706814] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-8] [INFO] [1792207057.450762010] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-7] [INFO] [1792207057.452144729] [velocity_smoother]: Activating
+[velocity_smoother-7] [INFO] [1792207057.452216057] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1792207057.558051859] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-8] [INFO] [1792207057.558097683] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-8] [INFO] [1792207057.558104317] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[waypoint_follower-6] [INFO] [1792207071.091919929] [waypoint_follower]: Received follow waypoint request with 5 waypoints.
+[bt_navigator-5] [INFO] [1792207071.093906786] [bt_navigator]: Begin navigating from current location (0.12, -0.00) to (0.10, 2.90)
+[controller_server-1] [INFO] [1792207071.105058758] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [WARN] [1792207071.105115906] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[rviz2-9] [INFO] [1792207072.083666256] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 35.310 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-1] [INFO] [1792207072.205266638] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207073.205296654] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207074.205265850] [controller_server]: Passing new path to controller.
+[rviz2-9] [INFO] [1792207074.462810986] [rviz2]: Trying to create a map of size 201 x 91 using 1 swatches
+[controller_server-1] [INFO] [1792207074.514833580] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 201 X 91 at 0.050000 m/pix
+[planner_server-3] [INFO] [1792207074.940375784] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 201 X 91 at 0.050000 m/pix
+[rviz2-9] [INFO] [1792207075.052529885] [rviz2]: Trying to create a map of size 201 x 91 using 1 swatches
+[controller_server-1] [INFO] [1792207075.205478260] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207076.205267892] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207077.305165930] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207078.305223954] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207079.305273541] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207079.314911566] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 201 X 91 at 0.050000 m/pix
+[planner_server-3] [INFO] [1792207079.940405430] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 201 X 91 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207080.305263326] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207081.305259871] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207082.406594436] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207083.405765899] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207084.405371472] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207085.505306855] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207086.505630612] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207087.505266720] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207087.869257349] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207088.605170500] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207089.605458332] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207090.605327868] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207091.605438647] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207092.392459238] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207092.444916029] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207092.493313912] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207092.542178874] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207092.592306941] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207092.643518052] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207092.692267312] [waypoint_follower]: Processing waypoint 0...
+[controller_server-1] [INFO] [1792207092.705409760] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207092.742192244] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207092.792597099] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207092.842858435] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207092.892240711] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207092.942534297] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207092.992631806] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.043150614] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.092499391] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.143583390] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.192314682] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.242650099] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.293123870] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.342675586] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.392500996] [waypoint_follower]: Processing waypoint 0...
+[controller_server-1] [INFO] [1792207093.405752739] [controller_server]: Reached the goal!
+[waypoint_follower-6] [INFO] [1792207093.442377573] [waypoint_follower]: Processing waypoint 0...
+[bt_navigator-5] [INFO] [1792207093.444185418] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207093.492500711] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.542207529] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.592273650] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.642729753] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.692934476] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.742178253] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207093.792204747] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207094.093717557] [waypoint_follower]: Succeeded processing waypoint 0, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207094.093780129] [waypoint_follower]: Arrived at 0'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207094.294272030] [waypoint_follower]: Task execution at waypoint 0 succeeded
+[waypoint_follower-6] [INFO] [1792207094.294324479] [waypoint_follower]: Handled task execution on waypoint 0, moving to next.
+[bt_navigator-5] [INFO] [1792207094.294776881] [bt_navigator]: Begin navigating from current location (0.18, 2.77) to (2.10, 3.20)
+[controller_server-1] [INFO] [1792207094.315900680] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207095.415984553] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207096.416062085] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207097.116144998] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207097.416226149] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207098.416129386] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207099.516259571] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207100.516068224] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207101.516055577] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207102.516042852] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207103.617624023] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207104.616213796] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207105.416282625] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207105.455491590] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207106.144742836] [waypoint_follower]: Succeeded processing waypoint 1, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207106.144814405] [waypoint_follower]: Arrived at 1'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207106.344990771] [waypoint_follower]: Task execution at waypoint 1 succeeded
+[waypoint_follower-6] [INFO] [1792207106.345037225] [waypoint_follower]: Handled task execution on waypoint 1, moving to next.
+[bt_navigator-5] [INFO] [1792207106.346098604] [bt_navigator]: Begin navigating from current location (1.95, 3.19) to (4.20, 2.60)
+[controller_server-1] [INFO] [1792207106.366515822] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207107.466776286] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207108.466701838] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207109.466798541] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207110.566599364] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207111.567211789] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207112.566771416] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207113.567029216] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207114.668137695] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207115.666658948] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207116.666854323] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207117.666714633] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207118.666663282] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207119.766884473] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207120.730244144] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207120.766686375] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207121.766601667] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207121.766875569] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207121.816345808] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207122.495261629] [waypoint_follower]: Succeeded processing waypoint 2, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207122.495323683] [waypoint_follower]: Arrived at 2'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207122.695403981] [waypoint_follower]: Task execution at waypoint 2 succeeded
+[waypoint_follower-6] [INFO] [1792207122.695489823] [waypoint_follower]: Handled task execution on waypoint 2, moving to next.
+[bt_navigator-5] [INFO] [1792207122.696030608] [bt_navigator]: Begin navigating from current location (4.09, 2.70) to (4.20, 0.20)
+[controller_server-1] [INFO] [1792207122.716891412] [controller_server]: Received a goal, begin computing control effort.
+[rviz2-9] [INFO] [1792207123.611758257] [rviz2]: Trying to create a map of size 202 x 156 using 1 swatches
+[controller_server-1] [INFO] [1792207123.714794826] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 202 X 156 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207123.817281639] [controller_server]: Passing new path to controller.
+[planner_server-3] [INFO] [1792207123.940393470] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 202 X 156 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207124.817054430] [controller_server]: Passing new path to controller.
+[rviz2-9] [INFO] [1792207125.021756018] [rviz2]: Trying to create a map of size 202 x 156 using 1 swatches
+[controller_server-1] [INFO] [1792207125.817171742] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207126.817115153] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207127.917133086] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207128.918390144] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207129.917525415] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207130.917044977] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207131.595695270] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207131.645844446] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207131.695863919] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207131.745755603] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207131.795717885] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207131.845630405] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207131.895603905] [waypoint_follower]: Processing waypoint 3...
+[controller_server-1] [INFO] [1792207131.917098910] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207131.945824919] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207131.995795717] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.045677864] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.095613261] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.145978278] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.195991519] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.245688002] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.295788076] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.345586248] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.395825443] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.445615925] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.496221282] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.547966895] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.596028773] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.646034805] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.695671027] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.746520243] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207132.796134591] [waypoint_follower]: Processing waypoint 3...
+[controller_server-1] [INFO] [1792207133.017173676] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207134.017810621] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207135.017052497] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207136.117400137] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207137.117187374] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207138.117054588] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207139.117070369] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207140.217038981] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207140.517321147] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207140.556216276] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207141.245759503] [waypoint_follower]: Succeeded processing waypoint 3, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207141.245796345] [waypoint_follower]: Arrived at 3'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207141.446192866] [waypoint_follower]: Task execution at waypoint 3 succeeded
+[waypoint_follower-6] [INFO] [1792207141.446235793] [waypoint_follower]: Handled task execution on waypoint 3, moving to next.
+[bt_navigator-5] [INFO] [1792207141.446931649] [bt_navigator]: Begin navigating from current location (4.15, 0.29) to (2.10, 0.40)
+[controller_server-1] [INFO] [1792207141.467502656] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207142.567737185] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207143.567738937] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207144.567683073] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207145.667652058] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207146.667629450] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207147.667747555] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207148.667633163] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207149.767588225] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207150.767664361] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207151.767738425] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207152.767921987] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207152.768126137] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207152.817095137] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207153.496471663] [waypoint_follower]: Succeeded processing waypoint 4, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207153.496521983] [waypoint_follower]: Arrived at 4'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207153.697645796] [waypoint_follower]: Task execution at waypoint 4 succeeded
+[waypoint_follower-6] [INFO] [1792207153.698072130] [waypoint_follower]: Handled task execution on waypoint 4, moving to next.
+[waypoint_follower-6] [INFO] [1792207153.698081159] [waypoint_follower]: Completed all 5 waypoints requested.
+[waypoint_follower-6] [INFO] [1792207156.133089603] [waypoint_follower]: Received follow waypoint request with 5 waypoints.
+[bt_navigator-5] [INFO] [1792207156.134357659] [bt_navigator]: Begin navigating from current location (2.23, 0.33) to (0.20, -1.45)
+[controller_server-1] [INFO] [1792207156.145160418] [controller_server]: Received a goal, begin computing control effort.
+[rviz2-9] [INFO] [1792207156.831952145] [rviz2]: Trying to create a map of size 202 x 159 using 1 swatches
+[controller_server-1] [INFO] [1792207156.914712105] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 202 X 159 at 0.050000 m/pix
+[planner_server-3] [INFO] [1792207156.941428493] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 202 X 159 at 0.050000 m/pix
+[rviz2-9] [INFO] [1792207157.023414008] [rviz2]: Trying to create a map of size 202 x 159 using 1 swatches
+[controller_server-1] [INFO] [1792207157.245550889] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207158.245535461] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207159.246796556] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207160.345880524] [controller_server]: Passing new path to controller.
+[rviz2-9] [INFO] [1792207161.060045809] [rviz2]: Trying to create a map of size 202 x 161 using 1 swatches
+[controller_server-1] [INFO] [1792207161.114606767] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 202 X 161 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207161.345655900] [controller_server]: Passing new path to controller.
+[planner_server-3] [INFO] [1792207161.941069911] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 202 X 161 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207162.345325346] [controller_server]: Passing new path to controller.
+[rviz2-9] [INFO] [1792207163.041056530] [rviz2]: Trying to create a map of size 202 x 161 using 1 swatches
+[controller_server-1] [INFO] [1792207163.345465982] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207164.446491586] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207165.445720543] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207166.445456548] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207167.445549788] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207168.533404450] [waypoint_follower]: Processing waypoint 0...
+[controller_server-1] [INFO] [1792207168.545914847] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207168.583259780] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207168.634061088] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207168.683692376] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207168.734164603] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207168.783537983] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207168.833407413] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207168.883491789] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207168.933397488] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207168.983689707] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.036405878] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.083426926] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.133246755] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.183283508] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.234179333] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.283625138] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.333535134] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.383738585] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.433479944] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.483536766] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.533449172] [waypoint_follower]: Processing waypoint 0...
+[controller_server-1] [INFO] [1792207169.545855244] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207169.583492513] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.633323313] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.683598628] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207169.733847882] [waypoint_follower]: Processing waypoint 0...
+[controller_server-1] [INFO] [1792207170.514703526] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 202 X 161 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207170.545306133] [controller_server]: Passing new path to controller.
+[planner_server-3] [INFO] [1792207170.941054250] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 202 X 161 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207171.545245265] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207172.645340859] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207173.646667954] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207174.084721406] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207174.645346542] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207175.645425929] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207176.745373309] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207177.745427528] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207178.745466552] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207179.746050591] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207180.845395655] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207181.145662739] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207181.184665809] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207181.833520945] [waypoint_follower]: Succeeded processing waypoint 0, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207181.833574058] [waypoint_follower]: Arrived at 0'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207182.033896358] [waypoint_follower]: Task execution at waypoint 0 succeeded
+[waypoint_follower-6] [INFO] [1792207182.033982109] [waypoint_follower]: Handled task execution on waypoint 0, moving to next.
+[bt_navigator-5] [INFO] [1792207182.034815230] [bt_navigator]: Begin navigating from current location (0.24, -1.32) to (2.00, -1.50)
+[controller_server-1] [INFO] [1792207182.055973498] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207183.156257875] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207184.156202304] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207185.157423853] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207186.156233503] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207187.256178002] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207188.256147138] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207189.256266689] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207190.256333889] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207191.096557043] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207191.356374281] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207192.358811743] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207192.956657907] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207192.995468113] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207193.684324776] [waypoint_follower]: Succeeded processing waypoint 1, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207193.684378726] [waypoint_follower]: Arrived at 1'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207193.885070631] [waypoint_follower]: Task execution at waypoint 1 succeeded
+[waypoint_follower-6] [INFO] [1792207193.885141359] [waypoint_follower]: Handled task execution on waypoint 1, moving to next.
+[bt_navigator-5] [INFO] [1792207193.885963856] [bt_navigator]: Begin navigating from current location (1.87, -1.57) to (4.30, -1.60)
+[controller_server-1] [INFO] [1792207193.906544914] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207195.006892345] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207196.006696337] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207197.006841504] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207198.107065565] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207199.107104151] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207200.106732629] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207201.106689611] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207202.106883960] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207203.206929133] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207204.168126745] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207204.207380281] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207205.206736419] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207206.186081541] [waypoint_follower]: Processing waypoint 2...
+[controller_server-1] [INFO] [1792207206.206924050] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207206.235450790] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.288261795] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.336660271] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.385820362] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.435919242] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.485643655] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.536995818] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.585802367] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.635447953] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.685932680] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.736535753] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.789056699] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.835431647] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.885500981] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.935474859] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207206.985736794] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207207.035548323] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207207.085692973] [waypoint_follower]: Processing waypoint 2...
+[controller_server-1] [INFO] [1792207207.107587433] [controller_server]: Reached the goal!
+[waypoint_follower-6] [INFO] [1792207207.135428368] [waypoint_follower]: Processing waypoint 2...
+[bt_navigator-5] [INFO] [1792207207.147068149] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207207.185523996] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207207.235622399] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207207.285634626] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207207.335432741] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207207.386793225] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207207.435755191] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207207.485651560] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207207.535448320] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207207.835587176] [waypoint_follower]: Succeeded processing waypoint 2, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207207.835666490] [waypoint_follower]: Arrived at 2'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207208.035828306] [waypoint_follower]: Task execution at waypoint 2 succeeded
+[waypoint_follower-6] [INFO] [1792207208.035971179] [waypoint_follower]: Handled task execution on waypoint 2, moving to next.
+[bt_navigator-5] [INFO] [1792207208.036617590] [bt_navigator]: Begin navigating from current location (4.16, -1.58) to (2.00, -3.20)
+[controller_server-1] [INFO] [1792207208.064148692] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207209.165477222] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207210.164348701] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207211.164614799] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207212.165163819] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207213.257286870] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207213.264919605] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207214.264942664] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207215.264367010] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207216.264382342] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207217.264395336] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207217.467448862] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207218.364485368] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207219.365074622] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207220.364417467] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207221.364489109] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207222.465444784] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207223.464422687] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207224.464576149] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207225.465463616] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207226.564387585] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207227.564454849] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207228.564714946] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207229.564427346] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207230.664453404] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207231.664619720] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207232.664440431] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207233.664521456] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207233.964607667] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207233.997294429] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207234.637783365] [waypoint_follower]: Succeeded processing waypoint 3, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207234.638751114] [waypoint_follower]: Arrived at 3'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207234.838948723] [waypoint_follower]: Task execution at waypoint 3 succeeded
+[waypoint_follower-6] [INFO] [1792207234.839003712] [waypoint_follower]: Handled task execution on waypoint 3, moving to next.
+[bt_navigator-5] [INFO] [1792207234.841544799] [bt_navigator]: Begin navigating from current location (2.07, -3.13) to (0.20, -1.45)
+[controller_server-1] [INFO] [1792207234.862557061] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207235.962885681] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207236.963063581] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207237.963881598] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207238.963000224] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207240.063432401] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207241.062718421] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207242.062802766] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207243.063027504] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207244.162937266] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207245.163205036] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207246.162925969] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207247.163247622] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207248.263462659] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207249.262777933] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207250.263069371] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207250.289191593] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.340090617] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.389233056] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.441158714] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.489383860] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.539124196] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.592257746] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.639510245] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.689184771] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.739170073] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.789169751] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.841080126] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.889316633] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.939338077] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207250.989228910] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207251.040216944] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207251.089208769] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207251.139231322] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207251.189230320] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207251.240207931] [waypoint_follower]: Processing waypoint 4...
+[controller_server-1] [INFO] [1792207251.262971846] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207251.289204281] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207251.339296439] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207251.389330079] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207251.439467496] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207251.489457618] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207251.539578029] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207251.589201991] [waypoint_follower]: Processing waypoint 4...
+[waypoint_follower-6] [INFO] [1792207251.640962790] [waypoint_follower]: Processing waypoint 4...
+[controller_server-1] [INFO] [1792207252.362943961] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207253.363383157] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207254.362863692] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207255.362823891] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207256.362713787] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207257.464519496] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207258.462917686] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207258.463144420] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207258.511960691] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207259.189310821] [waypoint_follower]: Succeeded processing waypoint 4, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207259.189395731] [waypoint_follower]: Arrived at 4'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207259.389760897] [waypoint_follower]: Task execution at waypoint 4 succeeded
+[waypoint_follower-6] [INFO] [1792207259.389821232] [waypoint_follower]: Handled task execution on waypoint 4, moving to next.
+[waypoint_follower-6] [INFO] [1792207259.389825558] [waypoint_follower]: Completed all 5 waypoints requested.
+[waypoint_follower-6] [INFO] [1792207262.042257665] [waypoint_follower]: Received follow waypoint request with 4 waypoints.
+[bt_navigator-5] [INFO] [1792207262.042835727] [bt_navigator]: Begin navigating from current location (0.34, -1.45) to (-2.00, -0.90)
+[controller_server-1] [INFO] [1792207262.064692459] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207263.164857249] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207264.164930416] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207265.168575235] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207266.264846564] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207267.265374941] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207268.264875753] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207268.315040640] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 202 X 161 at 0.050000 m/pix
+[planner_server-3] [INFO] [1792207268.940521904] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 202 X 161 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207269.264867215] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207270.365436899] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207271.364898676] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207272.365453790] [controller_server]: Passing new path to controller.
+[rviz2-9] [INFO] [1792207273.067240436] [rviz2]: Trying to create a map of size 203 x 161 using 1 swatches
+[controller_server-1] [INFO] [1792207273.114917662] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 203 X 161 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207273.464998531] [controller_server]: Passing new path to controller.
+[planner_server-3] [INFO] [1792207273.940993802] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 203 X 161 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207274.464876107] [controller_server]: Passing new path to controller.
+[rviz2-9] [INFO] [1792207275.048118450] [rviz2]: Trying to create a map of size 203 x 161 using 1 swatches
+[controller_server-1] [INFO] [1792207275.466769323] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207276.465466408] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207277.564852347] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207278.564842617] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207279.564905948] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207279.865014058] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207279.904018940] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207280.592527106] [waypoint_follower]: Succeeded processing waypoint 0, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207280.592592331] [waypoint_follower]: Arrived at 0'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207280.792734622] [waypoint_follower]: Task execution at waypoint 0 succeeded
+[waypoint_follower-6] [INFO] [1792207280.792815349] [waypoint_follower]: Handled task execution on waypoint 0, moving to next.
+[bt_navigator-5] [INFO] [1792207280.794157522] [bt_navigator]: Begin navigating from current location (-1.88, -0.97) to (-4.00, -1.80)
+[controller_server-1] [INFO] [1792207280.815050982] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207281.915522961] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207282.915962787] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207283.915394270] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207284.915396413] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207286.015318573] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207287.015374094] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207288.016829184] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207288.724416427] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207289.018601708] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207289.754775380] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207290.115384578] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207290.246893781] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.293718115] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.343404216] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.394645350] [waypoint_follower]: Processing waypoint 1...
+[bt_navigator-5] [WARN] [1792207290.426097132] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[waypoint_follower-6] [INFO] [1792207290.443403280] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.493213618] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.543461049] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.593520472] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.643311334] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.694531540] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.744142180] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.793089530] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.843080698] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.894073381] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.943343339] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207290.994708284] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207291.043220908] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207291.095288983] [waypoint_follower]: Processing waypoint 1...
+[controller_server-1] [INFO] [1792207291.115269663] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207291.143819479] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207291.193768270] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207291.243034647] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207291.293092987] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207291.343107192] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207291.394542183] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207291.443097606] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207291.493078670] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207291.543625143] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207291.593575641] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-6] [INFO] [1792207291.643139837] [waypoint_follower]: Processing waypoint 1...
+[controller_server-1] [INFO] [1792207292.115235494] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207293.115486643] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207294.215322940] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207295.215693627] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207296.215449502] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207296.215835344] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207296.264313502] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207296.944568096] [waypoint_follower]: Succeeded processing waypoint 1, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207296.944615942] [waypoint_follower]: Arrived at 1'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207297.145215852] [waypoint_follower]: Task execution at waypoint 1 succeeded
+[waypoint_follower-6] [INFO] [1792207297.145303684] [waypoint_follower]: Handled task execution on waypoint 1, moving to next.
+[bt_navigator-5] [INFO] [1792207297.145866634] [bt_navigator]: Begin navigating from current location (-3.88, -1.75) to (-3.80, -3.20)
+[controller_server-1] [INFO] [1792207297.167839849] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207298.268463801] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207299.268342445] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207300.268012877] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207301.368827994] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207302.368050215] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207303.368440622] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207304.368159250] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207305.468043530] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207306.468105097] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207307.471485604] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207308.467992480] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207309.038603607] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207309.268887162] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207309.306241572] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207309.995554762] [waypoint_follower]: Succeeded processing waypoint 2, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207309.996192102] [waypoint_follower]: Arrived at 2'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207310.200582146] [waypoint_follower]: Task execution at waypoint 2 succeeded
+[waypoint_follower-6] [INFO] [1792207310.200741777] [waypoint_follower]: Handled task execution on waypoint 2, moving to next.
+[bt_navigator-5] [INFO] [1792207310.201971209] [bt_navigator]: Begin navigating from current location (-3.90, -3.09) to (0.00, -3.20)
+[controller_server-1] [INFO] [1792207310.213151655] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207311.313473495] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207311.313674628] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207312.313588862] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207313.313380379] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207314.315466308] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207315.413388665] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207316.413939571] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207317.414347483] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207318.413412674] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207319.413504881] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207320.513811085] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207321.513524925] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207322.513415744] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207323.513377477] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207324.613382918] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207325.613379571] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207326.613478759] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207327.616662104] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207328.716460593] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207329.713403649] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207330.713412230] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207331.713871826] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207332.814544054] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207333.813359541] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207334.001598239] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.051489519] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.101390908] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.151007085] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.201021991] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.250998046] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.301233937] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.350970250] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.400957971] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.451140950] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.501015315] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.551026993] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.601102591] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.650923220] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.700932521] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.750978431] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.801031370] [waypoint_follower]: Processing waypoint 3...
+[controller_server-1] [INFO] [1792207334.813601470] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207334.850972154] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.902064349] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207334.951051532] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207335.001144397] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207335.053337462] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207335.101056184] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207335.151018209] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207335.200998847] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207335.250978588] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207335.301419514] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207335.350947394] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207335.401046051] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207335.451102935] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207335.501542184] [waypoint_follower]: Processing waypoint 3...
+[waypoint_follower-6] [INFO] [1792207335.551284143] [waypoint_follower]: Processing waypoint 3...
+[controller_server-1] [INFO] [1792207335.813315622] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207336.913670291] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207337.412641072] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207337.913482068] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207338.913291602] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207340.013428091] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207341.013492471] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207342.013512560] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207343.013493807] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207343.732793963] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207344.013653578] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207345.113397036] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207346.113477810] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207347.113876168] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207348.114541710] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207349.213468908] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207350.213418251] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207351.213520518] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207351.713758376] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207351.752170281] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207352.401113540] [waypoint_follower]: Succeeded processing waypoint 3, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207352.401190208] [waypoint_follower]: Arrived at 3'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207352.601242552] [waypoint_follower]: Task execution at waypoint 3 succeeded
+[waypoint_follower-6] [INFO] [1792207352.601286360] [waypoint_follower]: Handled task execution on waypoint 3, moving to next.
+[waypoint_follower-6] [INFO] [1792207352.601290633] [waypoint_follower]: Completed all 4 waypoints requested.
+[waypoint_follower-6] [INFO] [1792207355.278697769] [waypoint_follower]: Received follow waypoint request with 7 waypoints.
+[bt_navigator-5] [INFO] [1792207355.279044382] [bt_navigator]: Begin navigating from current location (-0.09, -3.10) to (-0.30, 1.40)
+[controller_server-1] [INFO] [1792207355.299740530] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207356.400227872] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207357.400439343] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207358.400022206] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207359.400031077] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207360.500808056] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207361.501142718] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207362.500006207] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207363.599954351] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207364.600002405] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207365.600405140] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207366.599982226] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207367.599943065] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207368.699914820] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207369.701721485] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207370.699938621] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207371.699929338] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207372.799926120] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207373.802089061] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207374.799956039] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207374.929094234] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207374.979123407] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.029007853] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.079269336] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.130523665] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.179220717] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.230425592] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.278913443] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.329122379] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.379026636] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.429332496] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.479009219] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.529385779] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.579007428] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.628997372] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.679202572] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.728977225] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.779782022] [waypoint_follower]: Processing waypoint 0...
+[controller_server-1] [INFO] [1792207375.800224661] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207375.829022086] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.879442433] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.929906044] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207375.978972366] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207376.028987547] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207376.079410181] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207376.129107463] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207376.178909942] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207376.229552868] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-6] [INFO] [1792207376.279013702] [waypoint_follower]: Processing waypoint 0...
+[controller_server-1] [INFO] [1792207376.900170530] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207377.900020465] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207378.900070873] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207379.900147876] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207381.000055741] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207381.700481487] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207381.739483454] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207382.379011939] [waypoint_follower]: Succeeded processing waypoint 0, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207382.379068342] [waypoint_follower]: Arrived at 0'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207382.579813002] [waypoint_follower]: Task execution at waypoint 0 succeeded
+[waypoint_follower-6] [INFO] [1792207382.579943861] [waypoint_follower]: Handled task execution on waypoint 0, moving to next.
+[bt_navigator-5] [INFO] [1792207382.580645827] [bt_navigator]: Begin navigating from current location (-0.22, 1.28) to (-2.20, 1.70)
+[controller_server-1] [INFO] [1792207382.591527975] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207383.691730967] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207384.612584117] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207384.691682186] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207385.691663048] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207386.791771535] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207387.791782143] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207388.791728337] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207389.791715487] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207390.794027527] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207391.892470226] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207392.891859280] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207393.891749427] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207394.891786233] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207395.891650696] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207396.991710630] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207397.991813579] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207398.991680654] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207399.593002045] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207399.621480854] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207400.280195675] [waypoint_follower]: Succeeded processing waypoint 1, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207400.280240100] [waypoint_follower]: Arrived at 1'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207400.481710603] [waypoint_follower]: Task execution at waypoint 1 succeeded
+[waypoint_follower-6] [INFO] [1792207400.481761576] [waypoint_follower]: Handled task execution on waypoint 1, moving to next.
+[bt_navigator-5] [INFO] [1792207400.483650802] [bt_navigator]: Begin navigating from current location (-2.07, 1.64) to (-4.20, 1.60)
+[controller_server-1] [INFO] [1792207400.505336460] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207401.606296278] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207402.605530326] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207402.803969633] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207403.605903008] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207404.606084353] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207405.705587355] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207406.705570807] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207407.707464864] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207408.707056905] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207409.705556014] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207410.805967170] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207411.566903733] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207411.805978375] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207412.806190777] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207412.806475013] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207413.805782149] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207414.906660101] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207415.905603779] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207415.982246905] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.032338513] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.082007639] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.131950472] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.184592935] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.232074739] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.282028574] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.331922792] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.382481326] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.432024748] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.481973387] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.532071561] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.582176457] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.632019366] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.682023570] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.732092450] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.782400074] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.832121414] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.882564079] [waypoint_follower]: Processing waypoint 2...
+[controller_server-1] [INFO] [1792207416.905511476] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207416.931941599] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207416.982298066] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207417.031970608] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207417.082439491] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207417.132158906] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207417.182033706] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207417.232253445] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207417.282541248] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207417.331929470] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-6] [INFO] [1792207417.382380882] [waypoint_follower]: Processing waypoint 2...
+[controller_server-1] [INFO] [1792207417.405742486] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207417.444641507] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207418.132848979] [waypoint_follower]: Succeeded processing waypoint 2, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207418.132904893] [waypoint_follower]: Arrived at 2'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207418.333012853] [waypoint_follower]: Task execution at waypoint 2 succeeded
+[waypoint_follower-6] [INFO] [1792207418.333056644] [waypoint_follower]: Handled task execution on waypoint 2, moving to next.
+[bt_navigator-5] [INFO] [1792207418.333433450] [bt_navigator]: Begin navigating from current location (-4.10, 1.67) to (-4.20, 2.80)
+[controller_server-1] [INFO] [1792207418.354064499] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207419.455106156] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207420.454434824] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207421.454464350] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207422.454673924] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207423.554268219] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207424.554615692] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207425.554388321] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207426.554340746] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207427.603629984] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207427.654297147] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207428.654645250] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207429.654235636] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207430.657050974] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207431.754429952] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207432.754508623] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207433.754225750] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207434.054466176] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207434.094156051] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207434.783460237] [waypoint_follower]: Succeeded processing waypoint 3, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207434.783539644] [waypoint_follower]: Arrived at 3'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207434.984907185] [waypoint_follower]: Task execution at waypoint 3 succeeded
+[waypoint_follower-6] [INFO] [1792207434.984973815] [waypoint_follower]: Handled task execution on waypoint 3, moving to next.
+[bt_navigator-5] [INFO] [1792207434.985948255] [bt_navigator]: Begin navigating from current location (-4.14, 2.67) to (-2.20, 2.90)
+[controller_server-1] [INFO] [1792207435.008347922] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207436.108562845] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207437.108503771] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207438.108578788] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207439.108884837] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207440.108542737] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207441.208587036] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207442.208579297] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207443.208883572] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207444.209303737] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207445.308543107] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207446.308717078] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207447.310884420] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207448.308510789] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207449.411902868] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207450.408690284] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207451.408775945] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207451.510634760] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207451.546217853] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207452.235192152] [waypoint_follower]: Succeeded processing waypoint 4, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207452.235247343] [waypoint_follower]: Arrived at 4'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207452.435934953] [waypoint_follower]: Task execution at waypoint 4 succeeded
+[waypoint_follower-6] [INFO] [1792207452.435990197] [waypoint_follower]: Handled task execution on waypoint 4, moving to next.
+[bt_navigator-5] [INFO] [1792207452.437321536] [bt_navigator]: Begin navigating from current location (-2.29, 2.81) to (-0.30, 1.40)
+[controller_server-1] [INFO] [1792207452.458361625] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207453.558555797] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207454.558868522] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207455.531320221] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-1] [INFO] [1792207455.558627624] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207456.658584526] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207457.660374140] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207458.659219119] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207459.659256187] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207460.658594977] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207461.759291185] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207462.758579209] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207462.939214372] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207462.986241963] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.036511380] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.087162100] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.136607652] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.186189589] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.236231532] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.286570057] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.336235174] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.386289485] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.437159537] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.486186722] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.537513815] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.588618805] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.636172956] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.687997331] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.736515871] [waypoint_follower]: Processing waypoint 5...
+[controller_server-1] [INFO] [1792207463.759782654] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207463.786295212] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.836487257] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.887970445] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.936130882] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207463.986194556] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.036388323] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.086619401] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.137471928] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.186384243] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.236556368] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.286903209] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.336229847] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.386233140] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.436324014] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.486467972] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.539291441] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.586182244] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.636217958] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.686514456] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.736170956] [waypoint_follower]: Processing waypoint 5...
+[controller_server-1] [INFO] [1792207464.758601306] [controller_server]: Passing new path to controller.
+[waypoint_follower-6] [INFO] [1792207464.786498978] [waypoint_follower]: Processing waypoint 5...
+[waypoint_follower-6] [INFO] [1792207464.836230963] [waypoint_follower]: Processing waypoint 5...
+[controller_server-1] [INFO] [1792207465.759806884] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207466.858921226] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207467.717657185] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 203 X 161 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207467.858665157] [controller_server]: Passing new path to controller.
+[planner_server-3] [INFO] [1792207467.940526483] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 203 X 161 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207468.859484042] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207469.858556982] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207470.958553211] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207471.958680215] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207472.958757928] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207474.058956136] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207475.058552819] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207475.159548342] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207475.197447885] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207475.886216632] [waypoint_follower]: Succeeded processing waypoint 5, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207475.886311564] [waypoint_follower]: Arrived at 5'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207476.086392750] [waypoint_follower]: Task execution at waypoint 5 succeeded
+[waypoint_follower-6] [INFO] [1792207476.086445609] [waypoint_follower]: Handled task execution on waypoint 5, moving to next.
+[bt_navigator-5] [INFO] [1792207476.088140124] [bt_navigator]: Begin navigating from current location (-0.45, 1.39) to (0.00, 0.00)
+[controller_server-1] [INFO] [1792207476.100279837] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-1] [INFO] [1792207477.200421031] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207478.200405747] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207479.201754382] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207480.200399598] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207481.300488399] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207482.300553019] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207482.314685007] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 203 X 161 at 0.050000 m/pix
+[planner_server-3] [INFO] [1792207482.940870597] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 203 X 161 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207483.300472582] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207484.300910909] [controller_server]: Passing new path to controller.
+[rviz2-9] [INFO] [1792207485.227115313] [rviz2]: Trying to create a map of size 203 x 162 using 1 swatches
+[controller_server-1] [INFO] [1792207485.316467383] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 203 X 162 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207485.400443937] [controller_server]: Passing new path to controller.
+[bt_navigator-5] [WARN] [1792207485.740321767] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-3] [INFO] [1792207485.940451718] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 203 X 162 at 0.050000 m/pix
+[controller_server-1] [INFO] [1792207486.400441286] [controller_server]: Passing new path to controller.
+[rviz2-9] [INFO] [1792207487.017026283] [rviz2]: Trying to create a map of size 203 x 162 using 1 swatches
+[controller_server-1] [INFO] [1792207487.401243929] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207488.400533283] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207489.504716844] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207490.501083072] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207491.500419202] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207492.501684932] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207493.500460662] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207494.600408037] [controller_server]: Passing new path to controller.
+[controller_server-1] [INFO] [1792207495.200751197] [controller_server]: Reached the goal!
+[bt_navigator-5] [INFO] [1792207495.238441387] [bt_navigator]: Goal succeeded
+[waypoint_follower-6] [INFO] [1792207495.886655027] [waypoint_follower]: Succeeded processing waypoint 6, processing waypoint task execution
+[waypoint_follower-6] [INFO] [1792207495.886768685] [waypoint_follower]: Arrived at 6'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-6] [INFO] [1792207496.087193180] [waypoint_follower]: Task execution at waypoint 6 succeeded
+[waypoint_follower-6] [INFO] [1792207496.087271238] [waypoint_follower]: Handled task execution on waypoint 6, moving to next.
+[waypoint_follower-6] [INFO] [1792207496.087285399] [waypoint_follower]: Completed all 7 waypoints requested.
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[behavior_server-4] [INFO] [1792207504.770731998] [rclcpp]: signal_handler(signum=2)
+[behavior_server-4] [INFO] [1792207504.771065123] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[behavior_server-4] [INFO] [1792207504.771108445] [behavior_server]: Deactivating
+[behavior_server-4] [INFO] [1792207504.771133915] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[behavior_server-4] [INFO] [1792207504.771246324] [rclcpp]: signal_handler(signum=2)
+[velocity_smoother-7] [INFO] [1792207504.770734040] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-8] [INFO] [1792207504.770765887] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-8] [INFO] [1792207504.771218559] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-6] [INFO] [1792207504.770794616] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-6] [INFO] [1792207504.770845776] [waypoint_follower]: Running Nav2 LifecycleNode rcl preshutdown (waypoint_follower)
+[waypoint_follower-6] [INFO] [1792207504.770899727] [waypoint_follower]: Deactivating
+[waypoint_follower-6] [INFO] [1792207504.770911259] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[planner_server-3] [INFO] [1792207504.770820740] [rclcpp]: signal_handler(signum=2)
+[planner_server-3] [INFO] [1792207504.770884029] [global_costmap.global_costmap]: Running Nav2 LifecycleNode rcl preshutdown (global_costmap)
+[planner_server-3] [INFO] [1792207504.770955421] [global_costmap.global_costmap]: Deactivating
+[controller_server-1] [INFO] [1792207504.771008112] [rclcpp]: signal_handler(signum=2)
+[controller_server-1] [INFO] [1792207504.771080627] [local_costmap.local_costmap]: Running Nav2 LifecycleNode rcl preshutdown (local_costmap)
+[controller_server-1] [INFO] [1792207504.771150139] [local_costmap.local_costmap]: Deactivating
+[INFO] [rviz2-9]: sending signal 'SIGINT' to process[rviz2-9]
+[INFO] [lifecycle_manager-8]: sending signal 'SIGINT' to process[lifecycle_manager-8]
+[INFO] [velocity_smoother-7]: sending signal 'SIGINT' to process[velocity_smoother-7]
+[INFO] [waypoint_follower-6]: sending signal 'SIGINT' to process[waypoint_follower-6]
+[INFO] [bt_navigator-5]: sending signal 'SIGINT' to process[bt_navigator-5]
+[INFO] [behavior_server-4]: sending signal 'SIGINT' to process[behavior_server-4]
+[INFO] [planner_server-3]: sending signal 'SIGINT' to process[planner_server-3]
+[INFO] [smoother_server-2]: sending signal 'SIGINT' to process[smoother_server-2]
+[INFO] [controller_server-1]: sending signal 'SIGINT' to process[controller_server-1]
+[velocity_smoother-7] [INFO] [1792207504.772371321] [velocity_smoother]: Running Nav2 LifecycleNode rcl preshutdown (velocity_smoother)
+[velocity_smoother-7] [INFO] [1792207504.772455419] [velocity_smoother]: Deactivating
+[velocity_smoother-7] [INFO] [1792207504.772474735] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[velocity_smoother-7] [INFO] [1792207504.773550119] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-8] [INFO] [1792207504.772020441] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[lifecycle_manager-8] [INFO] [1792207504.772082699] [lifecycle_manager_navigation]: [34m[1mTerminating bond timer...[0m[0m
+[waypoint_follower-6] [INFO] [1792207504.771465047] [rclcpp]: signal_handler(signum=2)
+[planner_server-3] [INFO] [1792207504.771425159] [rclcpp]: signal_handler(signum=2)
+[controller_server-1] [INFO] [1792207504.772611366] [rclcpp]: signal_handler(signum=2)
+[smoother_server-2] [INFO] [1792207504.771263272] [rclcpp]: signal_handler(signum=2)
+[smoother_server-2] [INFO] [1792207504.771361005] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[smoother_server-2] [INFO] [1792207504.771505858] [smoother_server]: Deactivating
+[smoother_server-2] [INFO] [1792207504.771535722] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[smoother_server-2] [INFO] [1792207504.781882472] [smoother_server]: Cleaning up
+[bt_navigator-5] [INFO] [1792207504.771322731] [rclcpp]: signal_handler(signum=2)
+[bt_navigator-5] [INFO] [1792207504.783175488] [bt_navigator]: Cleaning up
+[rviz2-9] [INFO] [1792207504.772139999] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-6] [INFO] [1792207504.781228256] [waypoint_follower]: Cleaning up
+[behavior_server-4] [INFO] [1792207504.781941296] [behavior_server]: Cleaning up
+[velocity_smoother-7] [INFO] [1792207504.785693919] [velocity_smoother]: Cleaning up
+[velocity_smoother-7] [INFO] [1792207504.785726717] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[velocity_smoother-7] [INFO] [1792207504.805795981] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-8] [INFO] [1792207504.805819009] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-6] [INFO] [1792207504.808048210] [rclcpp]: signal_handler(signum=2)
+[bt_navigator-5] [INFO] [1792207504.808407712] [rclcpp]: signal_handler(signum=2)
+[rviz2-9] [INFO] [1792207504.809768694] [rclcpp]: signal_handler(signum=2)
+[behavior_server-4] [INFO] [1792207504.810213768] [rclcpp]: signal_handler(signum=2)
+[velocity_smoother-7] [INFO] [1792207504.811721853] [velocity_smoother]: Destroying
+[smoother_server-2] [INFO] [1792207504.813294097] [rclcpp]: signal_handler(signum=2)
+[planner_server-3] [INFO] [1792207504.814225838] [rclcpp]: signal_handler(signum=2)
+[controller_server-1] [INFO] [1792207504.816936888] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-6] [INFO] [1792207504.818199326] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[waypoint_follower-6] [INFO] [1792207504.829250346] [waypoint_follower]: Destroying
+[behavior_server-4] [INFO] [1792207504.829958105] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[smoother_server-2] [INFO] [1792207504.835608110] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[smoother_server-2] [INFO] [1792207504.842632455] [smoother_server]: Destroying
+[controller_server-1] [INFO] [1792207504.914788704] [local_costmap.local_costmap]: Cleaning up
+[behavior_server-4] [INFO] [1792207504.919510741] [behavior_server]: Destroying
+[controller_server-1] [INFO] [1792207504.927896519] [local_costmap.local_costmap]: Destroying bond (local_costmap) to lifecycle manager.
+[controller_server-1] [INFO] [1792207504.927948027] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[controller_server-1] [INFO] [1792207504.927975051] [controller_server]: Deactivating
+[controller_server-1] [INFO] [1792207504.927984859] [controller_server]: Deactivating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-1] [INFO] [1792207504.928005374] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-1] [INFO] [1792207504.928058060] [controller_server]: Cleaning up
+[controller_server-1] [INFO] [1792207504.928066149] [controller_server]: Cleaning up controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[INFO] [velocity_smoother-7]: process has finished cleanly [pid 9334]
+[planner_server-3] [INFO] [1792207504.948102100] [global_costmap.global_costmap]: Cleaning up
+[controller_server-1] [INFO] [1792207504.956534784] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1792207504.969831173] [lifecycle_manager_navigation]: Destroying lifecycle_manager_navigation
+[controller_server-1] [INFO] [1792207504.972291300] [local_costmap.local_costmap]: Destroying
+[planner_server-3] [INFO] [1792207504.973855922] [global_costmap.global_costmap]: Destroying bond (global_costmap) to lifecycle manager.
+[planner_server-3] [INFO] [1792207504.973885705] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-3] [INFO] [1792207504.973896994] [planner_server]: Deactivating
+[planner_server-3] [INFO] [1792207504.973908414] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1792207504.973912811] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-3] [INFO] [1792207504.973942848] [planner_server]: Cleaning up
+[controller_server-1] [INFO] [1792207505.006871844] [controller_server]: Destroying
+[planner_server-3] [INFO] [1792207505.015417906] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1792207505.015612440] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1792207505.022080610] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [waypoint_follower-6]: process has finished cleanly [pid 9321]
+[planner_server-3] [INFO] [1792207505.030474870] [global_costmap.global_costmap]: Destroying
+[INFO] [smoother_server-2]: process has finished cleanly [pid 9311]
+[planner_server-3] [INFO] [1792207505.053056322] [planner_server]: Destroying
+[INFO] [behavior_server-4]: process has finished cleanly [pid 9315]
+[bt_navigator-5] [INFO] [1792207505.085101252] [bt_navigator]: Completed Cleaning up
+[bt_navigator-5] [INFO] [1792207505.085192990] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[bt_navigator-5] [INFO] [1792207505.096835501] [bt_navigator]: Destroying
+[INFO] [lifecycle_manager-8]: process has finished cleanly [pid 9339]
+[INFO] [controller_server-1]: process has finished cleanly [pid 9309]
+[INFO] [planner_server-3]: process has finished cleanly [pid 9313]
+[INFO] [bt_navigator-5]: process has finished cleanly [pid 9317]
+[ERROR] [rviz2-9]: process has died [pid 9342, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz/nav_nav2.rviz --ros-args -r __node:=rviz2 --params-file /tmp/launch_params_2speg71c'].

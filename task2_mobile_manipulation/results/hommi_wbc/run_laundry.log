@@ -1,0 +1,32 @@
+360 runs on 30 episodes
+[1/360] 2026-01-07T04-22-12.503Z_29514 relative +0.00 direct_lookat: ee=0.1mm gaze=0.2deg
+[21/360] 2026-01-07T04-36-13.290Z_51118 relative +0.00 hold_init: ee=0.1mm gaze=13.4deg
+[41/360] 2026-01-07T04-33-29.084Z_48897 relative +0.00 direct_lookat: ee=0.1mm gaze=0.2deg
+[61/360] 2026-01-07T04-23-51.991Z_94342 relative +0.00 ik: ee=0.2mm gaze=4.4deg
+[81/360] 2026-01-07T04-29-47.603Z_17697 relative +0.00 hold_init: ee=0.1mm gaze=13.3deg
+[101/360] 2026-01-07T04-36-53.082Z_76878 gripper_centric -0.15 ik: ee=0.2mm gaze=8.2deg
+[121/360] 2026-01-07T04-34-29.899Z_19761 gripper_centric +0.00 direct_lookat: ee=0.1mm gaze=1.6deg
+[141/360] 2026-01-07T04-38-19.489Z_31562 gripper_centric +0.15 ik: ee=0.2mm gaze=7.8deg
+[161/360] 2026-01-07T04-26-33.680Z_26718 gripper_centric +0.15 direct_lookat: ee=0.1mm gaze=2.5deg
+[181/360] 2026-01-07T04-23-18.772Z_19352 gripper_centric -0.15 ik: ee=1.4mm gaze=6.5deg
+[201/360] 2026-01-07T04-33-47.305Z_74194 gripper_centric -0.15 hold_init: ee=0.1mm gaze=24.8deg
+[221/360] 2026-01-07T04-37-38.481Z_84933 gripper_centric +0.00 direct_lookat: ee=0.1mm gaze=1.0deg
+[241/360] 2026-01-07T04-26-12.079Z_94667 gripper_centric +0.00 hold_init: ee=0.1mm gaze=19.6deg
+[261/360] 2026-01-07T04-39-29.090Z_31769 gripper_centric -0.15 ik: ee=0.2mm gaze=10.6deg
+[281/360] 2026-01-07T04-30-12.508Z_16178 gripper_centric -0.15 ik: ee=2.0mm gaze=7.2deg
+[301/360] 2026-01-07T04-31-57.895Z_32328 gripper_centric -0.15 hold_init: ee=0.1mm gaze=39.0deg
+[321/360] 2026-01-07T04-25-03.386Z_35964 gripper_centric +0.00 hold_init: ee=0.1mm gaze=23.6deg
+[341/360] 2026-01-07T04-35-20.290Z_67691 gripper_centric +0.15 direct_lookat: ee=0.1mm gaze=1.5deg
+              align  head_offset_m           mode  ee_pos_err_mm  ee_pos_err_p95_mm  ee_rot_err_deg  gaze_err_deg  gaze_in_10deg  head_pos_err_mm  near_limit_frac  qp_fail_frac  trackable_rate   n
+0   gripper_centric          -0.15  direct_lookat          0.067              0.106           0.001         4.510          0.817          220.990            0.573           0.0           0.767  30
+1   gripper_centric          -0.15      hold_init          0.067              0.106           0.001        27.535          0.040          265.083            0.044           0.0           0.000  30
+2   gripper_centric          -0.15             ik          0.927              4.748           0.009         9.573          0.646            5.739            0.268           0.0           0.600  30
+3   gripper_centric           0.00  direct_lookat          0.067              0.106           0.001         4.510          0.817          240.164            0.573           0.0           0.767  30
+4   gripper_centric           0.00      hold_init          0.067              0.106           0.001        27.535          0.040          265.865            0.044           0.0           0.000  30
+5   gripper_centric           0.00             ik          2.930             11.130           0.023         5.936          0.883           39.679            0.246           0.0           0.667  30
+6   gripper_centric           0.15  direct_lookat          0.067              0.106           0.001         4.510          0.817          339.069            0.573           0.0           0.767  30
+7   gripper_centric           0.15      hold_init          0.067              0.106           0.001        27.535          0.040          346.511            0.044           0.0           0.000  30
+8   gripper_centric           0.15             ik          2.978             11.570           0.023         5.904          0.883          181.140            0.254           0.0           0.667  30
+9          relative           0.00  direct_lookat          0.067              0.106           0.001         0.402          0.994          138.929            0.079           0.0           1.000  30
+10         relative           0.00      hold_init          0.067              0.106           0.001        12.845          0.429          144.833            0.044           0.0           0.167  30
+11         relative           0.00             ik          0.173              0.411           0.004         3.113          0.987           12.731            0.019           0.0           1.000  30

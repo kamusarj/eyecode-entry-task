@@ -1,0 +1,22 @@
+{
+ "bilevel_feasible_select vs momanip_bilevel": [
+  8,
+  0,
+  0.0078125
+ ],
+ "momanip_direct vs momanip_bilevel": [
+  8,
+  4,
+  0.3876953125
+ ],
+ "momanip_bilevel vs heuristic_base": [
+  21,
+  4,
+  0.0009105205535888672
+ ],
+ "momanip_bilevel vs bilevel_wo_smooth": [
+  3,
+  4,
+  1.0
+ ]
+}

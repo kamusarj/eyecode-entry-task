@@ -1,0 +1,893 @@
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-10-17-11-05-45-757314-ubuntu-virtual-machine-6982
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [6983]
+[INFO] [amcl-2]: process started with pid [6985]
+[INFO] [lifecycle_manager-3]: process started with pid [6987]
+[INFO] [controller_server-4]: process started with pid [6989]
+[INFO] [smoother_server-5]: process started with pid [6991]
+[INFO] [planner_server-6]: process started with pid [6993]
+[INFO] [behavior_server-7]: process started with pid [6997]
+[INFO] [bt_navigator-8]: process started with pid [7021]
+[INFO] [waypoint_follower-9]: process started with pid [7025]
+[INFO] [velocity_smoother-10]: process started with pid [7031]
+[INFO] [lifecycle_manager-11]: process started with pid [7034]
+[INFO] [rviz2-12]: process started with pid [7039]
+[lifecycle_manager-3] [INFO] [1792206346.037622542] [lifecycle_manager_localization]: Creating
+[lifecycle_manager-3] [INFO] [1792206346.041634366] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[controller_server-4] [INFO] [1792206346.066190233] [controller_server]: 
+[controller_server-4] 	controller_server lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-4] [INFO] [1792206346.106706082] [controller_server]: Creating controller server
+[velocity_smoother-10] [INFO] [1792206346.127562035] [velocity_smoother]: 
+[velocity_smoother-10] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-10] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-5] [INFO] [1792206346.148121247] [smoother_server]: 
+[smoother_server-5] 	smoother_server lifecycle node launched. 
+[smoother_server-5] 	Waiting on external lifecycle transitions to activate
+[smoother_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[behavior_server-7] [INFO] [1792206346.157872708] [behavior_server]: 
+[behavior_server-7] 	behavior_server lifecycle node launched. 
+[behavior_server-7] 	Waiting on external lifecycle transitions to activate
+[behavior_server-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-11] [INFO] [1792206346.168510372] [lifecycle_manager_navigation]: Creating
+[smoother_server-5] [INFO] [1792206346.185124910] [smoother_server]: Creating smoother server
+[amcl-2] [INFO] [1792206346.189923073] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1792206346.190694174] [amcl]: Creating
+[map_server-1] [INFO] [1792206346.198948155] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1792206346.199031391] [map_server]: Creating
+[bt_navigator-8] [INFO] [1792206346.208669071] [bt_navigator]: 
+[bt_navigator-8] 	bt_navigator lifecycle node launched. 
+[bt_navigator-8] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-8] [INFO] [1792206346.208828212] [bt_navigator]: Creating
+[planner_server-6] [INFO] [1792206346.219099767] [planner_server]: 
+[planner_server-6] 	planner_server lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-11] [INFO] [1792206346.225087191] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[planner_server-6] [INFO] [1792206346.225751973] [planner_server]: Creating
+[lifecycle_manager-3] [INFO] [1792206346.226117804] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1792206346.226156402] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1792206346.226587757] [map_server]: Configuring
+[map_server-1] [INFO] [map_io]: Loading yaml file: /media/sf_EyeCodePart1/part1_submission/evidence/full_slam/maps/part1_slam_map.yaml
+[map_server-1] [DEBUG] [map_io]: resolution: 0.05
+[map_server-1] [DEBUG] [map_io]: origin[0]: -5.04
+[map_server-1] [DEBUG] [map_io]: origin[1]: -4.05
+[map_server-1] [DEBUG] [map_io]: origin[2]: 0
+[map_server-1] [DEBUG] [map_io]: free_thresh: 0.25
+[map_server-1] [DEBUG] [map_io]: occupied_thresh: 0.65
+[map_server-1] [DEBUG] [map_io]: mode: trinary
+[map_server-1] [DEBUG] [map_io]: negate: 0
+[map_server-1] [INFO] [map_io]: Loading image_file: /media/sf_EyeCodePart1/part1_submission/evidence/full_slam/maps/part1_slam_map.pgm
+[map_server-1] [DEBUG] [map_io]: Read map /media/sf_EyeCodePart1/part1_submission/evidence/full_slam/maps/part1_slam_map.pgm: 203 X 162 map @ 0.05 m/cell
+[waypoint_follower-9] [INFO] [1792206346.244649892] [waypoint_follower]: 
+[waypoint_follower-9] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-9] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-9] [INFO] [1792206346.246765159] [waypoint_follower]: Creating
+[lifecycle_manager-11] [INFO] [1792206346.260998259] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-11] [INFO] [1792206346.261476279] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[lifecycle_manager-3] [INFO] [1792206346.269166835] [lifecycle_manager_localization]: [34m[1mConfiguring amcl[0m[0m
+[amcl-2] [INFO] [1792206346.270721238] [amcl]: Configuring
+[amcl-2] [INFO] [1792206346.271180736] [amcl]: initTransforms
+[planner_server-6] [INFO] [1792206346.276210473] [global_costmap.global_costmap]: 
+[planner_server-6] 	global_costmap lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1792206346.277908233] [global_costmap.global_costmap]: Creating Costmap
+[controller_server-4] [INFO] [1792206346.289041664] [local_costmap.local_costmap]: 
+[controller_server-4] 	local_costmap lifecycle node launched. 
+[controller_server-4] 	Waiting on external lifecycle transitions to activate
+[controller_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-4] [INFO] [1792206346.292478877] [local_costmap.local_costmap]: Creating Costmap
+[controller_server-4] [INFO] [1792206346.304749647] [controller_server]: Configuring controller interface
+[controller_server-4] [INFO] [1792206346.304918582] [controller_server]: getting goal checker plugins..
+[controller_server-4] [INFO] [1792206346.305012630] [controller_server]: Controller frequency set to 10.0000Hz
+[controller_server-4] [INFO] [1792206346.305048317] [local_costmap.local_costmap]: Configuring
+[amcl-2] [INFO] [1792206346.308799989] [amcl]: initPubSub
+[amcl-2] [INFO] [1792206346.315020980] [amcl]: Subscribed to map topic.
+[controller_server-4] [INFO] [1792206346.320638315] [local_costmap.local_costmap]: Using plugin "static_layer"
+[lifecycle_manager-3] [INFO] [1792206346.322552103] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1792206346.322737303] [map_server]: Activating
+[map_server-1] [INFO] [1792206346.322850784] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1792206346.324085202] [amcl]: Received a 203 X 162 map @ 0.050 m/pix
+[controller_server-4] [INFO] [1792206346.324511005] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[controller_server-4] [INFO] [1792206346.325910107] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[controller_server-4] [INFO] [1792206346.325989026] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-4] [INFO] [1792206346.326588260] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-4] [INFO] [1792206346.335465908] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-4] [INFO] [1792206346.335500835] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-4] [INFO] [1792206346.337267792] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-4] [INFO] [1792206346.347432551] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-4] [INFO] [1792206346.348322927] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-4] [INFO] [1792206346.348748213] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-4] [INFO] [1792206346.349281712] [controller_server]: Created controller : FollowPath of type nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-4] [INFO] [1792206346.352601241] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-11] [INFO] [1792206346.361386082] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-5] [INFO] [1792206346.361621936] [smoother_server]: Configuring smoother server
+[smoother_server-5] [INFO] [1792206346.370353611] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-5] [INFO] [1792206346.370615637] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-11] [INFO] [1792206346.374602086] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-6] [INFO] [1792206346.374843631] [planner_server]: Configuring
+[planner_server-6] [INFO] [1792206346.374867078] [global_costmap.global_costmap]: Configuring
+[planner_server-6] [INFO] [1792206346.381269221] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-6] [INFO] [1792206346.383971604] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-6] [INFO] [1792206346.385516186] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-6] [INFO] [1792206346.385547255] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-6] [INFO] [1792206346.386732351] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-6] [INFO] [1792206346.391398895] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-6] [INFO] [1792206346.391431522] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-6] [INFO] [1792206346.393058432] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-6] [INFO] [1792206346.404275472] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 203 X 162 at 0.050000 m/pix
+[planner_server-6] [INFO] [1792206346.404636222] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-6] [INFO] [1792206346.404660529] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1792206346.405490443] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-3] [INFO] [1792206346.431214074] [lifecycle_manager_localization]: Server map_server connected with bond.
+[lifecycle_manager-3] [INFO] [1792206346.431249336] [lifecycle_manager_localization]: [34m[1mActivating amcl[0m[0m
+[amcl-2] [INFO] [1792206346.432251883] [amcl]: Activating
+[amcl-2] [INFO] [1792206346.432283581] [amcl]: Creating bond (amcl) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1792206346.440712690] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-7] [INFO] [1792206346.441916828] [behavior_server]: Configuring
+[behavior_server-7] [INFO] [1792206346.455945135] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-7] [INFO] [1792206346.457624318] [behavior_server]: Configuring spin
+[amcl-2] [INFO] [1792206346.462980617] [amcl]: createLaserObject
+[behavior_server-7] [INFO] [1792206346.468100042] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-7] [INFO] [1792206346.469043819] [behavior_server]: Configuring backup
+[behavior_server-7] [INFO] [1792206346.482148545] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-7] [INFO] [1792206346.484235790] [behavior_server]: Configuring drive_on_heading
+[behavior_server-7] [INFO] [1792206346.500952384] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[controller_server-4] [INFO] [1792206346.526861321] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 203 X 162 at 0.050000 m/pix
+[behavior_server-7] [INFO] [1792206346.529789307] [behavior_server]: Configuring assisted_teleop
+[behavior_server-7] [INFO] [1792206346.537249254] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-7] [INFO] [1792206346.538104803] [behavior_server]: Configuring wait
+[lifecycle_manager-3] [INFO] [1792206346.542106261] [lifecycle_manager_localization]: Server amcl connected with bond.
+[lifecycle_manager-3] [INFO] [1792206346.542154837] [lifecycle_manager_localization]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-3] [INFO] [1792206346.542162568] [lifecycle_manager_localization]: [34m[1mCreating bond timer...[0m[0m
+[lifecycle_manager-11] [INFO] [1792206346.547712685] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1792206346.547947064] [bt_navigator]: Configuring
+[rviz2-12] [INFO] [1792206346.623137635] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-12] [INFO] [1792206346.623296799] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[lifecycle_manager-11] [INFO] [1792206346.660390141] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1792206346.661420390] [waypoint_follower]: Configuring
+[waypoint_follower-9] [INFO] [1792206346.684577998] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-11] [INFO] [1792206346.686910527] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1792206346.687117835] [velocity_smoother]: Configuring velocity smoother
+[rviz2-12] [INFO] [1792206346.689842851] [rviz2]: Stereo is NOT SUPPORTED
+[lifecycle_manager-11] [INFO] [1792206346.696634071] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-4] [INFO] [1792206346.696797288] [controller_server]: Activating
+[controller_server-4] [INFO] [1792206346.696824477] [local_costmap.local_costmap]: Activating
+[controller_server-4] [INFO] [1792206346.696832151] [local_costmap.local_costmap]: Checking transform
+[controller_server-4] [INFO] [1792206346.696910722] [local_costmap.local_costmap]: start
+[rviz2-12] [WARN] [1792206346.807143568] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[rviz2-12] [WARN] [1792206346.820662277] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[controller_server-4] [ERROR] [1792206347.272111268] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206347.273250954] [rviz2]: Trying to create a map of size 203 x 162 using 1 swatches
+[rviz2-12] [ERROR] [1792206347.280333816] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-12] active samplers with a different type refer to the same texture image unit
+[controller_server-4] [INFO] [1792206347.297667887] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-4] [INFO] [1792206347.297733900] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1792206347.407846858] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-11] [INFO] [1792206347.407910293] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-5] [INFO] [1792206347.408873443] [smoother_server]: Activating
+[smoother_server-5] [INFO] [1792206347.408930654] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1792206347.518801666] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-11] [INFO] [1792206347.518933201] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-6] [INFO] [1792206347.519393543] [planner_server]: Activating
+[planner_server-6] [INFO] [1792206347.519445973] [global_costmap.global_costmap]: Activating
+[planner_server-6] [INFO] [1792206347.519461367] [global_costmap.global_costmap]: Checking transform
+[planner_server-6] [INFO] [1792206347.519488124] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-4] [ERROR] [1792206347.635621875] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-4] [ERROR] [1792206347.968326043] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-6] [INFO] [1792206348.019610133] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206348.186587879] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 379.800 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206348.250681319] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 379.920 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206348.368956205] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206348.378891344] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 380.010 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206348.506411915] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 380.100 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206348.519734805] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206348.571145719] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 380.220 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206348.678635617] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206348.698337501] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 380.310 for reason 'discarding message because the queue is full'
+[amcl-2] [WARN] [1792206348.816909507] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-12] [INFO] [1792206348.826506799] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 380.400 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206348.954176867] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 380.520 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206349.019913406] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 380.610 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206349.020147128] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-4] [ERROR] [1792206349.021394010] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206349.210316421] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 380.700 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206349.273918594] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 380.820 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206349.372613252] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206349.402310133] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 380.910 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206349.519595381] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206349.530541691] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 381.000 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206349.594549307] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 381.120 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206349.703982014] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206349.723552084] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 381.210 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206349.850319558] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 381.300 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206349.979539725] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 381.420 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206350.020390049] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206350.044564647] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 381.510 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206350.055156469] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206350.169815481] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 381.600 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206350.297829149] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 381.720 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206350.426045674] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 381.810 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206350.440373261] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-6] [INFO] [1792206350.520409316] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206350.555423024] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 381.900 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206350.617774352] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 382.020 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206350.746523706] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 382.110 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206350.772874514] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206350.874065234] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 382.200 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206350.938298590] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 382.320 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206351.019641743] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206351.066209043] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 382.410 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206351.109877184] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[amcl-2] [WARN] [1792206351.165497265] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-12] [INFO] [1792206351.194685325] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 382.500 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206351.322450526] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 382.620 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206351.386413244] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 382.710 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206351.514450125] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 382.800 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206351.518313672] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-6] [INFO] [1792206351.520385735] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206351.642510384] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 382.920 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206351.770256216] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 383.010 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206351.874486702] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206351.898688617] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 383.100 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206351.962689710] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 383.220 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206352.019589882] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206352.090602454] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 383.310 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206352.200500222] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206352.218487563] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 383.400 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206352.346674716] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 383.520 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206352.409770722] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 383.610 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206352.519580020] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206352.601811586] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 383.700 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206352.610091958] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206352.666550970] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 383.820 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206352.794577454] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 383.910 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206352.921704456] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 384.000 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206352.951179598] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-6] [INFO] [1792206353.019845269] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206353.053739323] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 384.120 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206353.114601313] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 384.210 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206353.242143455] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 384.300 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206353.280120475] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206353.370570184] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 384.420 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206353.436341576] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 384.510 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206353.520105596] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[amcl-2] [WARN] [1792206353.539892755] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-12] [INFO] [1792206353.562783380] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 384.600 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206353.687135566] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206353.690311176] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 384.720 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206353.754002369] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 384.810 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206353.881980713] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 384.900 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206354.010724968] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 385.020 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206354.020316022] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-4] [ERROR] [1792206354.032459488] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206354.143443943] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 385.110 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206354.267835909] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 385.200 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206354.330492086] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 385.320 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206354.363449684] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206354.394596910] [rviz2]: Message Filter dropping message: frame 'odom' at time 380.130 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206354.458762011] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 385.410 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206354.520531266] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206354.587786120] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 385.500 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206354.714497124] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 385.620 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206354.774760755] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206354.778205336] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 385.710 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206354.906868160] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 385.800 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206355.019960477] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206355.033867757] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 385.920 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206355.098325047] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 386.010 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206355.098916271] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206355.162693692] [rviz2]: Message Filter dropping message: frame 'odom' at time 380.730 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206355.226231080] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 386.100 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206355.355633157] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 386.220 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206355.447666078] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206355.481863725] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 386.310 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206355.519552052] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206355.609929858] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 386.400 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206355.673759430] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 386.520 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206355.801756523] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 386.610 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206355.810840044] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206355.866016071] [rviz2]: Message Filter dropping message: frame 'odom' at time 381.360 for reason 'discarding message because the queue is full'
+[amcl-2] [WARN] [1792206355.915796925] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-12] [INFO] [1792206355.930080580] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 386.700 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206356.020979023] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206356.058059561] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 386.820 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206356.122671756] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 386.910 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206356.139176522] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206356.249582681] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 387.000 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206356.379262092] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 387.120 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206356.442702622] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 387.210 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206356.479096388] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206356.506143065] [rviz2]: Message Filter dropping message: frame 'odom' at time 381.990 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206356.519525358] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206356.635335255] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 387.300 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206356.697919393] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 387.420 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206356.762541929] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 387.510 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206356.859466847] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206356.953708888] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 387.600 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206357.018462723] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 387.720 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206357.019536228] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206357.146979195] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 387.810 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206357.193463630] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206357.212488969] [rviz2]: Message Filter dropping message: frame 'odom' at time 382.590 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206357.274128657] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 387.900 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206357.406892385] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 388.020 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206357.466819783] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 388.110 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206357.519886265] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-4] [ERROR] [1792206357.531478568] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206357.594252714] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 388.200 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206357.722502388] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 388.320 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206357.850261905] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 388.410 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206357.911125842] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206357.914300896] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 388.500 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206357.914443411] [rviz2]: Message Filter dropping message: frame 'odom' at time 383.220 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206358.019533689] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206358.042986968] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 388.620 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206358.170626166] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 388.710 for reason 'discarding message because the queue is full'
+[amcl-2] [WARN] [1792206358.235660883] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[controller_server-4] [ERROR] [1792206358.240017953] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206358.298632545] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 388.800 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206358.361568146] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 388.920 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206358.489778616] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 389.010 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206358.519563289] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-4] [ERROR] [1792206358.577692778] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206358.618185523] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 389.100 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206358.618284048] [rviz2]: Message Filter dropping message: frame 'odom' at time 383.880 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206358.682629619] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 389.220 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206358.810762813] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 389.310 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206358.938617253] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 389.400 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206358.979534318] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-6] [INFO] [1792206359.019674353] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206359.066139421] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 389.520 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206359.129969560] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 389.610 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206359.320130002] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206359.321560453] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 389.700 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206359.321634192] [rviz2]: Message Filter dropping message: frame 'odom' at time 384.480 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206359.386818261] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 389.820 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206359.450460874] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 389.910 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206359.520670148] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206359.641994411] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 390.000 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206359.648373753] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206359.706675803] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 390.120 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206359.834816216] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 390.210 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206359.962695964] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 390.300 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206360.019566585] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206360.026576342] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 390.420 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206360.054244347] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206360.090721231] [rviz2]: Message Filter dropping message: frame 'odom' at time 385.140 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206360.154143384] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 390.510 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206360.282039561] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 390.600 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206360.371427361] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206360.410111689] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 390.720 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206360.474606342] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 390.810 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206360.519671443] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[amcl-2] [WARN] [1792206360.578411771] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-12] [INFO] [1792206360.602781543] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 390.900 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206360.715841002] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206360.730250194] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 391.020 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206360.730342855] [rviz2]: Message Filter dropping message: frame 'odom' at time 385.800 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206360.794761418] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 391.110 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206360.922068379] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 391.200 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206361.019511374] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206361.050134037] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 391.320 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206361.111251480] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206361.113998937] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 391.410 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206361.241736013] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 391.500 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206361.369786030] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 391.620 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206361.474125529] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206361.497893992] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 391.710 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206361.498010610] [rviz2]: Message Filter dropping message: frame 'odom' at time 386.400 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206361.519549418] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206361.626533833] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 391.800 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206361.754751591] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 391.920 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206361.795507769] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206361.817946148] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 392.010 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206361.945763319] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 392.100 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206362.019626967] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206362.074660344] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 392.220 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206362.202843102] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 392.310 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206362.222495658] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206362.265878030] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 392.400 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206362.265946275] [rviz2]: Message Filter dropping message: frame 'odom' at time 387.060 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206362.394591973] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 392.520 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206362.519494425] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206362.522534326] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 392.610 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206362.552685283] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206362.598820952] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 392.700 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206362.714751194] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 392.820 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206362.842227961] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 392.910 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206362.900878175] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206362.906622001] [rviz2]: Message Filter dropping message: frame 'odom' at time 387.690 for reason 'discarding message because the queue is full'
+[amcl-2] [WARN] [1792206362.975117796] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[planner_server-6] [INFO] [1792206363.019566279] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206363.034053070] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 393.000 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206363.098455531] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 393.120 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206363.162552871] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 393.210 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206363.264446020] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206363.354332050] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 393.300 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206363.421716147] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 393.420 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206363.519529693] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206363.546069967] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 393.510 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206363.608102301] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206363.609984283] [rviz2]: Message Filter dropping message: frame 'odom' at time 388.290 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206363.674145790] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 393.600 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206363.738332168] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 393.720 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206363.866452878] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 393.810 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206363.946481760] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206363.994823127] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 393.900 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206364.019828652] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206364.121965732] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 394.020 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206364.186422001] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 394.110 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206364.344331295] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206364.378166527] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 394.200 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206364.378321695] [rviz2]: Message Filter dropping message: frame 'odom' at time 388.950 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206364.506820914] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 394.320 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206364.519554287] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206364.570796726] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 394.410 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206364.662992634] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206364.698025602] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 394.500 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206364.762680653] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 394.620 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206364.890179559] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 394.710 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206365.003401580] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206365.017961878] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 394.800 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206365.018064618] [rviz2]: Message Filter dropping message: frame 'odom' at time 389.580 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206365.019552947] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206365.146015552] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 394.920 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206365.210917712] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 395.010 for reason 'discarding message because the queue is full'
+[amcl-2] [WARN] [1792206365.325211301] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[rviz2-12] [INFO] [1792206365.338174142] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 395.100 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206365.399686384] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206365.465991917] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 395.220 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206365.519527716] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206365.593853957] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 395.310 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206365.722981802] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 395.400 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206365.754588680] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-12] [INFO] [1792206365.786340610] [rviz2]: Message Filter dropping message: frame 'odom' at time 390.180 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206365.850298007] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 395.520 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206365.994811420] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 395.610 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206366.020254660] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-12] [INFO] [1792206366.106841734] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 395.700 for reason 'discarding message because the queue is full'
+[controller_server-4] [ERROR] [1792206366.149860956] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[amcl-2] [INFO] [1792206366.189971901] [amcl]: initialPoseReceived
+[amcl-2] [INFO] [1792206366.190022723] [amcl]: Setting pose (396.840000): -0.096 0.106 -0.109
+[rviz2-12] [INFO] [1792206366.234345298] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 395.820 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206366.362014421] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 395.910 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206366.496271883] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 396.000 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206366.520429366] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 397.140000 but the earliest data is at time 397.810000, when looking up transform from frame [base_footprint] to frame [map]
+[rviz2-12] [INFO] [1792206366.553798461] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 396.120 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206366.618652494] [rviz2]: Message Filter dropping message: frame 'odom' at time 390.840 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206366.681687455] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 396.210 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206366.813508708] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 396.300 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206366.937918570] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 396.420 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206367.002165658] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 396.510 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206367.019530017] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 397.560000 but the earliest data is at time 397.810000, when looking up transform from frame [base_footprint] to frame [map]
+[rviz2-12] [INFO] [1792206367.194038010] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 396.600 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206367.194178186] [rviz2]: Message Filter dropping message: frame 'odom' at time 391.500 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206367.260446760] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 396.720 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206367.386549020] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 396.810 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206367.514096540] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 396.900 for reason 'discarding message because the queue is full'
+[planner_server-6] [INFO] [1792206367.519721317] [global_costmap.global_costmap]: start
+[rviz2-12] [INFO] [1792206367.770511126] [rviz2]: Message Filter dropping message: frame 'odom' at time 392.100 for reason 'discarding message because the queue is full'
+[rviz2-12] [INFO] [1792206367.809046946] [rviz2]: Trying to create a map of size 80 x 80 using 1 swatches
+[planner_server-6] [INFO] [1792206368.570849710] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1792206368.571893943] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[rviz2-12] [INFO] [1792206368.580824380] [rviz2]: Trying to create a map of size 203 x 162 using 1 swatches
+[lifecycle_manager-11] [INFO] [1792206368.680499850] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-11] [INFO] [1792206368.680565762] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-7] [INFO] [1792206368.681442004] [behavior_server]: Activating
+[behavior_server-7] [INFO] [1792206368.681473176] [behavior_server]: Activating spin
+[behavior_server-7] [INFO] [1792206368.681482698] [behavior_server]: Activating backup
+[behavior_server-7] [INFO] [1792206368.681488420] [behavior_server]: Activating drive_on_heading
+[behavior_server-7] [INFO] [1792206368.681493729] [behavior_server]: Activating assisted_teleop
+[behavior_server-7] [INFO] [1792206368.681499000] [behavior_server]: Activating wait
+[behavior_server-7] [INFO] [1792206368.681506852] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1792206368.786353268] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-11] [INFO] [1792206368.786390430] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-8] [INFO] [1792206368.786723539] [bt_navigator]: Activating
+[bt_navigator-8] [INFO] [1792206368.874751575] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1792206368.987390954] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-11] [INFO] [1792206368.987435322] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-9] [INFO] [1792206368.987765181] [waypoint_follower]: Activating
+[waypoint_follower-9] [INFO] [1792206368.987800481] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1792206369.094464629] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-11] [INFO] [1792206369.094498389] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-10] [INFO] [1792206369.094739306] [velocity_smoother]: Activating
+[velocity_smoother-10] [INFO] [1792206369.094807464] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1792206369.201902797] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-11] [INFO] [1792206369.201982382] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-11] [INFO] [1792206369.201989151] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[bt_navigator-8] [INFO] [1792206369.312805526] [bt_navigator]: Begin navigating from current location (-0.06, 0.09) to (-2.20, 2.00)
+[controller_server-4] [INFO] [1792206369.336308091] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1792206369.336373494] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[controller_server-4] [INFO] [1792206370.436596363] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206371.436677659] [controller_server]: Passing new path to controller.
+[rviz2-12] [INFO] [1792206372.291556333] [rviz2]: Message Filter dropping message: frame 'odom' at time 392.760 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1792206372.438462883] [controller_server]: Passing new path to controller.
+[rviz2-12] [INFO] [1792206373.260054378] [rviz2]: Message Filter dropping message: frame 'odom' at time 393.420 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1792206373.436444124] [controller_server]: Passing new path to controller.
+[rviz2-12] [INFO] [1792206374.007971506] [rviz2]: Message Filter dropping message: frame 'odom' at time 394.020 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1792206374.536715880] [controller_server]: Passing new path to controller.
+[rviz2-12] [INFO] [1792206374.703413403] [rviz2]: Message Filter dropping message: frame 'odom' at time 394.650 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1792206375.416422056] [rviz2]: Message Filter dropping message: frame 'odom' at time 395.280 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[bt_navigator-8] [WARN] [1792206375.513213975] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-4] [INFO] [1792206375.537088478] [controller_server]: Passing new path to controller.
+[rviz2-12] [INFO] [1792206376.216093328] [rviz2]: Message Filter dropping message: frame 'odom' at time 395.880 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1792206376.536498381] [controller_server]: Passing new path to controller.
+[rviz2-12] [INFO] [1792206377.057536167] [rviz2]: Message Filter dropping message: frame 'odom' at time 396.540 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1792206377.536498438] [controller_server]: Passing new path to controller.
+[rviz2-12] [INFO] [1792206377.787224941] [rviz2]: Message Filter dropping message: frame 'odom' at time 397.170 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1792206378.505621577] [rviz2]: Message Filter dropping message: frame 'odom' at time 397.710 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1792206378.637556454] [controller_server]: Passing new path to controller.
+[rviz2-12] [INFO] [1792206378.693483814] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 397.020 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1792206378.810338101] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 397.110 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1792206378.935769657] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 397.200 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1792206379.063698412] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 397.320 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1792206379.181440437] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 397.410 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1792206379.297788245] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 397.500 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1792206379.426948585] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 397.620 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-12] [INFO] [1792206379.539238825] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 397.710 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1792206379.636440801] [controller_server]: Passing new path to controller.
+[rviz2-12] [INFO] [1792206379.670604540] [rviz2]: Message Filter dropping message: frame 'lidar_frame' at time 397.800 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-4] [INFO] [1792206380.636487622] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206381.636573694] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206382.636583196] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206383.737764552] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206384.736443937] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206385.736486962] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [WARN] [1792206385.773437693] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-4] [INFO] [1792206386.736491035] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206387.836494766] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206388.836554157] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206389.836826070] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206390.536942038] [controller_server]: Reached the goal!
+[bt_navigator-8] [INFO] [1792206390.572994695] [bt_navigator]: Goal succeeded
+[waypoint_follower-9] [INFO] [1792206396.997244655] [waypoint_follower]: Received follow waypoint request with 4 waypoints.
+[bt_navigator-8] [INFO] [1792206396.997682909] [bt_navigator]: Begin navigating from current location (-2.06, 1.96) to (2.10, 3.20)
+[controller_server-4] [INFO] [1792206397.019598983] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [INFO] [1792206398.119745994] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206399.120393368] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206400.121486434] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206401.219774783] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [WARN] [1792206401.789235516] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-4] [INFO] [1792206402.220417265] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206403.222231637] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206404.319828054] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206405.319772098] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206406.319733736] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206407.320229088] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206408.419745976] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206409.419806858] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206410.420552836] [controller_server]: Passing new path to controller.
+[bt_navigator-8] [WARN] [1792206411.053483164] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-4] [INFO] [1792206411.421950407] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206412.519813453] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206413.519819513] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206414.519860219] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206415.519912000] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206416.519985167] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206417.619800645] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206418.620497660] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1792206419.619794298] [controller_server]: Passing new path to controller.
+[controller_server-4] [WARN] [1792206420.220436495] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206420.319942509] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206420.420062182] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206420.520647555] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206420.520692111] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206420.520722282] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1792206420.538279237] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1792206420.539419514] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1792206420.559970924] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [INFO] [1792206420.639727900] [controller_server]: Passing new path to controller.
+[controller_server-4] [WARN] [1792206420.640179777] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206420.740056019] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206420.839688537] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206420.939702925] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206420.939746897] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206420.940409142] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1792206420.958033104] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-6] [INFO] [1792206420.958650073] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-6] [WARN] [1792206421.529624357] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.7544 Hz
+[controller_server-4] [INFO] [1792206421.549550661] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1792206421.549811333] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206421.650049904] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206421.750201208] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206421.850608163] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206421.949925757] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206421.949978071] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206421.950032019] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1792206421.967996191] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1792206421.968515617] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1792206422.158725876] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206422.158825870] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-4] [WARN] [1792206422.158911359] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206422.168829223] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206422.269181314] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206422.369131923] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206422.369167393] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206422.369200047] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1792206422.389700788] [behavior_server]: Running spin
+[behavior_server-7] [INFO] [1792206422.389819189] [behavior_server]: Turning 1.57 for spin behavior.
+[behavior_server-7] [WARN] [1792206422.490535420] [behavior_server]: Collision Ahead - Exiting Spin
+[behavior_server-7] [WARN] [1792206422.490579364] [behavior_server]: spin failed
+[behavior_server-7] [WARN] [1792206422.490590014] [behavior_server]: [spin] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1792206422.518694680] [behavior_server]: Running wait
+[bt_navigator-8] [WARN] [1792206426.297925803] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[behavior_server-7] [INFO] [1792206428.018908580] [behavior_server]: wait completed successfully
+[controller_server-4] [INFO] [1792206428.068573206] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1792206428.068776408] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206428.169676477] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206428.273313643] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206428.368850803] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206428.469166884] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206428.469228622] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206428.469313323] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1792206428.488052385] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1792206428.488858434] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1792206428.559437605] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206428.589240073] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206428.689132184] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206428.789152072] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206428.889231989] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206428.889270075] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206428.889307638] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1792206428.908723802] [behavior_server]: Running backup
+[behavior_server-7] [WARN] [1792206428.908859554] [behavior_server]: Collision Ahead - Exiting DriveOnHeading
+[behavior_server-7] [WARN] [1792206428.908869286] [behavior_server]: backup failed
+[behavior_server-7] [WARN] [1792206428.908874362] [behavior_server]: [backup] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1792206428.918562875] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-6] [INFO] [1792206428.918905847] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[waypoint_follower-9] [INFO] [1792206429.148395103] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206429.197673517] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206429.247982265] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206429.298847889] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206429.347490729] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206429.398073423] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206429.447514840] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206429.497616903] [waypoint_follower]: Processing waypoint 0...
+[planner_server-6] [WARN] [1792206429.530060761] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.6382 Hz
+[waypoint_follower-9] [INFO] [1792206429.547518099] [waypoint_follower]: Processing waypoint 0...
+[controller_server-4] [INFO] [1792206429.548784368] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1792206429.548996482] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[waypoint_follower-9] [INFO] [1792206429.597544973] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206429.647766533] [waypoint_follower]: Processing waypoint 0...
+[controller_server-4] [WARN] [1792206429.649227766] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[waypoint_follower-9] [INFO] [1792206429.697488891] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206429.747488244] [waypoint_follower]: Processing waypoint 0...
+[controller_server-4] [WARN] [1792206429.749214326] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[waypoint_follower-9] [INFO] [1792206429.797485637] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206429.847590223] [waypoint_follower]: Processing waypoint 0...
+[controller_server-4] [WARN] [1792206429.849152165] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[waypoint_follower-9] [INFO] [1792206429.897537159] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206429.947462862] [waypoint_follower]: Processing waypoint 0...
+[controller_server-4] [WARN] [1792206429.949174784] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206429.949232468] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206429.949286981] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1792206429.967938485] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1792206429.968440235] [controller_server]: Received a goal, begin computing control effort.
+[waypoint_follower-9] [INFO] [1792206429.997550603] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206430.047588010] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206430.098058803] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206430.147545243] [waypoint_follower]: Processing waypoint 0...
+[controller_server-4] [WARN] [1792206430.158736171] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206430.158850838] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-4] [WARN] [1792206430.158930649] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206430.169470898] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[waypoint_follower-9] [INFO] [1792206430.197616943] [waypoint_follower]: Processing waypoint 0...
+[waypoint_follower-9] [INFO] [1792206430.247481514] [waypoint_follower]: Processing waypoint 0...
+[controller_server-4] [WARN] [1792206430.268869042] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206430.372019461] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206430.372080097] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206430.372132395] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1792206430.388755516] [behavior_server]: Running spin
+[behavior_server-7] [INFO] [1792206430.388853581] [behavior_server]: Turning 1.57 for spin behavior.
+[behavior_server-7] [WARN] [1792206430.489158647] [behavior_server]: Collision Ahead - Exiting Spin
+[behavior_server-7] [WARN] [1792206430.489193047] [behavior_server]: spin failed
+[behavior_server-7] [WARN] [1792206430.489198760] [behavior_server]: [spin] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1792206430.518607169] [behavior_server]: Running wait
+[behavior_server-7] [INFO] [1792206436.118789289] [behavior_server]: wait completed successfully
+[controller_server-4] [INFO] [1792206436.170098920] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1792206436.170277619] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206436.271552549] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206436.371405267] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206436.470430803] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206436.570716018] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206436.570754955] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206436.570787635] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1792206436.588105734] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1792206436.589021134] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1792206436.759498899] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206436.759615529] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-4] [WARN] [1792206436.759763118] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206436.789485905] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206436.889497987] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206436.989387981] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206436.989431279] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206436.989495041] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1792206437.010378786] [behavior_server]: Running backup
+[behavior_server-7] [WARN] [1792206437.010593568] [behavior_server]: Collision Ahead - Exiting DriveOnHeading
+[behavior_server-7] [WARN] [1792206437.010607570] [behavior_server]: backup failed
+[behavior_server-7] [WARN] [1792206437.010612140] [behavior_server]: [backup] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1792206437.039043769] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-6] [INFO] [1792206437.040614201] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-6] [WARN] [1792206437.523770391] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 2.0818 Hz
+[controller_server-4] [INFO] [1792206437.538435462] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1792206437.538689874] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206437.639090820] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206437.738822911] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206437.839059218] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206437.939665666] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206437.939712561] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206437.939777468] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1792206437.958421837] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1792206437.959588652] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1792206438.160327077] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206438.160941857] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-4] [WARN] [1792206438.161051803] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206438.262158476] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206438.362579191] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206438.362620956] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206438.362666020] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1792206438.378551180] [behavior_server]: Running spin
+[behavior_server-7] [INFO] [1792206438.378640776] [behavior_server]: Turning 1.57 for spin behavior.
+[bt_navigator-8] [WARN] [1792206438.642475722] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[behavior_server-7] [WARN] [1792206439.178806331] [behavior_server]: Collision Ahead - Exiting Spin
+[behavior_server-7] [WARN] [1792206439.178839571] [behavior_server]: spin failed
+[behavior_server-7] [WARN] [1792206439.178845215] [behavior_server]: [spin] [ActionServer] Aborting handle.
+[behavior_server-7] [INFO] [1792206439.209025939] [behavior_server]: Running wait
+[bt_navigator-8] [WARN] [1792206441.178788282] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[behavior_server-7] [INFO] [1792206444.709631419] [behavior_server]: wait completed successfully
+[controller_server-4] [INFO] [1792206444.758178388] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1792206444.758359514] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206444.858580780] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206444.958719242] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206445.058582579] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206445.158878950] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206445.158919672] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206445.158949231] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1792206445.179512010] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-4] [INFO] [1792206445.180583893] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1792206445.362768047] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206445.362892555] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-4] [WARN] [1792206445.363220642] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206445.381552176] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206445.481118092] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [WARN] [1792206445.581151489] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-4] [ERROR] [1792206445.581208909] [controller_server]: Controller patience exceeded
+[controller_server-4] [WARN] [1792206445.581267762] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[bt_navigator-8] [ERROR] [1792206445.608127669] [bt_navigator]: Goal failed
+[bt_navigator-8] [WARN] [1792206445.608205403] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[waypoint_follower-9] [WARN] [1792206446.397540579] [waypoint_follower]: Failed to process waypoint 0 in waypoint list and stop on failure is enabled. Terminating action.
+[waypoint_follower-9] [WARN] [1792206446.397603892] [waypoint_follower]: [follow_waypoints] [ActionServer] Aborting handle.
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[lifecycle_manager-11] [INFO] [1792206488.057619604] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-11] [INFO] [1792206488.057659010] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-11] [INFO] [1792206488.057701378] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[lifecycle_manager-11] [INFO] [1792206488.057737635] [lifecycle_manager_navigation]: [34m[1mTerminating bond timer...[0m[0m
+[waypoint_follower-9] [INFO] [1792206488.057637658] [rclcpp]: signal_handler(signum=2)
+[velocity_smoother-10] [INFO] [1792206488.057637464] [rclcpp]: signal_handler(signum=2)
+[velocity_smoother-10] [INFO] [1792206488.057672588] [rclcpp]: signal_handler(signum=2)
+[velocity_smoother-10] [INFO] [1792206488.057716301] [velocity_smoother]: Running Nav2 LifecycleNode rcl preshutdown (velocity_smoother)
+[velocity_smoother-10] [INFO] [1792206488.057762276] [velocity_smoother]: Deactivating
+[velocity_smoother-10] [INFO] [1792206488.057776442] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[bt_navigator-8] [INFO] [1792206488.057641393] [rclcpp]: signal_handler(signum=2)
+[bt_navigator-8] [INFO] [1792206488.057674408] [rclcpp]: signal_handler(signum=2)
+[bt_navigator-8] [INFO] [1792206488.057889300] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[bt_navigator-8] [INFO] [1792206488.057927786] [bt_navigator]: Deactivating
+[bt_navigator-8] [INFO] [1792206488.057939794] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[smoother_server-5] [INFO] [1792206488.057671156] [rclcpp]: signal_handler(signum=2)
+[smoother_server-5] [INFO] [1792206488.057759080] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[smoother_server-5] [INFO] [1792206488.057843352] [smoother_server]: Deactivating
+[smoother_server-5] [INFO] [1792206488.057891861] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[controller_server-4] [INFO] [1792206488.057684035] [rclcpp]: signal_handler(signum=2)
+[controller_server-4] [INFO] [1792206488.057731545] [local_costmap.local_costmap]: Running Nav2 LifecycleNode rcl preshutdown (local_costmap)
+[controller_server-4] [INFO] [1792206488.057776421] [local_costmap.local_costmap]: Deactivating
+[rviz2-12] [INFO] [1792206488.057698610] [rclcpp]: signal_handler(signum=2)
+[behavior_server-7] [INFO] [1792206488.057727541] [rclcpp]: signal_handler(signum=2)
+[behavior_server-7] [INFO] [1792206488.058016168] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[behavior_server-7] [INFO] [1792206488.058091160] [behavior_server]: Deactivating
+[behavior_server-7] [INFO] [1792206488.058137242] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[planner_server-6] [INFO] [1792206488.057761808] [rclcpp]: signal_handler(signum=2)
+[planner_server-6] [INFO] [1792206488.057808877] [global_costmap.global_costmap]: Running Nav2 LifecycleNode rcl preshutdown (global_costmap)
+[planner_server-6] [INFO] [1792206488.057855628] [global_costmap.global_costmap]: Deactivating
+[lifecycle_manager-3] [INFO] [1792206488.057796221] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-3] [INFO] [1792206488.057877756] [lifecycle_manager_localization]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_localization)
+[lifecycle_manager-3] [INFO] [1792206488.057918205] [lifecycle_manager_localization]: [34m[1mTerminating bond timer...[0m[0m
+[INFO] [rviz2-12]: sending signal 'SIGINT' to process[rviz2-12]
+[INFO] [lifecycle_manager-11]: sending signal 'SIGINT' to process[lifecycle_manager-11]
+[INFO] [velocity_smoother-10]: sending signal 'SIGINT' to process[velocity_smoother-10]
+[INFO] [waypoint_follower-9]: sending signal 'SIGINT' to process[waypoint_follower-9]
+[INFO] [bt_navigator-8]: sending signal 'SIGINT' to process[bt_navigator-8]
+[ERROR] [velocity_smoother-10]: process has died [pid 7031, exit code -2, cmd '/opt/ros/humble/lib/nav2_velocity_smoother/velocity_smoother --ros-args --log-level info --ros-args -r __node:=velocity_smoother --params-file /tmp/launch_params_05im3i0f -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav -r cmd_vel_smoothed:=cmd_vel'].
+[INFO] [behavior_server-7]: sending signal 'SIGINT' to process[behavior_server-7]
+[INFO] [planner_server-6]: sending signal 'SIGINT' to process[planner_server-6]
+[INFO] [smoother_server-5]: sending signal 'SIGINT' to process[smoother_server-5]
+[INFO] [controller_server-4]: sending signal 'SIGINT' to process[controller_server-4]
+[INFO] [lifecycle_manager-3]: sending signal 'SIGINT' to process[lifecycle_manager-3]
+[INFO] [amcl-2]: sending signal 'SIGINT' to process[amcl-2]
+[INFO] [map_server-1]: sending signal 'SIGINT' to process[map_server-1]
+[waypoint_follower-9] [INFO] [1792206488.057674191] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-9] [INFO] [1792206488.059807292] [waypoint_follower]: Running Nav2 LifecycleNode rcl preshutdown (waypoint_follower)
+[waypoint_follower-9] [INFO] [1792206488.059841613] [waypoint_follower]: Deactivating
+[waypoint_follower-9] [INFO] [1792206488.059855320] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[map_server-1] [INFO] [1792206488.058519379] [rclcpp]: signal_handler(signum=2)
+[map_server-1] [INFO] [1792206488.058593971] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[map_server-1] [INFO] [1792206488.058639033] [map_server]: Deactivating
+[map_server-1] [INFO] [1792206488.058647923] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1792206488.059611483] [rclcpp]: signal_handler(signum=2)
+[amcl-2] [INFO] [1792206488.059667679] [amcl]: Running Nav2 LifecycleNode rcl preshutdown (amcl)
+[amcl-2] [INFO] [1792206488.059714321] [amcl]: Deactivating
+[amcl-2] [INFO] [1792206488.059724142] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[velocity_smoother-10] [INFO] [1792206488.068345517] [velocity_smoother]: Cleaning up
+[velocity_smoother-10] [INFO] [1792206488.068397792] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[ERROR] [lifecycle_manager-3]: process has died [pid 6987, exit code -2, cmd '/opt/ros/humble/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_localization -r __ns:=/ --params-file /tmp/launch_params_0w3xvyj6 --params-file /tmp/launch_params_vtw87x09 --params-file /tmp/launch_params_m7gj60zd'].
+[ERROR] [amcl-2]: process has died [pid 6985, exit code -2, cmd '/opt/ros/humble/lib/nav2_amcl/amcl --ros-args --log-level info --ros-args -r __node:=amcl -r __ns:=/ --params-file /tmp/launch_params_rwyc9xmz -r /tf:=tf -r /tf_static:=tf_static'].
+[bt_navigator-8] [INFO] [1792206488.068553029] [bt_navigator]: Cleaning up
+[ERROR] [map_server-1]: process has died [pid 6983, exit code -2, cmd '/opt/ros/humble/lib/nav2_map_server/map_server --ros-args --log-level info --ros-args -r __node:=map_server -r __ns:=/ --params-file /tmp/launch_params_rwyc9xmz -r /tf:=tf -r /tf_static:=tf_static'].
+[behavior_server-7] [INFO] [1792206488.070296610] [behavior_server]: Cleaning up
+[map_server-1] [INFO] [1792206488.070721574] [map_server]: Cleaning up
+[map_server-1] [INFO] [1792206488.070748761] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[waypoint_follower-9] [INFO] [1792206488.070734928] [waypoint_follower]: Cleaning up
+[amcl-2] [INFO] [1792206488.071049101] [amcl]: Cleaning up
+[smoother_server-5] [INFO] [1792206488.074594783] [smoother_server]: Cleaning up
+[amcl-2] [INFO] [1792206488.079685851] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[waypoint_follower-9] [INFO] [1792206488.081645728] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[velocity_smoother-10] [INFO] [1792206488.081826976] [velocity_smoother]: Destroying
+[lifecycle_manager-3] [INFO] [1792206488.084035887] [lifecycle_manager_localization]: Destroying lifecycle_manager_localization
+[lifecycle_manager-11] [INFO] [1792206488.084443928] [rclcpp]: signal_handler(signum=2)
+[amcl-2] [INFO] [1792206488.090745368] [amcl]: Destroying
+[waypoint_follower-9] [INFO] [1792206488.095572035] [rclcpp]: signal_handler(signum=2)
+[map_server-1] [INFO] [1792206488.097695949] [map_server]: Destroying
+[bt_navigator-8] [INFO] [1792206488.102206001] [rclcpp]: signal_handler(signum=2)
+[planner_server-6] [INFO] [1792206488.107898898] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-9] [INFO] [1792206488.109882244] [waypoint_follower]: Destroying
+[smoother_server-5] [INFO] [1792206488.110107228] [rclcpp]: signal_handler(signum=2)
+[controller_server-4] [INFO] [1792206488.113338979] [rclcpp]: signal_handler(signum=2)
+[smoother_server-5] [INFO] [1792206488.117085504] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[smoother_server-5] [INFO] [1792206488.128941529] [smoother_server]: Destroying
+[lifecycle_manager-11] [INFO] [1792206488.142113206] [lifecycle_manager_navigation]: Destroying lifecycle_manager_navigation
+[controller_server-4] [INFO] [1792206488.154989405] [local_costmap.local_costmap]: Cleaning up
+[controller_server-4] [INFO] [1792206488.158620518] [local_costmap.local_costmap]: Destroying bond (local_costmap) to lifecycle manager.
+[controller_server-4] [INFO] [1792206488.158651253] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[controller_server-4] [INFO] [1792206488.158667463] [controller_server]: Deactivating
+[controller_server-4] [INFO] [1792206488.158681314] [controller_server]: Deactivating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-4] [INFO] [1792206488.158694369] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-4] [INFO] [1792206488.158746548] [controller_server]: Cleaning up
+[controller_server-4] [INFO] [1792206488.158749814] [controller_server]: Cleaning up controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-4] [INFO] [1792206488.171271956] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-4] [INFO] [1792206488.175634123] [local_costmap.local_costmap]: Destroying
+[controller_server-4] [INFO] [1792206488.180952677] [controller_server]: Destroying
+[bt_navigator-8] [INFO] [1792206488.202847759] [bt_navigator]: Completed Cleaning up
+[bt_navigator-8] [INFO] [1792206488.202893567] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[bt_navigator-8] [INFO] [1792206488.208752274] [bt_navigator]: Destroying
+[INFO] [waypoint_follower-9]: process has finished cleanly [pid 7025]
+[INFO] [lifecycle_manager-11]: process has finished cleanly [pid 7034]
+[INFO] [smoother_server-5]: process has finished cleanly [pid 6991]
+[INFO] [controller_server-4]: process has finished cleanly [pid 6989]
+[INFO] [bt_navigator-8]: process has finished cleanly [pid 7021]
+[planner_server-6] [INFO] [1792206488.519935763] [global_costmap.global_costmap]: Cleaning up
+[planner_server-6] [INFO] [1792206488.521982915] [global_costmap.global_costmap]: Destroying bond (global_costmap) to lifecycle manager.
+[planner_server-6] [INFO] [1792206488.522009353] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-6] [INFO] [1792206488.522023641] [planner_server]: Deactivating
+[planner_server-6] [INFO] [1792206488.522034118] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1792206488.522038580] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-6] [INFO] [1792206488.522067035] [planner_server]: Cleaning up
+[planner_server-6] [INFO] [1792206488.524482864] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1792206488.524606204] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1792206488.527767876] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-6] [INFO] [1792206488.530520007] [global_costmap.global_costmap]: Destroying
+[planner_server-6] [INFO] [1792206488.534641262] [planner_server]: Destroying
+[INFO] [planner_server-6]: process has finished cleanly [pid 6993]
+[ERROR] [rviz2-12]: process has died [pid 7039, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz/nav_nav2.rviz --ros-args -r __node:=rviz2 --params-file /tmp/launch_params_ulk0_2gd'].
+[ERROR] [behavior_server-7]: process[behavior_server-7] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [behavior_server-7]: sending signal 'SIGTERM' to process[behavior_server-7]

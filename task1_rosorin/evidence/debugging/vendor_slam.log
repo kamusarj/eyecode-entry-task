@@ -1,0 +1,47 @@
+[INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2026-10-17-01-00-37-552830-ubuntu-virtual-machine-12874
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [sync_slam_toolbox_node-1]: process started with pid [12875]
+[sync_slam_toolbox_node-1] [INFO] [1792170037.618973974] [slam_toolbox]: Node using stack size 40000000
+[sync_slam_toolbox_node-1] [INFO] [1792170037.637697295] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[sync_slam_toolbox_node-1] [INFO] [1792170037.637892876] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[sync_slam_toolbox_node-1] Registering sensor: [Custom Described Lidar]
+[sync_slam_toolbox_node-1] WARNING: Logging before InitGoogleLogging() is written to STDERR
+[sync_slam_toolbox_node-1] W1017 01:01:28.642897 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:01:59.498610 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:00.340939 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:01.160395 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:01.983232 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:07.120363 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:07.139515 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:08.002893 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:08.020473 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:08.832558 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:08.852641 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:09.651674 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:09.673246 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:10.540249 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:10.560288 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:11.364879 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:02:59.794673 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:03:26.179577 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:03:57.543082 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:04:33.057493 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:04:40.612445 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:04:42.172787 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:04:44.447154 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:04:46.018034 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:04:48.467743 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:05:26.754706 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:05:40.056582 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:06:30.417045 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:07:11.011065 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:07:44.401517 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:07:45.226361 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:07:50.322085 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:08:23.387460 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1017 01:09:12.933908 12893 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 6.  Bounding to maximum number available.
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[INFO] [sync_slam_toolbox_node-1]: sending signal 'SIGINT' to process[sync_slam_toolbox_node-1]
+[sync_slam_toolbox_node-1] [INFO] [1792170577.508793003] [rclcpp]: signal_handler(signum=2)
+[ERROR] [sync_slam_toolbox_node-1]: process has died [pid 12875, exit code -2, cmd '/opt/ros/humble/lib/slam_toolbox/sync_slam_toolbox_node --ros-args -r __node:=slam_toolbox --params-file /tmp/tmp81macq8d'].

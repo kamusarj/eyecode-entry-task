@@ -1,0 +1,36 @@
+# map file timestamps (guest)
+total 120
+drwxrwx---  2 ubuntu vboxsf  4096 2026-10-16 23:18:29.753459843 +0800 .
+drwxrwx--- 13 ubuntu vboxsf  4096 2026-10-16 23:18:29.841519786 +0800 ..
+-rwxrwx---  1 ubuntu vboxsf 33225 2026-10-16 23:18:29.752567455 +0800 map_01.pgm
+-rwxrwx---  1 ubuntu vboxsf   124 2026-10-16 23:18:29.752683043 +0800 map_01.yaml
+-rwxrwx---  1 ubuntu vboxsf 65597 2026-10-16 23:18:29.753459843 +0800 map_partial_01.pgm
+-rwxrwx---  1 ubuntu vboxsf   132 2026-10-16 23:18:29.753917057 +0800 map_partial_01.yaml
+total 16
+drwxrwxr-x  2 ubuntu ubuntu 4096 2026-10-17 00:00:35.189665961 +0800 .
+drwxrwxr-x 11 ubuntu ubuntu 4096 2026-10-16 00:56:18.631660812 +0800 ..
+lrwxrwxrwx  1 ubuntu ubuntu   55 2026-10-16 00:56:18.599660811 +0800 map_01.pgm -> /home/ubuntu/ros2_ws/build/robot_gazebo/maps/map_01.pgm
+lrwxrwxrwx  1 ubuntu ubuntu   56 2026-10-16 00:56:18.599660811 +0800 map_01.yaml -> /home/ubuntu/ros2_ws/build/robot_gazebo/maps/map_01.yaml
+lrwxrwxrwx  1 ubuntu ubuntu   63 2026-10-17 00:00:35.189665961 +0800 map_partial_01.pgm -> /home/ubuntu/ros2_ws/build/robot_gazebo/maps/map_partial_01.pgm
+lrwxrwxrwx  1 ubuntu ubuntu   64 2026-10-17 00:00:35.189665961 +0800 map_partial_01.yaml -> /home/ubuntu/ros2_ws/build/robot_gazebo/maps/map_partial_01.yaml
+# other saved maps
+2024-12-11 20:26  33104  /home/ubuntu/.local/share/Trash/files/robot_gazebo.3/maps/map_01.pgm
+2024-12-11 20:26  33104  /home/ubuntu/.local/share/Trash/files/robot_gazebo.4/maps/map_01.pgm
+2024-12-11 20:26  33104  /home/ubuntu/.local/share/Trash/files/robot_gazebo.5/maps/map_01.pgm
+2024-12-12 17:36  33104  /home/ubuntu/.local/share/Trash/files/robot_gazebo.8/maps/map_01.pgm
+2024-12-12 18:52  53  /home/ubuntu/.local/share/Trash/files/robot_gazebo.7/maps/map_01.pgm
+2024-12-12 18:52  55  /home/ubuntu/.local/share/Trash/files/robot_gazebo.6/share/robot_gazebo/maps/map_01.pgm
+2026-10-16 00:56  55  /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps/map_01.pgm
+2026-10-16 00:56  65  /home/ubuntu/ros2_ws/build/robot_gazebo/maps/map_01.pgm
+2026-10-16 23:18  33225  /home/ubuntu/ros2_ws/src/simulations/robot_gazebo/maps/map_01.pgm
+2026-10-16 23:18  65597  /home/ubuntu/ros2_ws/src/simulations/robot_gazebo/maps/map_partial_01.pgm
+2026-10-17 00:00  63  /home/ubuntu/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps/map_partial_01.pgm
+2026-10-17 00:00  73  /home/ubuntu/ros2_ws/build/robot_gazebo/maps/map_partial_01.pgm
+# workspace src timestamps
+total 16
+drwxrwxrwx  4 ubuntu ubuntu 4096 2025-12-26 15:27:48.000000000 +0800 .
+drwxrwxr-x  3 ubuntu ubuntu 4096 2026-10-16 00:23:20.334094307 +0800 ..
+drwxrwx--- 13 ubuntu vboxsf 4096 2026-10-16 23:18:29.841519786 +0800 robot_gazebo
+drwxrwxrwx  9 ubuntu ubuntu 4096 2025-12-26 15:26:41.000000000 +0800 rosorin_description
+# shell history mentions
+done

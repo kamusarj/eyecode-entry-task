@@ -1,0 +1,7 @@
+{
+  "hommi": "2c002aaf211637d1f6fe98331ce3a444e7f57a8b",
+  "hommi/deps/rby1-wbc": "aa9e6aef05af067fe0ca016cda166f8eea668239",
+  "hommi/deps/universal_manipulation_interface": "8ea6ba767a981be8d7b3be84f1bdbd74dbf2c2ed",
+  "mujoco_menagerie": "62ab00f2bc44f6f20c1c9b7a13f3fb1dd41a4e35",
+  "dinov3_vits_revision": "114c1379950215c8b35dfcd4e90a5c251dde0d32"
+}

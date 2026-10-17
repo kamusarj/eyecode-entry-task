@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "report_pages": 7,
+  "videos": {
+    "part1_demo.mp4": {
+      "duration_s": 273.827995,
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "full_decode": true
+    },
+    "part2_demo.mp4": {
+      "duration_s": 83.2,
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "full_decode": true
+    },
+    "part2_commands.mp4": {
+      "duration_s": 97.1,
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "full_decode": true
+    }
+  },
+  "navigation": {
+    "full_slam/single_goal.json": {
+      "waypoints": 1,
+      "final_error": {
+        "xy_m": 0.10263732972267176,
+        "yaw_rad": 0.004700334423141573
+      }
+    },
+    "full_slam/waypoints.json": {
+      "waypoints": 4,
+      "final_error": {
+        "xy_m": 0.14132202497913526,
+        "yaw_rad": 0.03853213820347964
+      }
+    },
+    "full_slam/explore_a_dining.json": {
+      "waypoints": 5,
+      "final_error": {
+        "xy_m": 0.14613848877188568,
+        "yaw_rad": 0.0007056617271497208
+      }
+    },
+    "full_slam/explore_b_southeast.json": {
+      "waypoints": 5,
+      "final_error": {
+        "xy_m": 0.14057268161177472,
+        "yaw_rad": 0.0018165327941448658
+      }
+    },
+    "full_slam/explore_c_southwest.json": {
+      "waypoints": 4,
+      "final_error": {
+        "xy_m": 0.13555922836270928,
+        "yaw_rad": 0.06469671414114118
+      }
+    },
+    "full_slam/explore_d_northwest.json": {
+      "waypoints": 7,
+      "final_error": {
+        "xy_m": 0.12403392906719965,
+        "yaw_rad": 0.08494355501057824
+      }
+    },
+    "controller_check/single_goal.json": {
+      "waypoints": 1,
+      "final_error": {
+        "xy_m": 0.15092913419359996,
+        "yaw_rad": 0.01360688013095279
+      }
+    },
+    "controller_check/waypoints.json": {
+      "waypoints": 4,
+      "final_error": {
+        "xy_m": 0.1439486491648242,
+        "yaw_rad": 0.08671960039645749
+      }
+    },
+    "controller_check/uturn_waypoints.json": {
+      "waypoints": 4,
+      "final_error": {
+        "xy_m": 0.12226595259197132,
+        "yaw_rad": 0.05773891149310275
+      }
+    }
+  },
+  "command_recording": {
+    "type": "continuous X11 terminal screen recording",
+    "command_script": "scripts/run_command_demo.sh",
+    "recorded_seconds": 96.40082051400532,
+    "command_exit_status": 0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 10,
+    "scope": "Real fresh executions; HoMMI offline, WBC/planner kinematic"
+  },
+  "local_links_checked": 58,
+  "python_files_parsed": 56,
+  "scope": "Package and recorded-evidence checks; no new full ROS run or full retraining"
+}

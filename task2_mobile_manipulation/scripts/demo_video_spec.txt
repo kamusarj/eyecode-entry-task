@@ -1,0 +1,12 @@
+# kind|...  -- card|Title|line1;line2|seconds   or   clip|path|caption|max_seconds
+card|Part 2 - Mobile Manipulation|Paper 1: MoManipVLA (CVPR 2025) - re-implemented (no public code);Paper 2: HoMMI (RSS 2026) - official code + data, small-scale training;Hardware: 1x RTX 3050 6 GB laptop GPU|5
+card|HoMMI - official whole-body controller|Human demos replayed through the official RB-Y1 IK (Mink QP) in MuJoCo;Head action: 3D look-at point (HoMMI) vs 6-DoF head pose (RGB-only baseline) vs fixed neck;Real HoMMI Laundry demo: human head + wrist cameras on the left|5
+clip|results/hommi_wbc/wbc_laundry_ep0.mp4|Laundry demo (official data). Look-at keeps hands exact and gaze on target; fixed neck loses the target.|
+clip|results/hommi_wbc/wbc_head_modes.mp4|Taller demonstrator (+15 cm): tracking the human 6-DoF head pose pulls the torso up and breaks hand tracking.|12
+card|HoMMI - small-scale policy training (official code)|30 real Laundry demos -> official processing -> official DiT policy (DINOv3 ViT-S, 384x6);Held-out demos: predicted (solid) vs human (faint) 1.6 s action chunks|5
+clip|results/hommi_policy/policy_predictions.mp4|Blue: left gripper, orange: right gripper, green: 3D look-at point (projected on the head image)|
+card|MoManipVLA - re-implementation in MuJoCo|VLA end-effector waypoints -> bi-level Dual Annealing + SLSQP over base poses;Costs: reachability (IK iterations), smoothness, ESDF collision hinge|5
+clip|results/momanipvla/episode_1007.mp4|Fixed base: unreachable. Heuristic: arm hits shelf. Bi-level (paper): base hits counter. Feasibility-first fix: success.|
+clip|results/momanipvla/episode_1014.mp4|Failure case: a stool blocks every reachable base pose within the local search window.|
+clip|results/momanipvla/episode_learned.mp4|Learned fixed-base waypoint policy (DINOv3-S + transformer head) driving the mobile planner|
+card|Summary|See report: tables, ablations, failure analysis and the feasibility-first fix for the soft collision cost|4
