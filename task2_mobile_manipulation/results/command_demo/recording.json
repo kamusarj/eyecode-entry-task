@@ -1,12 +1,122 @@
 {
-  "type": "continuous X11 terminal screen recording",
-  "command_script": "scripts/run_command_demo.sh",
-  "recorded_seconds": 96.40082051400532,
+  "type": "GNOME desktop command recordings embedded in the interleaved Part 2 demo",
+  "terminal": "GNOME Terminal on this machine",
+  "shell": "interactive Bash with the account bashrc",
+  "user": "linh",
+  "hostname": "linhchu",
+  "input_method": "automated command input into interactive Bash",
+  "display_session": "Wayland",
+  "capture_backend": "GNOME Shell Screencast / PipeWire",
+  "capture_area": [
+    0,
+    0,
+    1920,
+    1080
+  ],
+  "equivalent_command_script": "scripts/run_command_demo.sh",
   "command_exit_status": 0,
   "resolution": [
     1920,
     1080
   ],
-  "fps": 10,
-  "scope": "Real fresh executions; HoMMI offline, WBC/planner kinematic"
+  "scope": "Fresh HoMMI offline inference, held-out planner evaluation and kinematic WBC replay; separate from aggregate results",
+  "included_in": "videos/part2_demo.mp4",
+  "combined_duration_s": 192.3,
+  "results_duration_s": 83.2,
+  "layout": "Interleaved by component: command and actual terminal output, then representative visualization",
+  "terminal_segments": [
+    {
+      "component": "HoMMI inference command and output",
+      "start_s": 10.0,
+      "end_s": 31.6,
+      "recording_start_s": 0.0,
+      "recording_end_s": 21.6
+    },
+    {
+      "component": "MoManipVLA command and output",
+      "start_s": 58.35,
+      "end_s": 104.35,
+      "recording_start_s": 21.6,
+      "recording_end_s": 67.6
+    },
+    {
+      "component": "HoMMI WBC command and output",
+      "start_s": 127.3,
+      "end_s": 168.8,
+      "recording_start_s": 67.6,
+      "recording_end_s": 109.1
+    }
+  ],
+  "edit_sections": [
+    {
+      "label": "Introduction",
+      "kind": "card",
+      "start_s": 0.0,
+      "end_s": 5.0
+    },
+    {
+      "label": "HoMMI policy overview",
+      "kind": "card",
+      "start_s": 5.0,
+      "end_s": 10.0
+    },
+    {
+      "label": "HoMMI inference command and output",
+      "kind": "terminal",
+      "start_s": 10.0,
+      "end_s": 31.6
+    },
+    {
+      "label": "HoMMI policy prediction visualization",
+      "kind": "visual",
+      "start_s": 31.6,
+      "end_s": 53.35
+    },
+    {
+      "label": "MoManipVLA overview",
+      "kind": "card",
+      "start_s": 53.35,
+      "end_s": 58.35
+    },
+    {
+      "label": "MoManipVLA command and output",
+      "kind": "terminal",
+      "start_s": 58.35,
+      "end_s": 104.35
+    },
+    {
+      "label": "MoManipVLA success and failure visualizations",
+      "kind": "visual",
+      "start_s": 104.35,
+      "end_s": 122.3
+    },
+    {
+      "label": "HoMMI WBC overview",
+      "kind": "card",
+      "start_s": 122.3,
+      "end_s": 127.3
+    },
+    {
+      "label": "HoMMI WBC command and output",
+      "kind": "terminal",
+      "start_s": 127.3,
+      "end_s": 168.8
+    },
+    {
+      "label": "HoMMI WBC replay visualizations",
+      "kind": "visual",
+      "start_s": 168.8,
+      "end_s": 188.3
+    },
+    {
+      "label": "Summary",
+      "kind": "card",
+      "start_s": 188.3,
+      "end_s": 192.3
+    }
+  ],
+  "visualization_scope": "Existing full-evaluation illustrations of the same components; terminal checks are fresh short executions. Additional failure and learned-policy examples are representative recorded runs.",
+  "recording_duration_s": 109.1,
+  "recording_fps": 10,
+  "console_log_format": "Plain text; terminal ANSI/OSC formatting removed and line wrapping normalized."
 }

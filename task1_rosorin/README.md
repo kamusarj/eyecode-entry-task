@@ -10,7 +10,7 @@ Part 1 of the EyeCode research entry task. The ROSOrin Pro model runs in the Rob
 | SLAM and map generation | SLAM Toolbox plus Nav2 exploration, `evidence/full_slam/`, video |
 | Save the map | `map_saver_cli` saves `maps/part1_slam_map.{pgm,yaml}`, video |
 | Navigation on the saved map | `evidence/full_slam/single_goal.json`, `waypoints.json`; README re-run from a fresh spawn in `evidence/controller_check/`; video |
-| Demo video, 3–5 min | `../videos/part1_demo.mp4` |
+| Demo video, 3–5 min | [Local video](../videos/part1_demo.mp4) · [Google Drive](https://drive.google.com/file/d/1d0fYTZsnEbabDSaaUSB1cGh2pADIFxfl/view?usp=drivesdk) |
 
 ## Environment
 

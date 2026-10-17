@@ -24,7 +24,7 @@ def main():
                 "task2_mobile_manipulation/momanipvla_repro", "task2_mobile_manipulation/scripts",
                 "task2_mobile_manipulation/results", "task2_mobile_manipulation/checkpoints/hommi_latest.ckpt",
                 "report/technical_report.pdf", "videos/part1_demo.mp4", "videos/part2_demo.mp4",
-                "videos/part2_commands.mp4", "task2_mobile_manipulation/scripts/run_command_demo.sh"]
+                "task2_mobile_manipulation/scripts/run_command_demo.sh"]
     for name in required:
         p = ROOT / name
         assert p.exists() and (p.is_dir() or p.stat().st_size > 0), f"Missing/empty: {name}"
@@ -74,7 +74,7 @@ def main():
     body = subprocess.check_output(["pdftotext", str(report), "-"], text=True)
     assert not re.search(r"\b(TODO|TBD|placeholder)\b", body, re.I), "Unfinished report text"
     media = {}
-    for name in ["part1_demo.mp4", "part2_demo.mp4", "part2_commands.mp4"]:
+    for name in ["part1_demo.mp4", "part2_demo.mp4"]:
         p = ROOT / "videos" / name
         probe = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-show_format",
                            "-show_streams", "-of", "json", str(p)], text=True))
@@ -98,6 +98,18 @@ def main():
             compiled += 1
     recording = json.loads((ROOT / "task2_mobile_manipulation/results/command_demo/recording.json").read_text())
     assert recording["command_exit_status"] == 0
+    assert recording["included_in"] == "videos/part2_demo.mp4"
+    duration = media["part2_demo.mp4"]["duration_s"]
+    assert math.isclose(recording["combined_duration_s"], duration, abs_tol=0.05)
+    segments = recording["terminal_segments"]
+    assert len(segments) == 3
+    previous_end = 0.0
+    for segment in segments:
+        start, end = segment["start_s"], segment["end_s"]
+        assert previous_end <= start < end <= duration
+        previous_end = end
+    assert math.isclose(sum(s["end_s"]-s["start_s"] for s in segments),
+                        recording["recording_duration_s"], abs_tol=0.05)
     output = dict(status="PASS", report_pages=pages, videos=media, navigation=routes,
                   command_recording=recording,
                   local_links_checked=links, python_files_parsed=compiled,

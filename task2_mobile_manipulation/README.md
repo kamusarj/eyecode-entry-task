@@ -1,6 +1,6 @@
 # Part 2 — Mobile manipulation
 
-This folder contains the official HoMMI pipeline and a reduced MoManipVLA implementation, recorded experiments, a trained HoMMI checkpoint, the learned waypoint head, and representative videos. Read [paper_summary.md](docs/paper_summary.md) for both papers' problem, ideas, contributions and differences. The combined report is [technical_report.pdf](../report/technical_report.pdf); the result video is [part2_demo.mp4](../videos/part2_demo.mp4).
+This folder contains the official HoMMI pipeline and a reduced MoManipVLA implementation, recorded experiments, a trained HoMMI checkpoint, the learned waypoint head, and representative videos. Read [paper_summary.md](docs/paper_summary.md) for both papers' problem, ideas, contributions and differences. The combined report is [technical_report.pdf](../report/technical_report.pdf); the result video is [part2_demo.mp4](../videos/part2_demo.mp4) ([Google Drive](https://drive.google.com/file/d/16TUE4Go7wBfSjiwhVOgQW2AcAaLK_1VK/view?usp=drivesdk)).
 
 **Scope.** HoMMI policy evaluation is offline against held-out human demonstrations. Its official whole-body controller runs with perfect kinematic tracking. MoManipVLA uses a Panda on a holonomic base in procedural MuJoCo scenes, an oracle with noise or a small learned waypoint surrogate, and kinematic grasp/place checks. These are mechanism studies; the original papers' robot and OVMM success rates are not reproduced.
 
@@ -15,7 +15,7 @@ This folder contains the official HoMMI pipeline and a reduced MoManipVLA implem
 | Collision selection change | Bi-level success 32/60 → 40/60, 8 rescued / 0 broken; paired exact McNemar p=0.0078125 | [mcnemar_main.json](results/momanipvla/mcnemar_main.json) |
 | Learned waypoint surrogate | About 5.5 cm validation error; bi-level 0/40 mobile successes | [training log](results/momanipvla/vla_training_log.csv), [held-out episodes](results/momanipvla/episodes_learned.csv) |
 
-For the additional command-screen-recording requirement, see [part2_commands.mp4](../videos/part2_commands.mp4). Reproduce the short workflow with `bash scripts/run_command_demo.sh`; it executes trained HoMMI inference, a held-out MoManipVLA episode and a short official WBC replay. The corresponding outputs are under `results/command_demo/` and the `*_command_demo.csv` files.
+The [Part 2 demo](../videos/part2_demo.mp4) interleaves the required GNOME Terminal command recordings with the corresponding policy, planner and controller visualizations. Reproduce the short workflow with `bash scripts/run_command_demo.sh`; it executes trained HoMMI inference, a held-out MoManipVLA episode and a short official WBC replay. The corresponding outputs are under `results/command_demo/` and the `*_command_demo.csv` files.
 
 All values above are historical experiment artifacts. New packaging checks are stored separately under `results/verification/`.
 

@@ -1,8 +1,17 @@
 # EyeCode Research Entry Task — Mobile Manipulation
 
-Final source submission by **Bùi Hoàng Linh**. This package combines the existing ROSOrin Pro simulation work and the MoManipVLA/HoMMI research experiments. It includes source, configurations, saved maps, recorded quantitative evidence, trained checkpoints, a seven-page report, both demo videos and a Part 2 command-execution screen recording.
+Final source submission by **Bùi Hoàng Linh**. This package combines the existing ROSOrin Pro simulation work and the MoManipVLA/HoMMI research experiments. It includes source, configurations, saved maps, recorded quantitative evidence, trained checkpoints, a seven-page report, both demo videos with command execution and results.
 
-Start with the [technical report](report/technical_report.pdf), [Part 1 video](videos/part1_demo.mp4) and [Part 2 video](videos/part2_demo.mp4). The [submission checklist](SUBMISSION_CHECKLIST.md) maps every requirement in the assignment to its evidence. The additional screen-recording requirement is covered by the Part 1 video and [part2_commands.mp4](videos/part2_commands.mp4), which shows real commands and their outputs.
+Start with the [technical report](report/technical_report.pdf), [Part 1 video](videos/part1_demo.mp4) and [Part 2 video](videos/part2_demo.mp4), which interleaves terminal commands and outputs with the corresponding research visualizations. The [submission checklist](SUBMISSION_CHECKLIST.md) maps every requirement in the assignment to its evidence. The additional screen-recording requirement is covered by the Part 1 video and the interleaved terminal sections of the Part 2 video.
+
+Online submission files: [Google Drive folder](https://drive.google.com/drive/folders/10DDnV1l6JCk7svF_ktngK9A5h_L9aIn2?usp=sharing).
+
+| Artifact | Google Drive | Local copy |
+|---|---|---|
+| Part 1 demo | [Watch / download](https://drive.google.com/file/d/1d0fYTZsnEbabDSaaUSB1cGh2pADIFxfl/view?usp=drivesdk) | [part1_demo.mp4](videos/part1_demo.mp4) |
+| Part 2 demo: interleaved commands and results | [Watch / download](https://drive.google.com/file/d/16TUE4Go7wBfSjiwhVOgQW2AcAaLK_1VK/view?usp=drivesdk) | [part2_demo.mp4](videos/part2_demo.mp4) |
+| Technical report (PDF, 7 pages) | [Open PDF](https://drive.google.com/file/d/13UAg7azNqWJrK7cuvfQIVQAkQQnEdiED/view?usp=drivesdk) | [technical_report.pdf](report/technical_report.pdf) |
+| Editable report (Word) | [Open Word](https://docs.google.com/document/d/1_goZUioAM8aLGFEJACo9yDmiSM4wGo1k/edit) | [technical_report.docx](report/technical_report.docx) |
 
 ```text
 eyecode-entry-task/
@@ -22,8 +31,7 @@ eyecode-entry-task/
 │   └── technical_report.pdf
 └── videos/
     ├── part1_demo.mp4
-    ├── part2_demo.mp4
-    └── part2_commands.mp4
+    └── part2_demo.mp4
 ```
 
 Additional folders contain the scripts, evidence, vendored dependencies, checkpoint, review samples, report source and validation results needed for reproduction.
@@ -58,4 +66,4 @@ MoManipVLA is a local reduced implementation; its squared smoothness penalty dif
 
 The original working folders were consolidated into this standalone tree. Historical logs may contain the original machine paths. Runtime scripts resolve the new directory or provide overrides. Third-party sources, robot assets, licenses and exact commits are included; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The full raw training data and VM disks are omitted; the task README provides a pinned raw-data manifest and processing commands.
 
-Submit this source folder, as permitted by the assignment. For a GitHub submission, install Git LFS before adding the ~792 MB `.ckpt` file (`git lfs install`; `.gitattributes` is included). Keep report and videos accessible to reviewers and verify access to the repository. No repository has been published automatically.
+Source repository: [kamusarj/eyecode-entry-task](https://github.com/kamusarj/eyecode-entry-task). Install Git LFS before cloning the ~792 MB `.ckpt` file (`git lfs install`; `.gitattributes` is included). The videos and report are also available in the linked Google Drive folder.

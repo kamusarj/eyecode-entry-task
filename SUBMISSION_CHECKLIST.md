@@ -6,8 +6,8 @@ The assignment was read directly from **EyeCode Research Entry Task — Mobile M
 |---|---|---|
 | GitHub repository **or source code** | This standalone folder; ROS and research source included | Included; source-code option |
 | README with reproduction commands | [root README](README.md), [ROS README](task1_rosorin/README.md), [research README](task2_mobile_manipulation/README.md) | Included |
-| Combined 5–7 page technical report | [technical_report.pdf](report/technical_report.pdf), LaTeX source and build script | 7 pages |
-| Part 1 video, 3–5 min | [part1_demo.mp4](videos/part1_demo.mp4), [timeline](videos/VIDEO_GUIDE.md) | 273.828 s, within range |
+| Combined 5–7 page technical report | [technical_report.pdf](report/technical_report.pdf) · [Drive PDF](https://drive.google.com/file/d/13UAg7azNqWJrK7cuvfQIVQAkQQnEdiED/view?usp=drivesdk), LaTeX source and build script | 7 pages |
+| Part 1 video, 3–5 min | [part1_demo.mp4](videos/part1_demo.mp4) · [Drive](https://drive.google.com/file/d/1d0fYTZsnEbabDSaaUSB1cGh2pADIFxfl/view?usp=drivesdk), [timeline](videos/VIDEO_GUIDE.md) | 273.828 s, within range |
 | Set up ROSOrin Gazebo | [simulation package](task1_rosorin/src/robot_gazebo/), final-run logs | Included |
 | Run and control robot | [control JSON](task1_rosorin/evidence/full_slam/control_forward.json), video | Recorded |
 | Visualize simulated LiDAR | RViz configurations, [scan/control evidence](task1_rosorin/evidence/full_slam/control_rotate.json), video | Recorded |
@@ -22,9 +22,9 @@ The assignment was read directly from **EyeCode Research Entry Task — Mobile M
 | At least one quantitative metric | 540 main planning episode rows, 395 validation windows, WBC per-episode errors | Included and recomputed |
 | Success/failure analysis | Combined report pp. 4–6; seeds 1007/1014 and learned-policy transfer failure | Included |
 | Limitation and possible remedy | Squared smoothness deviation, offline/kinematic limits, tested feasibility-first change | Included |
-| Screen recording: commands and corresponding output for each task | [Part 1 commands + Gazebo/RViz](videos/part1_demo.mp4), [Part 2 command execution](videos/part2_commands.mp4), [command script](task2_mobile_manipulation/scripts/run_command_demo.sh) | Included; actual executions |
-| Part 2 result/demo video | [part2_demo.mp4](videos/part2_demo.mp4) | Included; no mandated duration |
+| Screen recording: commands and corresponding output for each task | [Part 1 commands + Gazebo/RViz](videos/part1_demo.mp4), [Part 2 commands + results](videos/part2_demo.mp4), [command script](task2_mobile_manipulation/scripts/run_command_demo.sh) | Included; actual executions |
+| Part 2 result/demo video | [part2_demo.mp4](videos/part2_demo.mp4) · [Drive](https://drive.google.com/file/d/16TUE4Go7wBfSjiwhVOgQW2AcAaLK_1VK/view?usp=drivesdk) | Included; no mandated duration |
 
 Fresh verification is recorded in [report/validation.json](report/validation.json) and [artifact_metrics_audit.json](task2_mobile_manipulation/results/verification/artifact_metrics_audit.json). Historical full-scale logs are evidence from earlier runs; assembly performed small reruns, not a second complete ROS session or a full retraining.
 
-Remaining submission action: submit the source folder, or publish a repository with Git LFS for the large checkpoint and grant reviewer access. The report and videos are final artifacts, not placeholders. If the submission form requires personal fields beyond the name already in the report, enter those in the form.
+Submission links: [GitHub source](https://github.com/kamusarj/eyecode-entry-task) and [Google Drive videos/report](https://drive.google.com/drive/folders/10DDnV1l6JCk7svF_ktngK9A5h_L9aIn2?usp=sharing). The report and videos are final artifacts. If the submission form requires personal fields beyond the name already in the report, enter those in the form.
